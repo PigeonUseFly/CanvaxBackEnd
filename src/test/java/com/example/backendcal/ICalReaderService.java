@@ -1,79 +1,67 @@
 package com.example.backendcal;
 
-
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import org.springframework.stereotype.Component;
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
-import net.fortuna.ical4j.model.TimeZoneRegistryFactory;
 import net.fortuna.ical4j.model.component.VEvent;
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Locale;
-import java.util.TimeZone;
 
-@Component
 public class ICalReaderService {
-
-    public ICalReaderService(){
-
+    public ICalReaderService() {
     }
 
-    public List<VEvent> readICalFile(String filePath) throws IOException, ParserException {
-        List<VEvent> vEvents = new ArrayList<>();
-        CalendarBuilder builder = new CalendarBuilder();
-        InputStream is = new FileInputStream(filePath);
-
-        try {
-            Calendar calendar = builder.build(is);
-            Iterator<?> it = calendar.getComponents().iterator();
-
-            while(it.hasNext()) {
-                Object o = it.next();
-                if (o instanceof VEvent) {
-                    VEvent event = (VEvent)o;
-                    vEvents.add(event);
-                }
-            }
-        } catch (Throwable ex) {
-            try {
-                is.close();
-            } catch (Throwable t) {
-                ex.addSuppressed(t);
-            }
-
-            throw ex;
-        }
-
-        is.close();
-        return vEvents;
-    }
-
-    public void printICalEvents(String filePath) throws ParserException, IOException {
-        List<VEvent> vEvents = readICalFile(filePath);
+    public static void main(String[] args) throws ParserException, IOException {
+        List<VEvent> events = readICalFile("C:/Users/Ermin/Downloads/Schema.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Iterator<VEvent> it = vEvents.iterator();
+        List<EventJson> eventJsonList = new ArrayList();
+        Iterator var4 = events.iterator();
 
-        while(it.hasNext()) {
-            VEvent event = it.next();
-            System.out.println("Event Summary: " + event.getSummary().getValue());
+        while(var4.hasNext()) {
+            VEvent event = (VEvent)var4.next();
+            String summary = event.getSummary().getValue();
             Date startDate = event.getStartDate().getDate();
-            String startDateString = dateFormat.format(startDate);
-            System.out.println("Event Start Time: " + startDateString);
+            dateFormat.format(startDate);
             Date endDate = event.getEndDate().getDate();
-            String endDateString = dateFormat.format(endDate);
-            System.out.println("Event End Time: " + endDateString);
-            System.out.println("Event Location: " + event.getLocation().getValue());
-            System.out.println();
+            dateFormat.format(endDate);
+            String location = event.getLocation().getValue();
+            EventJson eventJson = new EventJson(summary, startDate, endDate, location);
+            eventJsonList.add(eventJson);
         }
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
+        ArrayNode eventArrayNode = objectMapper.createArrayNode();
+        Iterator var15 = eventJsonList.iterator();
+
+        while(var15.hasNext()) {
+            EventJson eventJson = (EventJson)var15.next();
+            ObjectNode eventObjectNode = objectMapper.createObjectNode();
+            eventObjectNode.put("summary", eventJson.getSummary());
+            eventObjectNode.put("startDate", dateFormat.format(eventJson.getStartDate()));
+            eventObjectNode.put("endDate", dateFormat.format(eventJson.getEndDate()));
+            eventObjectNode.put("location", eventJson.getLocation());
+            eventArrayNode.add(eventObjectNode);
+        }
+
+        objectMapper.writeValue(new File("events.json"), eventArrayNode);
     }
 
+    private static List<VEvent> readICalFile(String filename) throws ParserException, IOException {
+        InputStream inputStream = new FileInputStream(new File(filename));
+        CalendarBuilder builder = new CalendarBuilder();
+        Calendar calendar = builder.build(inputStream);
+        return calendar.getComponents("VEVENT");
+    }
 }

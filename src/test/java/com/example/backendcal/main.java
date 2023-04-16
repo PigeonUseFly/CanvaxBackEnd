@@ -1,4 +1,4 @@
-package com.example.backendcal;
+/*package com.example.backendcal;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -9,6 +9,7 @@ public class main {
 
     public static void main(String[] args) throws IOException, ParserException, ParseException {
         ICalReaderService readerService = new ICalReaderService();
-        readerService.printICalEvents("ical/SchemaICAL.ics");
+        readerService.readICalFile("ical/SchemaICAL.ics");
+
     }
-}
+} */
