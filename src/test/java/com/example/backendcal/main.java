@@ -9,6 +9,7 @@ public class main {
 
     public static void main(String[] args) throws IOException, ParserException, ParseException {
         ICalReaderService readerService = new ICalReaderService();
-        readerService.printICalEvents("ical/SchemaICAL.ics");
+        readerService.writeICalEvents("ical/SchemaICAL.ics");
+        readerService.printICalEvents();
     }
 }

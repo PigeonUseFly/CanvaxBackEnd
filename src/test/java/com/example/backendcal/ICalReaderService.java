@@ -13,15 +13,11 @@ import org.springframework.stereotype.Component;
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
-import net.fortuna.ical4j.model.TimeZoneRegistryFactory;
 import net.fortuna.ical4j.model.component.VEvent;
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Locale;
-import java.util.TimeZone;
 
 @Component
 public class ICalReaderService {
+    ArrayList<ScheduledAppointment> listCourses = new ArrayList<>();
 
     public ICalReaderService(){
 
@@ -57,23 +53,30 @@ public class ICalReaderService {
         return vEvents;
     }
 
-    public void printICalEvents(String filePath) throws ParserException, IOException {
+    public void writeICalEvents(String filePath) throws ParserException, IOException {
         List<VEvent> vEvents = readICalFile(filePath);
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         Iterator<VEvent> it = vEvents.iterator();
 
         while(it.hasNext()) {
             VEvent event = it.next();
-            System.out.println("Event Summary: " + event.getSummary().getValue());
+            String str = event.getSummary().getValue();
+            String[] parts = str.split(",");
+            String[] name = parts[0].split(": ");
             Date startDate = event.getStartDate().getDate();
             String startDateString = dateFormat.format(startDate);
-            System.out.println("Event Start Time: " + startDateString);
             Date endDate = event.getEndDate().getDate();
             String endDateString = dateFormat.format(endDate);
-            System.out.println("Event End Time: " + endDateString);
-            System.out.println("Event Location: " + event.getLocation().getValue());
-            System.out.println();
+            String location = event.getLocation().getValue();
+            ScheduledAppointment scheduledAppointment = new ScheduledAppointment(name[1],location, startDateString, endDateString);
+            if(!(location.isEmpty())){
+                listCourses.add(scheduledAppointment);
+            }
         }
     }
-
+    public void printICalEvents(){
+        for (ScheduledAppointment listed:listCourses) {
+            System.out.println(listed);
+        }
+    }
 }
