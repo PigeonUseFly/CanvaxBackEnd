@@ -9,6 +9,6 @@ public class main {
 
     public static void main(String[] args) throws IOException, ParserException, ParseException {
         ICalReaderService readerService = new ICalReaderService();
-        readerService.printICalEvents("ical");
+        readerService.printICalEvents("C:/Users/erno9/OneDrive/Dokument/GitHub/CanvaxBackEnd/ical/SchemaICAL.ics");
     }
 }

@@ -26,9 +26,9 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>ical4j</groupId>
+            <groupId>org.mnode.ical4j</groupId>
             <artifactId>ical4j</artifactId>
-            <version>1.0-beta4</version>
+            <version>3.0.26</version>
         </dependency>
 
         <dependency>
