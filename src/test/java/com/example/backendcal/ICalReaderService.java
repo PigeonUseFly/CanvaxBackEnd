@@ -17,7 +17,8 @@ import net.fortuna.ical4j.model.component.VEvent;
 
 @Component
 public class ICalReaderService {
-    ArrayList<ScheduledAppointment> listCourses = new ArrayList<>();
+    private ArrayList<ScheduledAppointment> listCourses = new ArrayList<>();
+    ScheduledAppointment scheduledAppointment = new ScheduledAppointment();
 
     public ICalReaderService(){
 
@@ -68,15 +69,21 @@ public class ICalReaderService {
             Date endDate = event.getEndDate().getDate();
             String endDateString = dateFormat.format(endDate);
             String location = event.getLocation().getValue();
-            ScheduledAppointment scheduledAppointment = new ScheduledAppointment(name[1],location, startDateString, endDateString);
             if(!(location.isEmpty())){
+                scheduledAppointment = new ScheduledAppointment(name[1],location, startDateString, endDateString,"");
                 listCourses.add(scheduledAppointment);
             }
         }
     }
     public void printICalEvents(){
+
         for (ScheduledAppointment listed:listCourses) {
+            System.out.println(listCourses.size());
             System.out.println(listed);
+            System.out.println(listCourses.get(212));
         }
+    }
+    public ScheduledAppointment listOfLessons(int index){
+        return listCourses.get(index);
     }
 }
