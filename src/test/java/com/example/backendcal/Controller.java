@@ -1,5 +1,6 @@
 package com.example.backendcal;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.List;
@@ -18,7 +19,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping()
 public class Controller {
     private JsonRepository jsonRepository;
-    public Controller() {
+    private ICalReaderService iCalReaderService;
+    public Controller() throws ParserException, IOException {
+        iCalReaderService = new ICalReaderService();
+        removeEvent(1);
     }
 
     @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
@@ -38,9 +42,12 @@ public class Controller {
         Component component = calendar.getComponent("VEVENT");
         VEvent event = (VEvent)component;
         System.out.println("Event Summary: " + event.getSummary().getValue());
+        Controller controller = new Controller();
     }
 
-    public void removeEvent() {
+    public void removeEvent(int inputFromFrontend) throws IOException {
+        iCalReaderService.getEventArrayNode().remove(inputFromFrontend);
+        iCalReaderService.getObjectMapper().writeValue(new File("events.json"), iCalReaderService.getParentObjectNode());
         //Gottemannens får jobba här (endast här!!)
     }
 }
