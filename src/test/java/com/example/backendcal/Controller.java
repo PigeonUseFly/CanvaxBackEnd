@@ -39,4 +39,8 @@ public class Controller {
         VEvent event = (VEvent)component;
         System.out.println("Event Summary: " + event.getSummary().getValue());
     }
+
+    public void removeEvent() {
+        //Gottemannens får jobba här (endast här!!)
+    }
 }

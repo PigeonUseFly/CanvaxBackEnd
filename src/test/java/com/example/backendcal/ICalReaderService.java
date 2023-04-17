@@ -23,7 +23,8 @@ public class ICalReaderService {
     }
 
     public static void main(String[] args) throws ParserException, IOException {
-        List<VEvent> events = readICalFile("C:/Users/Ermin/Downloads/Schema.ics");
+        int index = 0;
+        List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         List<EventJson> eventJsonList = new ArrayList();
         Iterator var4 = events.iterator();
@@ -48,6 +49,7 @@ public class ICalReaderService {
         while(var15.hasNext()) {
             EventJson eventJson = (EventJson)var15.next();
             ObjectNode eventObjectNode = objectMapper.createObjectNode();
+            eventObjectNode.put("index", index++);
             eventObjectNode.put("summary", eventJson.getSummary());
             eventObjectNode.put("startDate", dateFormat.format(eventJson.getStartDate()));
             eventObjectNode.put("endDate", dateFormat.format(eventJson.getEndDate()));
