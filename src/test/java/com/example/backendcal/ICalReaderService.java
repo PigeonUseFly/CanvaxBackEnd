@@ -3,27 +3,35 @@ package com.example.backendcal;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
+
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
 import net.fortuna.ical4j.model.component.VEvent;
 
 public class ICalReaderService {
-    public ICalReaderService() {
+    ArrayNode eventArrayNode;
+    ObjectMapper objectMapper;
+    ObjectNode parentObjectNode;
+    public ICalReaderService() throws ParserException, IOException {
+        start();
     }
 
     public static void main(String[] args) throws ParserException, IOException {
+        ICalReaderService iCalReaderService = new ICalReaderService();
+    }
+    public void start() throws ParserException, IOException {
         int index = 0;
+        ObjectNode jsonObject = new ObjectNode(JsonNodeFactory.instance);
+
         List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         List<EventJson> eventJsonList = new ArrayList();
@@ -41,9 +49,9 @@ public class ICalReaderService {
             eventJsonList.add(eventJson);
         }
 
-        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper = new ObjectMapper();
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-        ArrayNode eventArrayNode = objectMapper.createArrayNode();
+        eventArrayNode = objectMapper.createArrayNode();
         Iterator var15 = eventJsonList.iterator();
 
         while(var15.hasNext()) {
@@ -55,9 +63,14 @@ public class ICalReaderService {
             eventObjectNode.put("endDate", dateFormat.format(eventJson.getEndDate()));
             eventObjectNode.put("location", eventJson.getLocation());
             eventArrayNode.add(eventObjectNode);
-        }
 
-        objectMapper.writeValue(new File("events.json"), eventArrayNode);
+
+        }
+        parentObjectNode = objectMapper.createObjectNode();
+        parentObjectNode.set("events", eventArrayNode);
+        objectMapper.writeValue(new File("events.json"), parentObjectNode);
+
+
     }
 
     private static List<VEvent> readICalFile(String filename) throws ParserException, IOException {
@@ -65,5 +78,14 @@ public class ICalReaderService {
         CalendarBuilder builder = new CalendarBuilder();
         Calendar calendar = builder.build(inputStream);
         return calendar.getComponents("VEVENT");
+    }
+    public ArrayNode getEventArrayNode(){
+        return eventArrayNode;
+    }
+    public ObjectMapper getObjectMapper(){
+        return objectMapper;
+    }
+    public ObjectNode getParentObjectNode(){
+        return parentObjectNode;
     }
 }

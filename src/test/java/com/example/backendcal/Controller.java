@@ -1,45 +1,39 @@
 package com.example.backendcal;
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.StringReader;
 import java.util.List;
 
-import com.example.boundaries.WebAPI;
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
 import net.fortuna.ical4j.model.Component;
 import net.fortuna.ical4j.model.component.VEvent;
-import org.json.JSONArray;
-import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.ServletComponentScan;
-import org.springframework.data.web.JsonPath;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.swing.*;
-
-//@RestController
-//@RequestMapping(path="5500", produces="CanvaxBackEnd/events.json")
-@ServletComponentScan
-@SpringBootApplication
+@RestController
+@RequestMapping()
 public class Controller {
-    private String filePath = "events.json";
-    private File file;
-    public Controller() {
+    private JsonRepository jsonRepository;
+    private ICalReaderService iCalReaderService;
+    public Controller() throws ParserException, IOException {
+        iCalReaderService = new ICalReaderService();
+        removeEvent(1);
     }
 
-    public Object getItem() {
-        return file = new File(filePath);
+    @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
+    @Autowired
+    public List<EventJson> getItem() {
+        return jsonRepository.findAll();
     }
 
-    /*public EventJson createItem(@RequestBody EventJson eventJson) {
+    public EventJson createItem(@RequestBody EventJson eventJson) {
         return jsonRepository.save(eventJson);
-    } */
+    }
 
     public static void main(String[] args) throws IOException, ParserException {
         String icalString = "BEGIN:VCALENDAR\nPRODID:-//Ben Fortuna//iCal4j 1.0//EN\nVERSION:2.0\nCALSCALE:GREGORIAN\nBEGIN:VEVENT\nDTSTART:20220327T090000Z\nDTEND:20220327T100000Z\nSUMMARY:Test Event\nUID:test-uid\nEND:VEVENT\nEND:VCALENDAR\n";
@@ -47,11 +41,13 @@ public class Controller {
         Calendar calendar = builder.build(new StringReader(icalString));
         Component component = calendar.getComponent("VEVENT");
         VEvent event = (VEvent)component;
-        SpringApplication.run(Controller.class, args);
         System.out.println("Event Summary: " + event.getSummary().getValue());
+        Controller controller = new Controller();
     }
 
-    public void removeEvent() {
-        //Gottemannen får jobba här (endast här!!)
+    public void removeEvent(int inputFromFrontend) throws IOException {
+        iCalReaderService.getEventArrayNode().remove(inputFromFrontend);
+        iCalReaderService.getObjectMapper().writeValue(new File("events.json"), iCalReaderService.getParentObjectNode());
+        //Gottemannens får jobba här (endast här!!)
     }
 }
