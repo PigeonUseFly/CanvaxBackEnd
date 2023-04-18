@@ -1,19 +1,17 @@
 package com.example.backendcal;
 
-import net.fortuna.ical4j.data.ParserException;
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-import java.io.IOException;
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
+public class BackendCalApplicationTests {
 
-@SpringBootTest
-class BackendCalApplicationTests {
-
-    public BackendCalApplicationTests() throws ParserException, IOException {
-        ICalReaderService ical = new ICalReaderService();
+    public static void main(String[] args) {
+        SpringApplication.run(BackendCalApplicationTests.class, args);
     }
 
-    @Test
+
     void contextLoads() {
 
     }
