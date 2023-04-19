@@ -4,12 +4,13 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-
+import org.json.JSONObject;
 import java.util.Date;
 
 @Entity
-public class EventJson {
+public class EventJson extends JSONObject {
     private String summary;
+    private String moment;
     private Date startDate;
     private Date endDate;
     private String location;
@@ -17,21 +18,26 @@ public class EventJson {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    public EventJson(String summary, Date startDate, Date endDate, String location) {
+    public EventJson(String summary, String moment,Date startDate, Date endDate, String location) {
         this.summary = summary;
+        this.moment = moment;
         this.startDate = startDate;
         this.endDate = endDate;
         this.location = location;
     }
 
-
     public EventJson() {
 
+    }
+
+    public String toString() {
+        return "Summary: " + this.summary + " Start date: " + this.startDate + " End date: " + this.endDate + " Location: " + this.location + "\n";
     }
 
     public String getSummary() {
         return this.summary;
     }
+
 
     public void setSummary(String summary) {
         this.summary = summary;
@@ -67,5 +73,9 @@ public class EventJson {
 
     public Long getId() {
         return id;
+    }
+
+    public String getMoment() {
+        return moment;
     }
 }

@@ -32,12 +32,18 @@ public class ICalReaderService {
         while(var4.hasNext()) {
             VEvent event = (VEvent)var4.next();
             String summary = event.getSummary().getValue();
+            int start = summary.indexOf("Moment:");
+            int end = summary.indexOf("Program:");
+            String moment = summary.substring(start, end);
+            StringBuilder sb = new StringBuilder(summary);
+            sb.delete(start, end);
+            String newSummary = String.valueOf(sb);
             Date startDate = event.getStartDate().getDate();
             dateFormat.format(startDate);
             Date endDate = event.getEndDate().getDate();
             dateFormat.format(endDate);
             String location = event.getLocation().getValue();
-            EventJson eventJson = new EventJson(summary, startDate, endDate, location);
+            EventJson eventJson = new EventJson(newSummary, moment, startDate, endDate, location);
             eventJsonList.add(eventJson);
         }
 
@@ -51,6 +57,7 @@ public class ICalReaderService {
             ObjectNode eventObjectNode = objectMapper.createObjectNode();
             eventObjectNode.put("index", index++);
             eventObjectNode.put("summary", eventJson.getSummary());
+            eventObjectNode.put("moment", eventJson.getMoment());
             eventObjectNode.put("startDate", dateFormat.format(eventJson.getStartDate()));
             eventObjectNode.put("endDate", dateFormat.format(eventJson.getEndDate()));
             eventObjectNode.put("location", eventJson.getLocation());
