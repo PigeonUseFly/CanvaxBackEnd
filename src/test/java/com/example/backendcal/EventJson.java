@@ -18,9 +18,9 @@ public class EventJson extends JSONObject {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    public EventJson(String summary, String moment,Date startDate, Date endDate, String location) {
+    public EventJson(String summary,Date startDate, Date endDate, String location) {
         this.summary = summary;
-        this.moment = moment;
+        //this.moment = moment;
         this.startDate = startDate;
         this.endDate = endDate;
         this.location = location;
@@ -29,6 +29,7 @@ public class EventJson extends JSONObject {
     public EventJson() {
 
     }
+
 
     public String toString() {
         return "Summary: " + this.summary + " Start date: " + this.startDate + " End date: " + this.endDate + " Location: " + this.location + "\n";
