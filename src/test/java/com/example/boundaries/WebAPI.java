@@ -23,7 +23,7 @@ public interface WebAPI {
 
     @ResponseBody
     @GetMapping(path = "/calendar/{ngt}", produces = MediaType.APPLICATION_JSON_VALUE)
-    ResponseEntity<JSONArray> getJsonFile() throws IOException;
+    ResponseEntity<JSONArray> getJsonFile() throws IOException, JSONException;
 
 
     @ResponseBody

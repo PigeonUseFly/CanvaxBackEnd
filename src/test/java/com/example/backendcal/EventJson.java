@@ -6,8 +6,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import org.json.JSONObject;
 import java.util.Date;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
+//@JsonIgnoreProperties
 public class EventJson extends JSONObject {
     private String summary;
     private String description;
