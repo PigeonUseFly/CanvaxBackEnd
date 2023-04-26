@@ -69,16 +69,16 @@ public class ICalToJsonConverter {
             ObjectNode eventObjectNode = objectMapper.createObjectNode();
             eventObjectNode.put("index", index++);
             eventObjectNode.put("summary", eventJson.getSummary());
-            eventObjectNode.put("moment", eventJson.getMoment());
+            eventObjectNode.put("description", eventJson.getDescription());
             eventObjectNode.put("startDate", dateFormat.format(eventJson.getStartDate()));
             eventObjectNode.put("endDate", dateFormat.format(eventJson.getEndDate()));
-            eventObjectNode.put("location", eventJson.getLocation());
+            eventObjectNode.put("locationName", eventJson.getLocationName());
             eventArrayNode.add(eventObjectNode);
         }
 
         parentObjectNode = objectMapper.createObjectNode();
         parentObjectNode.set("events", eventArrayNode);
-        objectMapper.writeValue(new File("events.json"), eventArrayNode);
+        objectMapper.writeValue(new File("events.json"), parentObjectNode);
     }
 
     private static List<VEvent> readICalFile(String filename) throws ParserException, IOException {
@@ -86,5 +86,17 @@ public class ICalToJsonConverter {
         CalendarBuilder builder = new CalendarBuilder();
         Calendar calendar = builder.build(inputStream);
         return calendar.getComponents("VEVENT");
+    }
+
+    public ArrayNode getEventArrayNode() {
+        return eventArrayNode;
+    }
+
+    public ObjectMapper getObjectMapper() {
+        return objectMapper;
+    }
+
+    public ObjectNode getParentObjectNode() {
+        return parentObjectNode;
     }
 }

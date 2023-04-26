@@ -2,10 +2,10 @@ package com.example.backendcal;
 
 import com.example.boundaries.WebAPI;
 import com.google.gson.*;
-import net.fortuna.ical4j.data.CalendarBuilder;
+import com.google.gson.GsonBuilder;
+import net.fortuna.ical4j.model.*;
 import net.fortuna.ical4j.data.ParserException;
-import net.fortuna.ical4j.model.Calendar;
-import net.fortuna.ical4j.model.component.VEvent;
+import net.fortuna.ical4j.model.TimeZone;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,12 +16,11 @@ import java.text.SimpleDateFormat;
 
 @RestController
 public class CalController implements WebAPI {
-  /*  public ResponseEntity<String> getProgram(String id) {
-        return ResponseEntity.ok()
-                .contentType(MediaType.parseMediaType("text/plain"))
-                .body("Käften " + id);
-    } */
+    private ICalToJsonConverter iCalToJsonConverter;
 
+    public CalController() throws ParserException, IOException {
+        iCalToJsonConverter = new ICalToJsonConverter();
+    }
     public ResponseEntity<Object> getProgram(String id) throws IOException, ParserException {
         return ResponseEntity.ok()
                 .contentType(MediaType.parseMediaType("text/plain"))
@@ -35,32 +34,75 @@ public class CalController implements WebAPI {
      * @throws ParserException
      */
     public List<EventJson> readEventFile() throws IOException, ParserException {
-        List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
+        List<EventJson> events = readJsonFile("events.json");
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         List<EventJson> jsonList = new ArrayList<>();
         Iterator iterator = events.iterator();
 
         while (iterator.hasNext()) {
-            VEvent event = (VEvent) iterator.next();
-            String summary = event.getSummary().getValue();
-            int start = summary.indexOf("Moment:");
-            int end = summary.indexOf("Program:");
-            String moment = summary.substring(start, end);
-            Date startDate = event.getStartDate().getDate();
+            EventJson event = (EventJson) iterator.next();
+            String summary = event.getSummary();
+            String description = event.getDescription();
+            Date startDate = event.getStartDate();
             formatter.format(startDate);
-            Date endDate = event.getEndDate().getDate();
+            Date endDate = event.getEndDate();
             formatter.format(endDate);
-            String location = event.getLocation().getValue();
-            EventJson eventJson = new EventJson(summary, moment, startDate, endDate, location);
+            String location = event.getLocationName();
+            EventJson eventJson = new EventJson(summary, description, startDate, endDate, location);
             jsonList.add(eventJson);
         }
         return jsonList;
     }
 
-    private static List<VEvent> readICalFile(String filename) throws ParserException, IOException {
-        InputStream inputStream = new FileInputStream(new File(filename));
-        CalendarBuilder builder = new CalendarBuilder();
-        Calendar calendar = builder.build(inputStream);
-        return calendar.getComponents("VEVENT");
+    /**
+     *
+     * @param filename
+     * @return
+     * @throws ParserException
+     * @throws IOException
+     */
+    private static List<EventJson> readJsonFile(String filename) throws IOException {
+        Gson gson = new GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss").create();
+
+        BufferedReader br = new BufferedReader(new FileReader(filename));
+        EventList eventList = gson.fromJson(br, EventList.class);
+        br.close();
+
+        List<EventJson> events = new ArrayList<>();
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        TimeZone timeZone = TimeZoneRegistryFactory.getInstance().createRegistry().getTimeZone("Europe/Stockholm");
+
+        for (EventJson eventJson : eventList.getEvents()) {
+            String summary = eventJson.getSummary();
+            String description = eventJson.getDescription();
+            Date startDate = eventJson.getStartDate();
+            formatter.format(startDate);
+            Date endDate = eventJson.getEndDate();
+            formatter.format(endDate);
+            DateTime startDateTime = new DateTime(startDate, timeZone);
+            DateTime endDateTime = new DateTime(endDate, timeZone);
+            String locationName = eventJson.getLocationName();
+
+            EventJson event = new EventJson(summary, description, startDate, endDate, locationName);
+            events.add(event);
+        }
+        return events;
+    }
+
+    public void removeEvent(int inputFromFrontend) throws IOException {
+        iCalToJsonConverter.getEventArrayNode().remove(inputFromFrontend);
+        iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getParentObjectNode());
+    }
+
+    private static class EventList {
+        private List<EventJson> events;
+
+        public List<EventJson> getEvents() {
+            return events;
+        }
+
+        public void setEvents(List<EventJson> events) {
+            this.events = events;
+        }
     }
 }

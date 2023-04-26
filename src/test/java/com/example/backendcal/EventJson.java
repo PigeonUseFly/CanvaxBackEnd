@@ -10,20 +10,20 @@ import java.util.Date;
 @Entity
 public class EventJson extends JSONObject {
     private String summary;
-    private String moment;
+    private String description;
     private Date startDate;
     private Date endDate;
-    private String location;
+    private String locationName;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    public EventJson(String summary, String moment, Date startDate, Date endDate, String location) {
+    public EventJson(String summary, String description, Date startDate, Date endDate, String locationName) {
         this.summary = summary;
-        this.moment = moment;
+        this.description = description;
         this.startDate = startDate;
         this.endDate = endDate;
-        this.location = location;
+        this.locationName = locationName;
     }
 
     public EventJson() {
@@ -31,7 +31,7 @@ public class EventJson extends JSONObject {
     }
 
     public String toString() {
-        return "Summary: " + this.summary + " Start date: " + this.startDate + " End date: " + this.endDate + " Location: " + this.location + "\n";
+        return "Summary: " + this.summary + " Description: " + this.description + " Start date: " + this.startDate + " End date: " + this.endDate + " Location: " + this.locationName + "\n";
     }
 
     public String getSummary() {
@@ -59,12 +59,12 @@ public class EventJson extends JSONObject {
         this.endDate = endDate;
     }
 
-    public String getLocation() {
-        return this.location;
+    public String getLocationName() {
+        return this.locationName;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
+    public void setLocationName(String locationName) {
+        this.locationName = locationName;
     }
 
     public void setId(Long id) {
@@ -75,7 +75,11 @@ public class EventJson extends JSONObject {
         return id;
     }
 
-    public String getMoment() {
-        return moment;
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

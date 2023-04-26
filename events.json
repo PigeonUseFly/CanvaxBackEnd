@@ -1,1583 +1,1585 @@
-[ {
-  "index" : 0,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: L2 Sys1, Sys2 Ta gärna med egen dator för att sätta upp miljö som behövs på kursen och göra hela eller delar av labben på denna. Det finns datorer i salarna för de som hellre anvädner dessa än egen dator. ",
-  "startDate" : "2022-09-02 08:15:00",
-  "endDate" : "2022-09-02 10:00:00",
-  "location" : "OR:D331A OR:D331B OR:D331C"
-}, {
-  "index" : 1,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: L2 Sys3, Sys4 Ta gärna med egen dator för att sätta upp miljö som behövs på kursen och göra hela eller delar av labben på denna. Det finns datorer i salarna för de som hellre anvädner dessa än egen dator. ",
-  "startDate" : "2022-09-02 10:15:00",
-  "endDate" : "2022-09-02 12:00:00",
-  "location" : "OR:D331A OR:D331B OR:D331C"
-}, {
-  "index" : 2,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Akademiskt skrivande 2: Språk i akademisk text  ",
-  "startDate" : "2022-09-02 13:15:00",
-  "endDate" : "2022-09-02 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 3,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Datavetenskap 1, Genomgång Uppgift 1 Datavetenskap ",
-  "startDate" : "2022-09-05 09:15:00",
-  "endDate" : "2022-09-05 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 4,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F3 ",
-  "startDate" : "2022-09-05 15:15:00",
-  "endDate" : "2022-09-05 17:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 5,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L3) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-09-06 08:15:00",
-  "endDate" : "2022-09-06 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 6,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL Program: TGSYA22h",
-  "moment" : "Moment: Workshop Studieteknik, Sys3, Sys4 (samma grupper som på DA339A), ordinarie tillfälle ",
-  "startDate" : "2022-09-06 08:15:00",
-  "endDate" : "2022-09-06 10:00:00",
-  "location" : "NI:A0506 NI:A0606 NI:A0607"
-}, {
-  "index" : 7,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL Program: TGSYA22h",
-  "moment" : "Moment: Workshop Studieteknik, Sys1, Sys2 (samma grupper som på DA339A), ordinarie tillfälle ",
-  "startDate" : "2022-09-06 10:15:00",
-  "endDate" : "2022-09-06 12:00:00",
-  "location" : "NI:A0506 NI:A0606 NI:A0607"
-}, {
-  "index" : 8,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L3) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-09-06 10:15:00",
-  "endDate" : "2022-09-06 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 9,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Akademiskt skrivande 2: Referenssystem  ",
-  "startDate" : "2022-09-06 13:15:00",
-  "endDate" : "2022-09-06 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 10,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F4 ",
-  "startDate" : "2022-09-07 15:15:00",
-  "endDate" : "2022-09-07 17:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 11,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-09-08 08:15:00",
-  "endDate" : "2022-09-08 10:00:00",
-  "location" : "NI:B0317"
-}, {
-  "index" : 12,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F5 ",
-  "startDate" : "2022-09-08 13:15:00",
-  "endDate" : "2022-09-08 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 13,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Datavetenskap 2 ",
-  "startDate" : "2022-09-08 15:15:00",
-  "endDate" : "2022-09-08 17:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 14,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Workshoptillfälle L4 Sys3, Sys4 OBLIGATORISK, ordinarie tillfälle ",
-  "startDate" : "2022-09-09 08:15:00",
-  "endDate" : "2022-09-09 10:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 15,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Workshoptillfälle L4 Sys1, Sys2 OBLIGATORISK, ordinarie tillfälle ",
-  "startDate" : "2022-09-09 10:15:00",
-  "endDate" : "2022-09-09 12:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 16,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Datavetenskap 3 ",
-  "startDate" : "2022-09-09 13:15:00",
-  "endDate" : "2022-09-09 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 17,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Studieteknik 2: Lässtrategier och skrivprocess ",
-  "startDate" : "2022-09-12 10:15:00",
-  "endDate" : "2022-09-12 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 18,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F6 Information med TS studievägledning generellt om studier på universitet och vad studievägledningen kan hjälpa till med ",
-  "startDate" : "2022-09-12 13:15:00",
-  "endDate" : "2022-09-12 16:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 19,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L5) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-09-13 08:15:00",
-  "endDate" : "2022-09-13 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 20,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L5) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-09-13 10:15:00",
-  "endDate" : "2022-09-13 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 21,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 TSKRAL Program: TGSYA22h",
-  "moment" : "Moment: Övning referenshantering Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-09-13 15:15:00",
-  "endDate" : "2022-09-13 17:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 22,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AH5388 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Akademiskt skrivande 4: Informationssökning ",
-  "startDate" : "2022-09-14 08:15:00",
-  "endDate" : "2022-09-14 10:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 23,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F7 ",
-  "startDate" : "2022-09-14 13:15:00",
-  "endDate" : "2022-09-14 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 24,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 TSKRAL Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Övning referenshantering Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-09-14 15:15:00",
-  "endDate" : "2022-09-14 17:00:00",
-  "location" : "OR:F413 OR:F415"
-}, {
-  "index" : 25,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSKRAL Program: TGSYA22h",
-  "moment" : "Moment: Läsgruppsmöte D1 Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-09-15 08:15:00",
-  "endDate" : "2022-09-15 10:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:B0305 NI:B0314 NI:B0317 NI:C0306 NI:C0309 NI:C0312"
-}, {
-  "index" : 26,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSKRAL Program: TGSYA22h",
-  "moment" : "Moment: Läsgruppsmöte D1 Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-09-15 10:15:00",
-  "endDate" : "2022-09-15 12:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:B0305 NI:B0314 NI:B0317 NI:C0306 NI:C0309 NI:C0312"
-}, {
-  "index" : 27,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AH5388 Program: TGSYA22h",
-  "moment" : "Moment: Workshop Informationssökning, Sys Läsgrupper xx-yy OBLIGATORISK, Salar i Orkanen-biblioteket ",
-  "startDate" : "2022-09-15 10:15:00",
-  "endDate" : "2022-09-15 12:00:00",
-  "location" : ""
-}, {
-  "index" : 28,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F8 ",
-  "startDate" : "2022-09-15 13:15:00",
-  "endDate" : "2022-09-15 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 29,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: labbhjälp (kurstakt L6) Sys1, Sys2 ",
-  "startDate" : "2022-09-16 08:15:00",
-  "endDate" : "2022-09-16 10:00:00",
-  "location" : "NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 30,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: labbhjälp (kurstakt L6) Sys3, Sys4 ",
-  "startDate" : "2022-09-16 10:15:00",
-  "endDate" : "2022-09-16 12:00:00",
-  "location" : "NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 31,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AH5388 Program: TGSYA22h",
-  "moment" : "Moment: Workshop Informationssökning, Sys Läsgrupper xx-yy OBLIGATORISK, Salar i Orkanen-biblioteket ",
-  "startDate" : "2022-09-16 13:15:00",
-  "endDate" : "2022-09-16 15:00:00",
-  "location" : ""
-}, {
-  "index" : 32,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Workshop Studieteknik, omtillfälle 1 ",
-  "startDate" : "2022-09-19 10:15:00",
-  "endDate" : "2022-09-19 12:00:00",
-  "location" : "OR:F415"
-}, {
-  "index" : 33,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F9 ",
-  "startDate" : "2022-09-19 13:15:00",
-  "endDate" : "2022-09-19 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 34,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AH5388 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Akademiskt skrivande 5: Källkritik  ",
-  "startDate" : "2022-09-19 15:15:00",
-  "endDate" : "2022-09-19 17:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 35,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L7) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-09-20 08:15:00",
-  "endDate" : "2022-09-20 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 36,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L7) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-09-20 10:15:00",
-  "endDate" : "2022-09-20 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 37,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-09-20 13:15:00",
-  "endDate" : "2022-09-20 15:00:00",
-  "location" : "NI:A0301"
-}, {
-  "index" : 38,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSANTI Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Akademiskt skrivande 6: Förhållningssätt till data och information ",
-  "startDate" : "2022-09-20 15:15:00",
-  "endDate" : "2022-09-20 17:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 39,
-  "summary" : "Kurs.grp: 1300 - MAU - Studentkåren Program: SGPRM20h SGPRM21h TACMA21h TACMA22h1 TACMA22h2 TAICS21h TAICS22h TASME21h TASME22h1 TASME22h2 TGIAA20h TGIAA21h TGIAA22h TGITA20h TGITA21h TGITA22h TGMMA22h TGMPP20h TGMPP21h TGSPA20h TGSPA21h TGSPA22h TGSYA20h TGSYA21h TGSYA22h TGWDU22h THBYB20hBPRO THBYB20hBTEK THBYB20hTARK THBYB21hBPRO THBYB21hBTEK THBYB21hTARK THBYB22hBPRO THBYB22hBTEK THBYB22hTARK THDTB20h THDTB21h THDTB22h THMMA20h THMMA21h THMMA22h THPDA20h THPDA21h THPDA22h",
-  "moment" : "Moment: Forum Teknik och samhälle och Lärande och samhälle - Val av studentrepresentanter, se info; https://malmostudenter.se/nyheter/kom-till-forum-paverka-din-utbildning/ ",
-  "startDate" : "2022-09-20 17:15:00",
-  "endDate" : "2022-09-20 19:00:00",
-  "location" : "NI:A0311"
-}, {
-  "index" : 40,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Akademiskt skrivande 7: Kamratgranskning, Genomgång av verktyg för kamratgranskning i Canvas ",
-  "startDate" : "2022-09-21 09:15:00",
-  "endDate" : "2022-09-21 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 41,
-  "summary" : "Kurs.grp: 1052-Utbildningskommunikation och studentrekrytering  Sign: ADDOGO AG5295 AI3748 AL6219 AL6220 AM6662 Program: NZNTC20h NZNTC21h NZNTC22h SGPRM20h SGPRM21h TACAS20h TACAS20h1 TACAS21h TACAS21h1 TACAS22h TACAS22h1 TACMA20h TACMA20h1 TACMA21h TACMA21h1 TACMA22h1 TACMA22h2 TAICS20h TAICS20h1 TAICS21h TAICS21h1 TAICS22h TAICS22h1 TASME20h TASME20h1 TASME21h TASME21h1 TASME22h1 TASME22h2 TGIAA20h TGIAA21h TGIAA22h TGITA20h TGITA21h TGITA22h TGMMA22h TGMPP20h TGMPP21h TGSPA20h TGSPA21h TGSPA22h TGSYA20h TGSYA21h TGSYA22h TGWDU22h THBYB20hBPRO THBYB20hBTEK THBYB20hTARK THBYB21hBPRO THBYB21hBTEK THBYB21hTARK THBYB22hBPRO THBYB22hBTEK THBYB22hTARK THDTB20h THDTB21h THDTB22h THMMA20h THMMA21h THMMA22h THPDA20h THPDA21h THPDA22h",
-  "moment" : "Moment: TS Fikan / Daniel Harju Popow ",
-  "startDate" : "2022-09-21 12:15:00",
-  "endDate" : "2022-09-21 16:00:00",
-  "location" : "NI:A0502 NI:A0506"
-}, {
-  "index" : 42,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: labbhjälp (kurstakt L8) Sys1, Sys2, Sys3, Sys4 ",
-  "startDate" : "2022-09-21 15:15:00",
-  "endDate" : "2022-09-21 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
-}, {
-  "index" : 43,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 TSKRAL Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Övning Kamratgranskning Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-09-22 08:15:00",
-  "endDate" : "2022-09-22 10:00:00",
-  "location" : "NI:A0406 NI:A0407"
-}, {
-  "index" : 44,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Läsgruppsmöte D2 Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-09-22 08:15:00",
-  "endDate" : "2022-09-22 10:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:B0305 NI:B0314 NI:B0317 NI:C0306 NI:C0309 NI:C0312"
-}, {
-  "index" : 45,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Läsgruppsmöte D2 Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-09-22 10:15:00",
-  "endDate" : "2022-09-22 12:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:B0305 NI:B0314 NI:B0317 NI:C0306 NI:C0309 NI:C0312"
-}, {
-  "index" : 46,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 TSKRAL Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Övning Kamratgranskning Läsgrupper xx-yy ",
-  "startDate" : "2022-09-22 10:15:00",
-  "endDate" : "2022-09-22 12:00:00",
-  "location" : "NI:A0406 NI:A0407"
-}, {
-  "index" : 47,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F10 ",
-  "startDate" : "2022-09-22 13:15:00",
-  "endDate" : "2022-09-22 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 48,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-09-22 15:15:00",
-  "endDate" : "2022-09-22 17:00:00",
-  "location" : "NI:B0314"
-}, {
-  "index" : 49,
-  "summary" : "Kurs.grp: 1300 - MAU - Studentkåren Program: SGPRM20h SGPRM21h TACMA21h TACMA22h1 TACMA22h2 TAICS21h TAICS22h TASME21h TASME22h1 TASME22h2 TGIAA20h TGIAA21h TGIAA22h TGITA20h TGITA21h TGITA22h TGMMA22h TGMPP20h TGMPP21h TGSPA20h TGSPA21h TGSPA22h TGSYA20h TGSYA21h TGSYA22h TGWDU22h THBYB20hBPRO THBYB20hBTEK THBYB20hTARK THBYB21hBPRO THBYB21hBTEK THBYB21hTARK THBYB22hBPRO THBYB22hBTEK THBYB22hTARK THDTB20h THDTB21h THDTB22h THMMA20h THMMA21h THMMA22h THPDA20h THPDA21h THPDA22h",
-  "moment" : "Moment: Forum Teknik och samhälle och Lärande och samhälle - Val av studentrepresentanter, se info; https://malmostudenter.se/nyheter/kom-till-forum-paverka-din-utbildning/ ",
-  "startDate" : "2022-09-22 17:15:00",
-  "endDate" : "2022-09-22 19:00:00",
-  "location" : "NI:A0311"
-}, {
-  "index" : 50,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L4 OBLIGATORISK, omtillfälle 1 ",
-  "startDate" : "2022-09-23 13:15:00",
-  "endDate" : "2022-09-23 15:00:00",
-  "location" : "NI:A0606"
-}, {
-  "index" : 51,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: DEADLINE Uppgift 1 Datavetenskap, version 1, ordinarie tillfälle ",
-  "startDate" : "2022-09-25 23:58:00",
-  "endDate" : "2022-09-25 23:59:00",
-  "location" : ""
-}, {
-  "index" : 52,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Workshop Under huven, 2 timmar/grupp ",
-  "startDate" : "2022-09-26 08:15:00",
-  "endDate" : "2022-09-26 17:00:00",
-  "location" : "OR:C127"
-}, {
-  "index" : 53,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Workshoptillfälle L9 Sys1, Sys2 ",
-  "startDate" : "2022-09-26 13:15:00",
-  "endDate" : "2022-09-26 15:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 54,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Workshoptillfälle L9 Sys3, Sys4 ",
-  "startDate" : "2022-09-26 15:15:00",
-  "endDate" : "2022-09-26 17:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 55,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F11 ",
-  "startDate" : "2022-09-27 10:15:00",
-  "endDate" : "2022-09-27 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 56,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-09-27 13:15:00",
-  "endDate" : "2022-09-27 15:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 57,
-  "summary" : "Kurs.grp: TS - Datavetenskap Sign: TSKRAL Program: TGSYA22h",
-  "moment" : "Moment: Drop-in med introduktionsmentor Eric. Tema: \"Upptakt – hur känns det efter en månad på Systemutvecklare?\" ",
-  "startDate" : "2022-09-27 13:15:00",
-  "endDate" : "2022-09-27 15:00:00",
-  "location" : "NI:B0E15"
-}, {
-  "index" : 58,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F: Akademiskt skrivande 8: Presentationsteknik   ",
-  "startDate" : "2022-09-28 10:15:00",
-  "endDate" : "2022-09-28 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 59,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L10) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-09-28 13:15:00",
-  "endDate" : "2022-09-28 15:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
-}, {
-  "index" : 60,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L10) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-09-28 15:15:00",
-  "endDate" : "2022-09-28 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
-}, {
-  "index" : 61,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Workshop Under huven, 2 timmar/grupp ",
-  "startDate" : "2022-09-29 08:15:00",
-  "endDate" : "2022-09-29 17:00:00",
-  "location" : "OR:B231c"
-}, {
-  "index" : 62,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Genomgång U1 ",
-  "startDate" : "2022-09-29 13:15:00",
-  "endDate" : "2022-09-29 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 63,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-10-03 13:15:00",
-  "endDate" : "2022-10-03 15:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 64,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Workshop Studieteknik, omtillfälle 2 ",
-  "startDate" : "2022-10-03 15:15:00",
-  "endDate" : "2022-10-03 17:00:00",
-  "location" : "NI:A0513"
-}, {
-  "index" : 65,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: DEADLINE Uppgift 1 Datavetenskap, kamratgranskning, ordinarie tillfälle ",
-  "startDate" : "2022-10-03 23:58:00",
-  "endDate" : "2022-10-03 23:59:00",
-  "location" : ""
-}, {
-  "index" : 66,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U1) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-10-04 08:15:00",
-  "endDate" : "2022-10-04 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 67,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U1) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-10-04 10:15:00",
-  "endDate" : "2022-10-04 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 68,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Muntliga presentationer, 2 timmar/grupp ",
-  "startDate" : "2022-10-04 13:15:00",
-  "endDate" : "2022-10-04 17:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401"
-}, {
-  "index" : 69,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Muntliga presentationer, 2 timmar/grupp ",
-  "startDate" : "2022-10-05 08:15:00",
-  "endDate" : "2022-10-05 12:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401"
-}, {
-  "index" : 70,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U1) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-10-05 13:15:00",
-  "endDate" : "2022-10-05 15:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
-}, {
-  "index" : 71,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L4 OBLIGATORISK, omtillfälle 2 - sista garanterade tillfället som ges ",
-  "startDate" : "2022-10-05 13:15:00",
-  "endDate" : "2022-10-05 15:00:00",
-  "location" : "NI:A0606"
-}, {
-  "index" : 72,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U1) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-10-05 15:15:00",
-  "endDate" : "2022-10-05 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
-}, {
-  "index" : 73,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Muntliga presentationer, 2 timmar/grupp ",
-  "startDate" : "2022-10-06 08:15:00",
-  "endDate" : "2022-10-06 12:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401"
-}, {
-  "index" : 74,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-10-06 13:15:00",
-  "endDate" : "2022-10-06 15:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 75,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Muntliga presentationer, 2 timmar/grupp, Sys ",
-  "startDate" : "2022-10-07 08:15:00",
-  "endDate" : "2022-10-07 12:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401"
-}, {
-  "index" : 76,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: DEADLINE Uppgift 1 Datavetenskap, version 2, ordinarie tillfälle ",
-  "startDate" : "2022-10-09 23:58:00",
-  "endDate" : "2022-10-09 23:59:00",
-  "location" : ""
-}, {
-  "index" : 77,
-  "summary" : "Kurs.grp: TS - Datavetenskap Sign: TSKRAL Program: TGSYA22h",
-  "moment" : "Moment: Drop-in med introduktionsmentor Eric. Tema: ”Första tentan – hur är det att skriva tenta på Mau?”. Du kan givetvis fråga om allt möjligt som du undrar över och skulle vilja få lite hjälp att förstå. ",
-  "startDate" : "2022-10-10 10:15:00",
-  "endDate" : "2022-10-10 12:00:00",
-  "location" : "NI:C0319"
-}, {
-  "index" : 78,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F Etik 1, Genomgång Uppgift 2 Etik ",
-  "startDate" : "2022-10-10 13:15:00",
-  "endDate" : "2022-10-10 16:00:00",
-  "location" : "OR:D138"
-}, {
-  "index" : 79,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U1 ",
-  "startDate" : "2022-10-11 08:15:00",
-  "endDate" : "2022-10-11 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 80,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F Etik 2, Genomgång Etik-seminarium ",
-  "startDate" : "2022-10-11 13:15:00",
-  "endDate" : "2022-10-11 16:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 81,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U1 ",
-  "startDate" : "2022-10-12 08:15:00",
-  "endDate" : "2022-10-12 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
-}, {
-  "index" : 82,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-10-12 10:15:00",
-  "endDate" : "2022-10-12 12:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 83,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U1 ",
-  "startDate" : "2022-10-12 13:15:00",
-  "endDate" : "2022-10-12 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
-}, {
-  "index" : 84,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F Etik 3 ",
-  "startDate" : "2022-10-13 08:15:00",
-  "endDate" : "2022-10-13 10:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 85,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Läsgruppsmöte E1 Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-10-13 10:15:00",
-  "endDate" : "2022-10-13 12:00:00",
-  "location" : "G8:253 NI:A0301 NI:A0322 NI:A0422 NI:A0614 NI:B0303 NI:C0312 OR:B231a OR:B422 OR:C235 OR:C236 OR:E235"
-}, {
-  "index" : 86,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Läsgruppsmöte E1 Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-10-13 13:15:00",
-  "endDate" : "2022-10-13 15:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:B0303 NI:B0321 NI:C0305 NI:C0306 NI:C0309 NI:C0312 NI:C0401 NI:C0402"
-}, {
-  "index" : 87,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Frågor inför tenta ",
-  "startDate" : "2022-10-13 15:15:00",
-  "endDate" : "2022-10-13 17:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 88,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: Redovisning U1 Sys ",
-  "startDate" : "2022-10-14 08:15:00",
-  "endDate" : "2022-10-14 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 89,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Salstentamen Ordinarie tillfälle. 2001 Tentamen 1 Hjälpm.: TS ",
-  "startDate" : "2022-10-17 14:15:00",
-  "endDate" : "2022-10-17 19:15:00",
-  "location" : "KR:Tentasal 1-6"
-}, {
-  "index" : 90,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L11) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-10-18 08:15:00",
-  "endDate" : "2022-10-18 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 91,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L11) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-10-18 10:15:00",
-  "endDate" : "2022-10-18 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 92,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-10-18 13:15:00",
-  "endDate" : "2022-10-18 15:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 93,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F12 ",
-  "startDate" : "2022-10-19 13:15:00",
-  "endDate" : "2022-10-19 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 94,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Läsgruppsmöte E2 Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-10-20 10:15:00",
-  "endDate" : "2022-10-20 12:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:C0306 NI:C0309 NI:C0312 OR:B231a OR:C236 OR:E235"
-}, {
-  "index" : 95,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-10-20 13:15:00",
-  "endDate" : "2022-10-20 15:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 96,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Läsgruppsmöte E2 Sys Läsgrupper xx-yy ",
-  "startDate" : "2022-10-20 15:15:00",
-  "endDate" : "2022-10-20 17:00:00",
-  "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:C0306 NI:C0309 NI:C0312 OR:B231a OR:C236 OR:E235"
-}, {
-  "index" : 97,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Workshoptillfälle L12 Sys3, Sys4 ",
-  "startDate" : "2022-10-21 08:15:00",
-  "endDate" : "2022-10-21 10:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 98,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
-  "moment" : "Moment: Workshoptillfälle L12 Sys1, Sys2 ",
-  "startDate" : "2022-10-21 10:15:00",
-  "endDate" : "2022-10-21 12:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 99,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F13 ",
-  "startDate" : "2022-10-24 13:15:00",
-  "endDate" : "2022-10-24 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 100,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L13) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-10-25 08:15:00",
-  "endDate" : "2022-10-25 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 101,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L13) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-10-25 10:15:00",
-  "endDate" : "2022-10-25 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 102,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
-  "startDate" : "2022-10-26 08:15:00",
-  "endDate" : "2022-10-26 12:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 103,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F14 ",
-  "startDate" : "2022-10-26 13:15:00",
-  "endDate" : "2022-10-26 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 104,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L14 DT1, DT2, Sys4 ",
-  "startDate" : "2022-10-27 08:15:00",
-  "endDate" : "2022-10-27 10:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 105,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L14 Sys1, Sys2, Sys3 ",
-  "startDate" : "2022-10-27 10:15:00",
-  "endDate" : "2022-10-27 12:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 106,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-10-27 13:15:00",
-  "endDate" : "2022-10-27 15:00:00",
-  "location" : "NI:C0301"
-}, {
-  "index" : 107,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
-  "startDate" : "2022-10-27 13:15:00",
-  "endDate" : "2022-10-27 17:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 108,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L15) Sys1, Sys2 ",
-  "startDate" : "2022-10-28 08:15:00",
-  "endDate" : "2022-10-28 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 109,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L15) Sys3, Sys4 ",
-  "startDate" : "2022-10-28 10:15:00",
-  "endDate" : "2022-10-28 12:00:00",
-  "location" : "NI:A0311 NI:A0314 NI:A0318 NI:A0406"
-}, {
-  "index" : 110,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
-  "startDate" : "2022-10-28 13:15:00",
-  "endDate" : "2022-10-28 17:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 111,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: DEADLINE U1, omtillfälle 1 ",
-  "startDate" : "2022-10-30 23:58:00",
-  "endDate" : "2022-10-30 23:59:00",
-  "location" : ""
-}, {
-  "index" : 112,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
-  "startDate" : "2022-10-31 08:15:00",
-  "endDate" : "2022-10-31 12:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 113,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F15, Genomgång U2 ",
-  "startDate" : "2022-10-31 13:15:00",
-  "endDate" : "2022-10-31 16:00:00",
-  "location" : "NI:C0E11"
-}, {
-  "index" : 114,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: DEADLINE: Uppgift 2 Etik, kamratgranskning, ordinarie tillfälle ",
-  "startDate" : "2022-10-31 23:58:00",
-  "endDate" : "2022-10-31 23:59:00",
-  "location" : ""
-}, {
-  "index" : 115,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U1, omtillfälle 1, handledning om tillgängliga resurser finns (beror på antal som ska redovisa U1) ",
-  "startDate" : "2022-11-01 08:15:00",
-  "endDate" : "2022-11-01 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 116,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
-  "startDate" : "2022-11-01 13:15:00",
-  "endDate" : "2022-11-01 17:00:00",
-  "location" : "NI:C0205"
-}, {
-  "index" : 117,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
-  "startDate" : "2022-11-02 08:15:00",
-  "endDate" : "2022-11-02 12:00:00",
-  "location" : "NI:B0314"
-}, {
-  "index" : 118,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Drop-in-hjälp uppsats ",
-  "startDate" : "2022-11-02 10:15:00",
-  "endDate" : "2022-11-02 12:00:00",
-  "location" : "NI:C0312"
-}, {
-  "index" : 119,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L16) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-11-02 13:15:00",
-  "endDate" : "2022-11-02 15:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
-}, {
-  "index" : 120,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L16) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-11-02 15:15:00",
-  "endDate" : "2022-11-02 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
-}, {
-  "index" : 121,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Etik-seminarier 3 grupper, 1h/grupp IA ",
-  "startDate" : "2022-11-03 08:15:00",
-  "endDate" : "2022-11-03 12:00:00",
-  "location" : "NI:C0301"
-}, {
-  "index" : 122,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F16 ",
-  "startDate" : "2022-11-03 10:15:00",
-  "endDate" : "2022-11-03 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 123,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
-  "startDate" : "2022-11-03 13:15:00",
-  "endDate" : "2022-11-03 17:00:00",
-  "location" : "NI:C0301"
-}, {
-  "index" : 124,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U2) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-11-04 08:15:00",
-  "endDate" : "2022-11-04 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 125,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U2) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-11-04 10:15:00",
-  "endDate" : "2022-11-04 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 126,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 TSKRAL Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: F Datavetenskap 4, Kursavslutning ",
-  "startDate" : "2022-11-04 13:15:00",
-  "endDate" : "2022-11-04 16:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 127,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: DEADLINE: Uppgift 2 Etik, version 2, ordinarie tillfälle ",
-  "startDate" : "2022-11-06 23:58:00",
-  "endDate" : "2022-11-06 23:59:00",
-  "location" : ""
-}, {
-  "index" : 128,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 1 ",
-  "startDate" : "2022-11-07 09:15:00",
-  "endDate" : "2022-11-07 11:00:00",
-  "location" : "NI:B0E07"
-}, {
-  "index" : 129,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U2) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-11-07 13:15:00",
-  "endDate" : "2022-11-07 15:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 130,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U2) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-11-07 15:15:00",
-  "endDate" : "2022-11-07 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 131,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L17 DT1, DT2, Sys4 ",
-  "startDate" : "2022-11-08 08:15:00",
-  "endDate" : "2022-11-08 10:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 132,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L17 Sys1, Sys2, Sys3 ",
-  "startDate" : "2022-11-08 10:15:00",
-  "endDate" : "2022-11-08 12:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 133,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 2 ",
-  "startDate" : "2022-11-08 13:15:00",
-  "endDate" : "2022-11-08 15:00:00",
-  "location" : "NI:B0E07"
-}, {
-  "index" : 134,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F17 ",
-  "startDate" : "2022-11-09 10:15:00",
-  "endDate" : "2022-11-09 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 135,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Teoriövning 1 SYS1 ",
-  "startDate" : "2022-11-10 09:15:00",
-  "endDate" : "2022-11-10 12:00:00",
-  "location" : "NI:A0506 NI:A0507"
-}, {
-  "index" : 136,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: labbhjälp (kurstakt L18) Sys3, Sys4 ",
-  "startDate" : "2022-11-10 10:15:00",
-  "endDate" : "2022-11-10 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 137,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: labbhjälp (kurstakt L18) Sys1, Sys2 ",
-  "startDate" : "2022-11-10 13:15:00",
-  "endDate" : "2022-11-10 15:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 138,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F18 ",
-  "startDate" : "2022-11-11 08:15:00",
-  "endDate" : "2022-11-11 10:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 139,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U2) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-11-11 13:15:00",
-  "endDate" : "2022-11-11 15:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 140,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U2) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-11-11 15:15:00",
-  "endDate" : "2022-11-11 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 141,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: DEADLINE U2, ordinarie ",
-  "startDate" : "2022-11-13 23:58:00",
-  "endDate" : "2022-11-13 23:59:00",
-  "location" : ""
-}, {
-  "index" : 142,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Teoriövning 1 SYS2 ",
-  "startDate" : "2022-11-14 09:15:00",
-  "endDate" : "2022-11-14 12:00:00",
-  "location" : "NI:A0506 NI:A0507"
-}, {
-  "index" : 143,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 3 ",
-  "startDate" : "2022-11-14 14:15:00",
-  "endDate" : "2022-11-14 16:00:00",
-  "location" : "NI:B0E07"
-}, {
-  "index" : 144,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L19 DT1, DT2, Sys4 OBLIGATORISK, ordinarie tillfälle ",
-  "startDate" : "2022-11-15 08:15:00",
-  "endDate" : "2022-11-15 10:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 145,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L19 Sys1, Sys2, Sys3 OBLIGATORISK, ordinarie tillfälle ",
-  "startDate" : "2022-11-15 10:15:00",
-  "endDate" : "2022-11-15 12:00:00",
-  "location" : "NI:A0306 NI:A0307"
-}, {
-  "index" : 146,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 4 ",
-  "startDate" : "2022-11-15 13:15:00",
-  "endDate" : "2022-11-15 15:00:00",
-  "location" : "NI:B0E07"
-}, {
-  "index" : 147,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: Redovisning U2 Sys 1, Sys2 ",
-  "startDate" : "2022-11-15 15:15:00",
-  "endDate" : "2022-11-15 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 148,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: labbhjälp (kurstakt L20) Sys3, Sys4 ",
-  "startDate" : "2022-11-16 10:15:00",
-  "endDate" : "2022-11-16 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 149,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F19 ",
-  "startDate" : "2022-11-16 13:15:00",
-  "endDate" : "2022-11-16 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 150,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: redovisning U2 Sys3, Sys4 ",
-  "startDate" : "2022-11-17 08:15:00",
-  "endDate" : "2022-11-17 12:00:00",
-  "location" : "NI:A0306 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 151,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
-  "moment" : "Moment: Datorlabb 1 SYS1 ",
-  "startDate" : "2022-11-17 09:15:00",
-  "endDate" : "2022-11-17 12:00:00",
-  "location" : "OR:D331A OR:D331BC"
-}, {
-  "index" : 152,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: labbhjälp (kurstakt L20) Sys1, Sys2 ",
-  "startDate" : "2022-11-17 15:15:00",
-  "endDate" : "2022-11-17 17:00:00",
-  "location" : "NI:A0306 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 153,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F20 ",
-  "startDate" : "2022-11-18 08:15:00",
-  "endDate" : "2022-11-18 10:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 154,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: Redovisning U2 Sys1, Sys2 ",
-  "startDate" : "2022-11-18 10:15:00",
-  "endDate" : "2022-11-18 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 155,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 5 ",
-  "startDate" : "2022-11-21 09:15:00",
-  "endDate" : "2022-11-21 11:00:00",
-  "location" : "NI:B0E15"
-}, {
-  "index" : 156,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
-  "moment" : "Moment: Datorlabb 1 SYS2 ",
-  "startDate" : "2022-11-21 13:15:00",
-  "endDate" : "2022-11-21 16:00:00",
-  "location" : "OR:D331A OR:D331BC"
-}, {
-  "index" : 157,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F21, Genomgång U3 ",
-  "startDate" : "2022-11-22 09:15:00",
-  "endDate" : "2022-11-22 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 158,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 6 ",
-  "startDate" : "2022-11-22 13:15:00",
-  "endDate" : "2022-11-22 15:00:00",
-  "location" : "NI:B0E07"
-}, {
-  "index" : 159,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L21) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-11-23 08:15:00",
-  "endDate" : "2022-11-23 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 160,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L21) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-11-23 10:15:00",
-  "endDate" : "2022-11-23 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 161,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Teoriövning 2 SYS1 ",
-  "startDate" : "2022-11-24 09:15:00",
-  "endDate" : "2022-11-24 12:00:00",
-  "location" : "NI:A0306 NI:A0307"
-}, {
-  "index" : 162,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L22, U3) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-11-24 13:15:00",
-  "endDate" : "2022-11-24 15:00:00",
-  "location" : "NI:A0306 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 163,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L22, U3) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-11-24 15:15:00",
-  "endDate" : "2022-11-24 17:00:00",
-  "location" : "NI:A0306 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 164,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L19 OBLIGATORISK, omtillfälle 1 ",
-  "startDate" : "2022-11-25 08:15:00",
-  "endDate" : "2022-11-25 10:00:00",
-  "location" : "NI:A0606"
-}, {
-  "index" : 165,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: DEADLINE U2, omtillfälle 1 ",
-  "startDate" : "2022-11-27 23:58:00",
-  "endDate" : "2022-11-27 23:59:00",
-  "location" : ""
-}, {
-  "index" : 166,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Teoriövning 2 SYS2 ",
-  "startDate" : "2022-11-28 09:15:00",
-  "endDate" : "2022-11-28 12:00:00",
-  "location" : "NI:A0506 NI:A0507"
-}, {
-  "index" : 167,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 7 ",
-  "startDate" : "2022-11-28 13:15:00",
-  "endDate" : "2022-11-28 15:00:00",
-  "location" : "NI:B0E07"
-}, {
-  "index" : 168,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: redovsning U2, omtillfälle 1 Sys ",
-  "startDate" : "2022-11-28 15:15:00",
-  "endDate" : "2022-11-28 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 169,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F22 ",
-  "startDate" : "2022-11-29 10:15:00",
-  "endDate" : "2022-11-29 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 170,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 8 (Online) ",
-  "startDate" : "2022-11-29 13:15:00",
-  "endDate" : "2022-11-29 15:00:00",
-  "location" : "NI:B0E07"
-}, {
-  "index" : 171,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U3) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-11-30 08:15:00",
-  "endDate" : "2022-11-30 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 172,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U3) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-11-30 10:15:00",
-  "endDate" : "2022-11-30 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 173,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
-  "moment" : "Moment: Datorlabb 2 SYS1 ",
-  "startDate" : "2022-12-01 09:15:00",
-  "endDate" : "2022-12-01 12:00:00",
-  "location" : "OR:D331A OR:D331BC"
-}, {
-  "index" : 174,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F23 ",
-  "startDate" : "2022-12-01 13:15:00",
-  "endDate" : "2022-12-01 15:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 175,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U3) ",
-  "startDate" : "2022-12-01 15:15:00",
-  "endDate" : "2022-12-01 17:00:00",
-  "location" : "NI:A0306 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 176,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L23 DT1, DT2, Sys4 ",
-  "startDate" : "2022-12-02 08:15:00",
-  "endDate" : "2022-12-02 10:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 177,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L23 Sys1, Sys2, Sys3 ",
-  "startDate" : "2022-12-02 10:15:00",
-  "endDate" : "2022-12-02 12:00:00",
-  "location" : "NI:A0606 NI:A0607"
-}, {
-  "index" : 178,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 9 ",
-  "startDate" : "2022-12-05 09:15:00",
-  "endDate" : "2022-12-05 11:00:00",
-  "location" : "NI:B0E15"
-}, {
-  "index" : 179,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
-  "moment" : "Moment: Datorlabb 2 SYS2 ",
-  "startDate" : "2022-12-05 13:15:00",
-  "endDate" : "2022-12-05 16:00:00",
-  "location" : "OR:D331A OR:D331BC"
-}, {
-  "index" : 180,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F24 ",
-  "startDate" : "2022-12-06 10:15:00",
-  "endDate" : "2022-12-06 12:00:00",
-  "location" : "NI:C0E11"
-}, {
-  "index" : 181,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 10 ",
-  "startDate" : "2022-12-06 13:15:00",
-  "endDate" : "2022-12-06 15:00:00",
-  "location" : "NI:B0E07"
-}, {
-  "index" : 182,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
-  "moment" : "Moment: Utfrågning om projektuppgifter ",
-  "startDate" : "2022-12-06 15:15:00",
-  "endDate" : "2022-12-06 17:00:00",
-  "location" : "NI:A0606"
-}, {
-  "index" : 183,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L24) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-12-07 08:15:00",
-  "endDate" : "2022-12-07 10:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 184,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L24) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-12-07 10:15:00",
-  "endDate" : "2022-12-07 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 185,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Teoriövning 3 SYS1 ",
-  "startDate" : "2022-12-08 09:15:00",
-  "endDate" : "2022-12-08 12:00:00",
-  "location" : "NI:A0306 NI:A0307"
-}, {
-  "index" : 186,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U3) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-12-08 13:15:00",
-  "endDate" : "2022-12-08 15:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 187,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U3) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-12-08 15:15:00",
-  "endDate" : "2022-12-08 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 188,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: F25 ",
-  "startDate" : "2022-12-09 08:15:00",
-  "endDate" : "2022-12-09 10:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 189,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Teoriövning 3 SYS2 ",
-  "startDate" : "2022-12-12 09:15:00",
-  "endDate" : "2022-12-12 12:00:00",
-  "location" : "NI:A0306 NI:A0307"
-}, {
-  "index" : 190,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 11 ",
-  "startDate" : "2022-12-12 14:15:00",
-  "endDate" : "2022-12-12 16:00:00",
-  "location" : "NI:B0E15"
-}, {
-  "index" : 191,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: labbhjälp (kurstakt U3), Sys1, Sys2, Sys3, Sys4 ",
-  "startDate" : "2022-12-12 15:15:00",
-  "endDate" : "2022-12-12 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 192,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: DEADLINE U3, ordinarie ",
-  "startDate" : "2022-12-12 23:58:00",
-  "endDate" : "2022-12-12 23:59:00",
-  "location" : ""
-}, {
-  "index" : 193,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Genomgång U4 ",
-  "startDate" : "2022-12-13 10:15:00",
-  "endDate" : "2022-12-13 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 194,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
-  "moment" : "Moment: Föreläsning 12 ",
-  "startDate" : "2022-12-13 13:15:00",
-  "endDate" : "2022-12-13 15:00:00",
-  "location" : "NI:B0E07"
-}, {
-  "index" : 195,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U3, ordinarie ",
-  "startDate" : "2022-12-14 08:15:00",
-  "endDate" : "2022-12-14 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 196,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U3, ordinarie ",
-  "startDate" : "2022-12-14 13:15:00",
-  "endDate" : "2022-12-14 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 197,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U3, ordinarie ",
-  "startDate" : "2022-12-15 08:15:00",
-  "endDate" : "2022-12-15 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 198,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
-  "moment" : "Moment: Datorlabb 3 SYS1 ",
-  "startDate" : "2022-12-15 09:15:00",
-  "endDate" : "2022-12-15 12:00:00",
-  "location" : "OR:D331A OR:D331BC"
-}, {
-  "index" : 199,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L25) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-12-15 13:15:00",
-  "endDate" : "2022-12-15 15:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 200,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U3, ordinarie ",
-  "startDate" : "2022-12-15 13:15:00",
-  "endDate" : "2022-12-15 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 201,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt L25) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-12-15 15:15:00",
-  "endDate" : "2022-12-15 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 202,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
-  "moment" : "Moment: labbhjälp (kurstakt U4) Sys1, Sys2, Sys3, Sys4 ",
-  "startDate" : "2022-12-16 10:15:00",
-  "endDate" : "2022-12-16 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 203,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
-  "moment" : "Moment: Datorlabb 3 SYS2 ",
-  "startDate" : "2022-12-19 09:15:00",
-  "endDate" : "2022-12-19 12:00:00",
-  "location" : "OR:D331A OR:D331BC"
-}, {
-  "index" : 204,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U4) Sys1, Sys2, DT1 ",
-  "startDate" : "2022-12-19 10:15:00",
-  "endDate" : "2022-12-19 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 205,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U4) Sys3, Sys4, DT2 ",
-  "startDate" : "2022-12-19 13:15:00",
-  "endDate" : "2022-12-19 15:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 206,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
-  "moment" : "Moment: Datorlabb 4 SYS1 ",
-  "startDate" : "2022-12-19 13:15:00",
-  "endDate" : "2022-12-19 16:00:00",
-  "location" : "OR:D331A OR:D331BC"
-}, {
-  "index" : 207,
-  "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
-  "moment" : "Moment: Workshop Under huven, omtillfälle 2, STARTAR 13.15 till 15.00 ",
-  "startDate" : "2022-12-19 13:15:00",
-  "endDate" : "2022-12-19 16:00:00",
-  "location" : "OR:C127"
-}, {
-  "index" : 208,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
-  "moment" : "Moment: Datorlabb 4 SYS2 ",
-  "startDate" : "2022-12-20 13:15:00",
-  "endDate" : "2022-12-20 16:00:00",
-  "location" : "OR:D331A OR:D331BC"
-}, {
-  "index" : 209,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Frågor inför tentamen ",
-  "startDate" : "2023-01-03 10:15:00",
-  "endDate" : "2023-01-03 12:00:00",
-  "location" : "OR:D131"
-}, {
-  "index" : 210,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U4) ",
-  "startDate" : "2023-01-04 08:15:00",
-  "endDate" : "2023-01-04 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 211,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Workshoptillfälle L19 OBLIGATORISK, omtillfälle 2, sista garanterade tillfället som ges ",
-  "startDate" : "2023-01-04 10:15:00",
-  "endDate" : "2023-01-04 12:00:00",
-  "location" : "NI:A0606"
-}, {
-  "index" : 212,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Salstentamen Ordinarie tillfälle. 2002 Tentamen 2 Hjälpm.: TS ",
-  "startDate" : "2023-01-05 08:15:00",
-  "endDate" : "2023-01-05 13:15:00",
-  "location" : "KR:Tentasal 1-6"
-}, {
-  "index" : 213,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
-  "moment" : "Moment: Salstentamen - Digitamen Ordinarie tillfälle. 2001 Hjälpm.: TS ",
-  "startDate" : "2023-01-09 08:15:00",
-  "endDate" : "2023-01-09 12:15:00",
-  "location" : "KR:Tentasal 1-6"
-}, {
-  "index" : 214,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U4) ",
-  "startDate" : "2023-01-09 13:15:00",
-  "endDate" : "2023-01-09 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 215,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: labbhjälp (kurstakt U4) ",
-  "startDate" : "2023-01-10 08:15:00",
-  "endDate" : "2023-01-10 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 216,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
-  "moment" : "Moment: Tider för projektredovisning ",
-  "startDate" : "2023-01-10 13:15:00",
-  "endDate" : "2023-01-10 17:00:00",
-  "location" : "NI:A0314"
-}, {
-  "index" : 217,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: DEADLINE U3, omtillfälle ",
-  "startDate" : "2023-01-10 23:58:00",
-  "endDate" : "2023-01-10 23:59:00",
-  "location" : ""
-}, {
-  "index" : 218,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: redovisning U3, omtillälle 1 (hjälp U4 om resurser finns, beror på antal som ska redovisa U3) ",
-  "startDate" : "2023-01-11 08:15:00",
-  "endDate" : "2023-01-11 12:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
-}, {
-  "index" : 219,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
-  "moment" : "Moment: Tider för projektredovisning ",
-  "startDate" : "2023-01-11 08:15:00",
-  "endDate" : "2023-01-11 12:00:00",
-  "location" : "OR:E323"
-}, {
-  "index" : 220,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: DEADLINE U4, ordinarie ",
-  "startDate" : "2023-01-11 23:58:00",
-  "endDate" : "2023-01-11 23:59:00",
-  "location" : ""
-}, {
-  "index" : 221,
-  "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
-  "moment" : "Moment: Tider för projektredovisning ",
-  "startDate" : "2023-01-12 08:15:00",
-  "endDate" : "2023-01-12 12:00:00",
-  "location" : "NI:A0314"
-}, {
-  "index" : 222,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U4, ordinarie tillfälle, Systemutvecklare (om behov av fler tider än vad som finns fredag) ",
-  "startDate" : "2023-01-12 13:15:00",
-  "endDate" : "2023-01-12 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 223,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Redovisning U4, ordinarie tillfälle ",
-  "startDate" : "2023-01-13 08:15:00",
-  "endDate" : "2023-01-13 17:00:00",
-  "location" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
-}, {
-  "index" : 224,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Salstentamen Omtentamen 1 2001 Tentamen 1 Hjälpm.: TS ",
-  "startDate" : "2023-01-27 08:15:00",
-  "endDate" : "2023-01-27 13:15:00",
-  "location" : "KR:Tentasal 1-6"
-}, {
-  "index" : 225,
-  "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
-  "moment" : "Moment: Salstentamen Omtentamen 1 2002 Tentamen 2 Hjälpm.: TS ",
-  "startDate" : "2023-02-10 14:15:00",
-  "endDate" : "2023-02-10 19:15:00",
-  "location" : "KR:Tentasal 1-6"
-} ]
+{
+  "events" : [ {
+    "index" : 0,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: L2 Sys1, Sys2 Ta gärna med egen dator för att sätta upp miljö som behövs på kursen och göra hela eller delar av labben på denna. Det finns datorer i salarna för de som hellre anvädner dessa än egen dator. ",
+    "startDate" : "2022-09-02 08:15:00",
+    "endDate" : "2022-09-02 10:00:00",
+    "locationName" : "OR:D331A OR:D331B OR:D331C"
+  }, {
+    "index" : 1,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: L2 Sys3, Sys4 Ta gärna med egen dator för att sätta upp miljö som behövs på kursen och göra hela eller delar av labben på denna. Det finns datorer i salarna för de som hellre anvädner dessa än egen dator. ",
+    "startDate" : "2022-09-02 10:15:00",
+    "endDate" : "2022-09-02 12:00:00",
+    "locationName" : "OR:D331A OR:D331B OR:D331C"
+  }, {
+    "index" : 2,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Akademiskt skrivande 2: Språk i akademisk text  ",
+    "startDate" : "2022-09-02 13:15:00",
+    "endDate" : "2022-09-02 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 3,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Datavetenskap 1, Genomgång Uppgift 1 Datavetenskap ",
+    "startDate" : "2022-09-05 09:15:00",
+    "endDate" : "2022-09-05 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 4,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F3 ",
+    "startDate" : "2022-09-05 15:15:00",
+    "endDate" : "2022-09-05 17:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 5,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L3) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-09-06 08:15:00",
+    "endDate" : "2022-09-06 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 6,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL Program: TGSYA22h",
+    "description" : "Moment: Workshop Studieteknik, Sys3, Sys4 (samma grupper som på DA339A), ordinarie tillfälle ",
+    "startDate" : "2022-09-06 08:15:00",
+    "endDate" : "2022-09-06 10:00:00",
+    "locationName" : "NI:A0506 NI:A0606 NI:A0607"
+  }, {
+    "index" : 7,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL Program: TGSYA22h",
+    "description" : "Moment: Workshop Studieteknik, Sys1, Sys2 (samma grupper som på DA339A), ordinarie tillfälle ",
+    "startDate" : "2022-09-06 10:15:00",
+    "endDate" : "2022-09-06 12:00:00",
+    "locationName" : "NI:A0506 NI:A0606 NI:A0607"
+  }, {
+    "index" : 8,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L3) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-09-06 10:15:00",
+    "endDate" : "2022-09-06 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 9,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Akademiskt skrivande 2: Referenssystem  ",
+    "startDate" : "2022-09-06 13:15:00",
+    "endDate" : "2022-09-06 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 10,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F4 ",
+    "startDate" : "2022-09-07 15:15:00",
+    "endDate" : "2022-09-07 17:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 11,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-09-08 08:15:00",
+    "endDate" : "2022-09-08 10:00:00",
+    "locationName" : "NI:B0317"
+  }, {
+    "index" : 12,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F5 ",
+    "startDate" : "2022-09-08 13:15:00",
+    "endDate" : "2022-09-08 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 13,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Datavetenskap 2 ",
+    "startDate" : "2022-09-08 15:15:00",
+    "endDate" : "2022-09-08 17:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 14,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Workshoptillfälle L4 Sys3, Sys4 OBLIGATORISK, ordinarie tillfälle ",
+    "startDate" : "2022-09-09 08:15:00",
+    "endDate" : "2022-09-09 10:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 15,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Workshoptillfälle L4 Sys1, Sys2 OBLIGATORISK, ordinarie tillfälle ",
+    "startDate" : "2022-09-09 10:15:00",
+    "endDate" : "2022-09-09 12:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 16,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Datavetenskap 3 ",
+    "startDate" : "2022-09-09 13:15:00",
+    "endDate" : "2022-09-09 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 17,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Studieteknik 2: Lässtrategier och skrivprocess ",
+    "startDate" : "2022-09-12 10:15:00",
+    "endDate" : "2022-09-12 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 18,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F6 Information med TS studievägledning generellt om studier på universitet och vad studievägledningen kan hjälpa till med ",
+    "startDate" : "2022-09-12 13:15:00",
+    "endDate" : "2022-09-12 16:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 19,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L5) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-09-13 08:15:00",
+    "endDate" : "2022-09-13 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 20,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L5) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-09-13 10:15:00",
+    "endDate" : "2022-09-13 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 21,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 TSKRAL Program: TGSYA22h",
+    "description" : "Moment: Övning referenshantering Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-09-13 15:15:00",
+    "endDate" : "2022-09-13 17:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 22,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AH5388 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Akademiskt skrivande 4: Informationssökning ",
+    "startDate" : "2022-09-14 08:15:00",
+    "endDate" : "2022-09-14 10:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 23,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F7 ",
+    "startDate" : "2022-09-14 13:15:00",
+    "endDate" : "2022-09-14 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 24,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 TSKRAL Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Övning referenshantering Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-09-14 15:15:00",
+    "endDate" : "2022-09-14 17:00:00",
+    "locationName" : "OR:F413 OR:F415"
+  }, {
+    "index" : 25,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSKRAL Program: TGSYA22h",
+    "description" : "Moment: Läsgruppsmöte D1 Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-09-15 08:15:00",
+    "endDate" : "2022-09-15 10:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:B0305 NI:B0314 NI:B0317 NI:C0306 NI:C0309 NI:C0312"
+  }, {
+    "index" : 26,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSKRAL Program: TGSYA22h",
+    "description" : "Moment: Läsgruppsmöte D1 Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-09-15 10:15:00",
+    "endDate" : "2022-09-15 12:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:B0305 NI:B0314 NI:B0317 NI:C0306 NI:C0309 NI:C0312"
+  }, {
+    "index" : 27,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AH5388 Program: TGSYA22h",
+    "description" : "Moment: Workshop Informationssökning, Sys Läsgrupper xx-yy OBLIGATORISK, Salar i Orkanen-biblioteket ",
+    "startDate" : "2022-09-15 10:15:00",
+    "endDate" : "2022-09-15 12:00:00",
+    "locationName" : ""
+  }, {
+    "index" : 28,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F8 ",
+    "startDate" : "2022-09-15 13:15:00",
+    "endDate" : "2022-09-15 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 29,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: labbhjälp (kurstakt L6) Sys1, Sys2 ",
+    "startDate" : "2022-09-16 08:15:00",
+    "endDate" : "2022-09-16 10:00:00",
+    "locationName" : "NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 30,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: labbhjälp (kurstakt L6) Sys3, Sys4 ",
+    "startDate" : "2022-09-16 10:15:00",
+    "endDate" : "2022-09-16 12:00:00",
+    "locationName" : "NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 31,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AH5388 Program: TGSYA22h",
+    "description" : "Moment: Workshop Informationssökning, Sys Läsgrupper xx-yy OBLIGATORISK, Salar i Orkanen-biblioteket ",
+    "startDate" : "2022-09-16 13:15:00",
+    "endDate" : "2022-09-16 15:00:00",
+    "locationName" : ""
+  }, {
+    "index" : 32,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Workshop Studieteknik, omtillfälle 1 ",
+    "startDate" : "2022-09-19 10:15:00",
+    "endDate" : "2022-09-19 12:00:00",
+    "locationName" : "OR:F415"
+  }, {
+    "index" : 33,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F9 ",
+    "startDate" : "2022-09-19 13:15:00",
+    "endDate" : "2022-09-19 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 34,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AH5388 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Akademiskt skrivande 5: Källkritik  ",
+    "startDate" : "2022-09-19 15:15:00",
+    "endDate" : "2022-09-19 17:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 35,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L7) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-09-20 08:15:00",
+    "endDate" : "2022-09-20 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 36,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L7) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-09-20 10:15:00",
+    "endDate" : "2022-09-20 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 37,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-09-20 13:15:00",
+    "endDate" : "2022-09-20 15:00:00",
+    "locationName" : "NI:A0301"
+  }, {
+    "index" : 38,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSANTI Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Akademiskt skrivande 6: Förhållningssätt till data och information ",
+    "startDate" : "2022-09-20 15:15:00",
+    "endDate" : "2022-09-20 17:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 39,
+    "summary" : "Kurs.grp: 1300 - MAU - Studentkåren Program: SGPRM20h SGPRM21h TACMA21h TACMA22h1 TACMA22h2 TAICS21h TAICS22h TASME21h TASME22h1 TASME22h2 TGIAA20h TGIAA21h TGIAA22h TGITA20h TGITA21h TGITA22h TGMMA22h TGMPP20h TGMPP21h TGSPA20h TGSPA21h TGSPA22h TGSYA20h TGSYA21h TGSYA22h TGWDU22h THBYB20hBPRO THBYB20hBTEK THBYB20hTARK THBYB21hBPRO THBYB21hBTEK THBYB21hTARK THBYB22hBPRO THBYB22hBTEK THBYB22hTARK THDTB20h THDTB21h THDTB22h THMMA20h THMMA21h THMMA22h THPDA20h THPDA21h THPDA22h",
+    "description" : "Moment: Forum Teknik och samhälle och Lärande och samhälle - Val av studentrepresentanter, se info; https://malmostudenter.se/nyheter/kom-till-forum-paverka-din-utbildning/ ",
+    "startDate" : "2022-09-20 17:15:00",
+    "endDate" : "2022-09-20 19:00:00",
+    "locationName" : "NI:A0311"
+  }, {
+    "index" : 40,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Akademiskt skrivande 7: Kamratgranskning, Genomgång av verktyg för kamratgranskning i Canvas ",
+    "startDate" : "2022-09-21 09:15:00",
+    "endDate" : "2022-09-21 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 41,
+    "summary" : "Kurs.grp: 1052-Utbildningskommunikation och studentrekrytering  Sign: ADDOGO AG5295 AI3748 AL6219 AL6220 AM6662 Program: NZNTC20h NZNTC21h NZNTC22h SGPRM20h SGPRM21h TACAS20h TACAS20h1 TACAS21h TACAS21h1 TACAS22h TACAS22h1 TACMA20h TACMA20h1 TACMA21h TACMA21h1 TACMA22h1 TACMA22h2 TAICS20h TAICS20h1 TAICS21h TAICS21h1 TAICS22h TAICS22h1 TASME20h TASME20h1 TASME21h TASME21h1 TASME22h1 TASME22h2 TGIAA20h TGIAA21h TGIAA22h TGITA20h TGITA21h TGITA22h TGMMA22h TGMPP20h TGMPP21h TGSPA20h TGSPA21h TGSPA22h TGSYA20h TGSYA21h TGSYA22h TGWDU22h THBYB20hBPRO THBYB20hBTEK THBYB20hTARK THBYB21hBPRO THBYB21hBTEK THBYB21hTARK THBYB22hBPRO THBYB22hBTEK THBYB22hTARK THDTB20h THDTB21h THDTB22h THMMA20h THMMA21h THMMA22h THPDA20h THPDA21h THPDA22h",
+    "description" : "Moment: TS Fikan / Daniel Harju Popow ",
+    "startDate" : "2022-09-21 12:15:00",
+    "endDate" : "2022-09-21 16:00:00",
+    "locationName" : "NI:A0502 NI:A0506"
+  }, {
+    "index" : 42,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: labbhjälp (kurstakt L8) Sys1, Sys2, Sys3, Sys4 ",
+    "startDate" : "2022-09-21 15:15:00",
+    "endDate" : "2022-09-21 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
+  }, {
+    "index" : 43,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 TSKRAL Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Övning Kamratgranskning Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-09-22 08:15:00",
+    "endDate" : "2022-09-22 10:00:00",
+    "locationName" : "NI:A0406 NI:A0407"
+  }, {
+    "index" : 44,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Läsgruppsmöte D2 Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-09-22 08:15:00",
+    "endDate" : "2022-09-22 10:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:B0305 NI:B0314 NI:B0317 NI:C0306 NI:C0309 NI:C0312"
+  }, {
+    "index" : 45,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Läsgruppsmöte D2 Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-09-22 10:15:00",
+    "endDate" : "2022-09-22 12:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:B0305 NI:B0314 NI:B0317 NI:C0306 NI:C0309 NI:C0312"
+  }, {
+    "index" : 46,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0474 TSKRAL Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Övning Kamratgranskning Läsgrupper xx-yy ",
+    "startDate" : "2022-09-22 10:15:00",
+    "endDate" : "2022-09-22 12:00:00",
+    "locationName" : "NI:A0406 NI:A0407"
+  }, {
+    "index" : 47,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F10 ",
+    "startDate" : "2022-09-22 13:15:00",
+    "endDate" : "2022-09-22 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 48,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-09-22 15:15:00",
+    "endDate" : "2022-09-22 17:00:00",
+    "locationName" : "NI:B0314"
+  }, {
+    "index" : 49,
+    "summary" : "Kurs.grp: 1300 - MAU - Studentkåren Program: SGPRM20h SGPRM21h TACMA21h TACMA22h1 TACMA22h2 TAICS21h TAICS22h TASME21h TASME22h1 TASME22h2 TGIAA20h TGIAA21h TGIAA22h TGITA20h TGITA21h TGITA22h TGMMA22h TGMPP20h TGMPP21h TGSPA20h TGSPA21h TGSPA22h TGSYA20h TGSYA21h TGSYA22h TGWDU22h THBYB20hBPRO THBYB20hBTEK THBYB20hTARK THBYB21hBPRO THBYB21hBTEK THBYB21hTARK THBYB22hBPRO THBYB22hBTEK THBYB22hTARK THDTB20h THDTB21h THDTB22h THMMA20h THMMA21h THMMA22h THPDA20h THPDA21h THPDA22h",
+    "description" : "Moment: Forum Teknik och samhälle och Lärande och samhälle - Val av studentrepresentanter, se info; https://malmostudenter.se/nyheter/kom-till-forum-paverka-din-utbildning/ ",
+    "startDate" : "2022-09-22 17:15:00",
+    "endDate" : "2022-09-22 19:00:00",
+    "locationName" : "NI:A0311"
+  }, {
+    "index" : 50,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L4 OBLIGATORISK, omtillfälle 1 ",
+    "startDate" : "2022-09-23 13:15:00",
+    "endDate" : "2022-09-23 15:00:00",
+    "locationName" : "NI:A0606"
+  }, {
+    "index" : 51,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: DEADLINE Uppgift 1 Datavetenskap, version 1, ordinarie tillfälle ",
+    "startDate" : "2022-09-25 23:58:00",
+    "endDate" : "2022-09-25 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 52,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Workshop Under huven, 2 timmar/grupp ",
+    "startDate" : "2022-09-26 08:15:00",
+    "endDate" : "2022-09-26 17:00:00",
+    "locationName" : "OR:C127"
+  }, {
+    "index" : 53,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Workshoptillfälle L9 Sys1, Sys2 ",
+    "startDate" : "2022-09-26 13:15:00",
+    "endDate" : "2022-09-26 15:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 54,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Workshoptillfälle L9 Sys3, Sys4 ",
+    "startDate" : "2022-09-26 15:15:00",
+    "endDate" : "2022-09-26 17:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 55,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F11 ",
+    "startDate" : "2022-09-27 10:15:00",
+    "endDate" : "2022-09-27 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 56,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-09-27 13:15:00",
+    "endDate" : "2022-09-27 15:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 57,
+    "summary" : "Kurs.grp: TS - Datavetenskap Sign: TSKRAL Program: TGSYA22h",
+    "description" : "Moment: Drop-in med introduktionsmentor Eric. Tema: \"Upptakt – hur känns det efter en månad på Systemutvecklare?\" ",
+    "startDate" : "2022-09-27 13:15:00",
+    "endDate" : "2022-09-27 15:00:00",
+    "locationName" : "NI:B0E15"
+  }, {
+    "index" : 58,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F: Akademiskt skrivande 8: Presentationsteknik   ",
+    "startDate" : "2022-09-28 10:15:00",
+    "endDate" : "2022-09-28 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 59,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L10) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-09-28 13:15:00",
+    "endDate" : "2022-09-28 15:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
+  }, {
+    "index" : 60,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L10) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-09-28 15:15:00",
+    "endDate" : "2022-09-28 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
+  }, {
+    "index" : 61,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Workshop Under huven, 2 timmar/grupp ",
+    "startDate" : "2022-09-29 08:15:00",
+    "endDate" : "2022-09-29 17:00:00",
+    "locationName" : "OR:B231c"
+  }, {
+    "index" : 62,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Genomgång U1 ",
+    "startDate" : "2022-09-29 13:15:00",
+    "endDate" : "2022-09-29 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 63,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-10-03 13:15:00",
+    "endDate" : "2022-10-03 15:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 64,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Workshop Studieteknik, omtillfälle 2 ",
+    "startDate" : "2022-10-03 15:15:00",
+    "endDate" : "2022-10-03 17:00:00",
+    "locationName" : "NI:A0513"
+  }, {
+    "index" : 65,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: DEADLINE Uppgift 1 Datavetenskap, kamratgranskning, ordinarie tillfälle ",
+    "startDate" : "2022-10-03 23:58:00",
+    "endDate" : "2022-10-03 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 66,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U1) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-10-04 08:15:00",
+    "endDate" : "2022-10-04 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 67,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U1) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-10-04 10:15:00",
+    "endDate" : "2022-10-04 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 68,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Muntliga presentationer, 2 timmar/grupp ",
+    "startDate" : "2022-10-04 13:15:00",
+    "endDate" : "2022-10-04 17:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401"
+  }, {
+    "index" : 69,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Muntliga presentationer, 2 timmar/grupp ",
+    "startDate" : "2022-10-05 08:15:00",
+    "endDate" : "2022-10-05 12:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401"
+  }, {
+    "index" : 70,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U1) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-10-05 13:15:00",
+    "endDate" : "2022-10-05 15:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
+  }, {
+    "index" : 71,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L4 OBLIGATORISK, omtillfälle 2 - sista garanterade tillfället som ges ",
+    "startDate" : "2022-10-05 13:15:00",
+    "endDate" : "2022-10-05 15:00:00",
+    "locationName" : "NI:A0606"
+  }, {
+    "index" : 72,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U1) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-10-05 15:15:00",
+    "endDate" : "2022-10-05 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
+  }, {
+    "index" : 73,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Muntliga presentationer, 2 timmar/grupp ",
+    "startDate" : "2022-10-06 08:15:00",
+    "endDate" : "2022-10-06 12:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401"
+  }, {
+    "index" : 74,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-10-06 13:15:00",
+    "endDate" : "2022-10-06 15:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 75,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0336 TSKRAL TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Muntliga presentationer, 2 timmar/grupp, Sys ",
+    "startDate" : "2022-10-07 08:15:00",
+    "endDate" : "2022-10-07 12:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401"
+  }, {
+    "index" : 76,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: DEADLINE Uppgift 1 Datavetenskap, version 2, ordinarie tillfälle ",
+    "startDate" : "2022-10-09 23:58:00",
+    "endDate" : "2022-10-09 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 77,
+    "summary" : "Kurs.grp: TS - Datavetenskap Sign: TSKRAL Program: TGSYA22h",
+    "description" : "Moment: Drop-in med introduktionsmentor Eric. Tema: ”Första tentan – hur är det att skriva tenta på Mau?”. Du kan givetvis fråga om allt möjligt som du undrar över och skulle vilja få lite hjälp att förstå. ",
+    "startDate" : "2022-10-10 10:15:00",
+    "endDate" : "2022-10-10 12:00:00",
+    "locationName" : "NI:C0319"
+  }, {
+    "index" : 78,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F Etik 1, Genomgång Uppgift 2 Etik ",
+    "startDate" : "2022-10-10 13:15:00",
+    "endDate" : "2022-10-10 16:00:00",
+    "locationName" : "OR:D138"
+  }, {
+    "index" : 79,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U1 ",
+    "startDate" : "2022-10-11 08:15:00",
+    "endDate" : "2022-10-11 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 80,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F Etik 2, Genomgång Etik-seminarium ",
+    "startDate" : "2022-10-11 13:15:00",
+    "endDate" : "2022-10-11 16:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 81,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U1 ",
+    "startDate" : "2022-10-12 08:15:00",
+    "endDate" : "2022-10-12 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
+  }, {
+    "index" : 82,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-10-12 10:15:00",
+    "endDate" : "2022-10-12 12:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 83,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U1 ",
+    "startDate" : "2022-10-12 13:15:00",
+    "endDate" : "2022-10-12 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
+  }, {
+    "index" : 84,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F Etik 3 ",
+    "startDate" : "2022-10-13 08:15:00",
+    "endDate" : "2022-10-13 10:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 85,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Läsgruppsmöte E1 Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-10-13 10:15:00",
+    "endDate" : "2022-10-13 12:00:00",
+    "locationName" : "G8:253 NI:A0301 NI:A0322 NI:A0422 NI:A0614 NI:B0303 NI:C0312 OR:B231a OR:B422 OR:C235 OR:C236 OR:E235"
+  }, {
+    "index" : 86,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Läsgruppsmöte E1 Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-10-13 13:15:00",
+    "endDate" : "2022-10-13 15:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:B0303 NI:B0321 NI:C0305 NI:C0306 NI:C0309 NI:C0312 NI:C0401 NI:C0402"
+  }, {
+    "index" : 87,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Frågor inför tenta ",
+    "startDate" : "2022-10-13 15:15:00",
+    "endDate" : "2022-10-13 17:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 88,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: Redovisning U1 Sys ",
+    "startDate" : "2022-10-14 08:15:00",
+    "endDate" : "2022-10-14 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 89,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Salstentamen Ordinarie tillfälle. 2001 Tentamen 1 Hjälpm.: TS ",
+    "startDate" : "2022-10-17 14:15:00",
+    "endDate" : "2022-10-17 19:15:00",
+    "locationName" : "KR:Tentasal 1-6"
+  }, {
+    "index" : 90,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L11) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-10-18 08:15:00",
+    "endDate" : "2022-10-18 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 91,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L11) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-10-18 10:15:00",
+    "endDate" : "2022-10-18 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 92,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-10-18 13:15:00",
+    "endDate" : "2022-10-18 15:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 93,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F12 ",
+    "startDate" : "2022-10-19 13:15:00",
+    "endDate" : "2022-10-19 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 94,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Läsgruppsmöte E2 Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-10-20 10:15:00",
+    "endDate" : "2022-10-20 12:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:C0306 NI:C0309 NI:C0312 OR:B231a OR:C236 OR:E235"
+  }, {
+    "index" : 95,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-10-20 13:15:00",
+    "endDate" : "2022-10-20 15:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 96,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AN0336 TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Läsgruppsmöte E2 Sys Läsgrupper xx-yy ",
+    "startDate" : "2022-10-20 15:15:00",
+    "endDate" : "2022-10-20 17:00:00",
+    "locationName" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:A0614 NI:B0303 NI:C0306 NI:C0309 NI:C0312 OR:B231a OR:C236 OR:E235"
+  }, {
+    "index" : 97,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Workshoptillfälle L12 Sys3, Sys4 ",
+    "startDate" : "2022-10-21 08:15:00",
+    "endDate" : "2022-10-21 10:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 98,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h",
+    "description" : "Moment: Workshoptillfälle L12 Sys1, Sys2 ",
+    "startDate" : "2022-10-21 10:15:00",
+    "endDate" : "2022-10-21 12:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 99,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F13 ",
+    "startDate" : "2022-10-24 13:15:00",
+    "endDate" : "2022-10-24 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 100,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L13) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-10-25 08:15:00",
+    "endDate" : "2022-10-25 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 101,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L13) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-10-25 10:15:00",
+    "endDate" : "2022-10-25 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 102,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
+    "startDate" : "2022-10-26 08:15:00",
+    "endDate" : "2022-10-26 12:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 103,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F14 ",
+    "startDate" : "2022-10-26 13:15:00",
+    "endDate" : "2022-10-26 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 104,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L14 DT1, DT2, Sys4 ",
+    "startDate" : "2022-10-27 08:15:00",
+    "endDate" : "2022-10-27 10:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 105,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L14 Sys1, Sys2, Sys3 ",
+    "startDate" : "2022-10-27 10:15:00",
+    "endDate" : "2022-10-27 12:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 106,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-10-27 13:15:00",
+    "endDate" : "2022-10-27 15:00:00",
+    "locationName" : "NI:C0301"
+  }, {
+    "index" : 107,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
+    "startDate" : "2022-10-27 13:15:00",
+    "endDate" : "2022-10-27 17:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 108,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L15) Sys1, Sys2 ",
+    "startDate" : "2022-10-28 08:15:00",
+    "endDate" : "2022-10-28 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 109,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L15) Sys3, Sys4 ",
+    "startDate" : "2022-10-28 10:15:00",
+    "endDate" : "2022-10-28 12:00:00",
+    "locationName" : "NI:A0311 NI:A0314 NI:A0318 NI:A0406"
+  }, {
+    "index" : 110,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
+    "startDate" : "2022-10-28 13:15:00",
+    "endDate" : "2022-10-28 17:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 111,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
+    "description" : "Moment: DEADLINE U1, omtillfälle 1 ",
+    "startDate" : "2022-10-30 23:58:00",
+    "endDate" : "2022-10-30 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 112,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
+    "startDate" : "2022-10-31 08:15:00",
+    "endDate" : "2022-10-31 12:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 113,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F15, Genomgång U2 ",
+    "startDate" : "2022-10-31 13:15:00",
+    "endDate" : "2022-10-31 16:00:00",
+    "locationName" : "NI:C0E11"
+  }, {
+    "index" : 114,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: DEADLINE: Uppgift 2 Etik, kamratgranskning, ordinarie tillfälle ",
+    "startDate" : "2022-10-31 23:58:00",
+    "endDate" : "2022-10-31 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 115,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U1, omtillfälle 1, handledning om tillgängliga resurser finns (beror på antal som ska redovisa U1) ",
+    "startDate" : "2022-11-01 08:15:00",
+    "endDate" : "2022-11-01 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 116,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
+    "startDate" : "2022-11-01 13:15:00",
+    "endDate" : "2022-11-01 17:00:00",
+    "locationName" : "NI:C0205"
+  }, {
+    "index" : 117,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
+    "startDate" : "2022-11-02 08:15:00",
+    "endDate" : "2022-11-02 12:00:00",
+    "locationName" : "NI:B0314"
+  }, {
+    "index" : 118,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Drop-in-hjälp uppsats ",
+    "startDate" : "2022-11-02 10:15:00",
+    "endDate" : "2022-11-02 12:00:00",
+    "locationName" : "NI:C0312"
+  }, {
+    "index" : 119,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L16) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-11-02 13:15:00",
+    "endDate" : "2022-11-02 15:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
+  }, {
+    "index" : 120,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L16) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-11-02 15:15:00",
+    "endDate" : "2022-11-02 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0418"
+  }, {
+    "index" : 121,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Etik-seminarier 3 grupper, 1h/grupp IA ",
+    "startDate" : "2022-11-03 08:15:00",
+    "endDate" : "2022-11-03 12:00:00",
+    "locationName" : "NI:C0301"
+  }, {
+    "index" : 122,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F16 ",
+    "startDate" : "2022-11-03 10:15:00",
+    "endDate" : "2022-11-03 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 123,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Etik-seminarier 3 grupper, 1h/grupp ",
+    "startDate" : "2022-11-03 13:15:00",
+    "endDate" : "2022-11-03 17:00:00",
+    "locationName" : "NI:C0301"
+  }, {
+    "index" : 124,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U2) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-11-04 08:15:00",
+    "endDate" : "2022-11-04 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 125,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U2) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-11-04 10:15:00",
+    "endDate" : "2022-11-04 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 126,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 TSKRAL Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: F Datavetenskap 4, Kursavslutning ",
+    "startDate" : "2022-11-04 13:15:00",
+    "endDate" : "2022-11-04 16:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 127,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: DEADLINE: Uppgift 2 Etik, version 2, ordinarie tillfälle ",
+    "startDate" : "2022-11-06 23:58:00",
+    "endDate" : "2022-11-06 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 128,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 1 ",
+    "startDate" : "2022-11-07 09:15:00",
+    "endDate" : "2022-11-07 11:00:00",
+    "locationName" : "NI:B0E07"
+  }, {
+    "index" : 129,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U2) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-11-07 13:15:00",
+    "endDate" : "2022-11-07 15:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 130,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U2) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-11-07 15:15:00",
+    "endDate" : "2022-11-07 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 131,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L17 DT1, DT2, Sys4 ",
+    "startDate" : "2022-11-08 08:15:00",
+    "endDate" : "2022-11-08 10:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 132,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L17 Sys1, Sys2, Sys3 ",
+    "startDate" : "2022-11-08 10:15:00",
+    "endDate" : "2022-11-08 12:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 133,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 2 ",
+    "startDate" : "2022-11-08 13:15:00",
+    "endDate" : "2022-11-08 15:00:00",
+    "locationName" : "NI:B0E07"
+  }, {
+    "index" : 134,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F17 ",
+    "startDate" : "2022-11-09 10:15:00",
+    "endDate" : "2022-11-09 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 135,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Teoriövning 1 SYS1 ",
+    "startDate" : "2022-11-10 09:15:00",
+    "endDate" : "2022-11-10 12:00:00",
+    "locationName" : "NI:A0506 NI:A0507"
+  }, {
+    "index" : 136,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: labbhjälp (kurstakt L18) Sys3, Sys4 ",
+    "startDate" : "2022-11-10 10:15:00",
+    "endDate" : "2022-11-10 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 137,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: labbhjälp (kurstakt L18) Sys1, Sys2 ",
+    "startDate" : "2022-11-10 13:15:00",
+    "endDate" : "2022-11-10 15:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 138,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F18 ",
+    "startDate" : "2022-11-11 08:15:00",
+    "endDate" : "2022-11-11 10:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 139,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U2) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-11-11 13:15:00",
+    "endDate" : "2022-11-11 15:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 140,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U2) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-11-11 15:15:00",
+    "endDate" : "2022-11-11 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 141,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
+    "description" : "Moment: DEADLINE U2, ordinarie ",
+    "startDate" : "2022-11-13 23:58:00",
+    "endDate" : "2022-11-13 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 142,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Teoriövning 1 SYS2 ",
+    "startDate" : "2022-11-14 09:15:00",
+    "endDate" : "2022-11-14 12:00:00",
+    "locationName" : "NI:A0506 NI:A0507"
+  }, {
+    "index" : 143,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 3 ",
+    "startDate" : "2022-11-14 14:15:00",
+    "endDate" : "2022-11-14 16:00:00",
+    "locationName" : "NI:B0E07"
+  }, {
+    "index" : 144,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L19 DT1, DT2, Sys4 OBLIGATORISK, ordinarie tillfälle ",
+    "startDate" : "2022-11-15 08:15:00",
+    "endDate" : "2022-11-15 10:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 145,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L19 Sys1, Sys2, Sys3 OBLIGATORISK, ordinarie tillfälle ",
+    "startDate" : "2022-11-15 10:15:00",
+    "endDate" : "2022-11-15 12:00:00",
+    "locationName" : "NI:A0306 NI:A0307"
+  }, {
+    "index" : 146,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 4 ",
+    "startDate" : "2022-11-15 13:15:00",
+    "endDate" : "2022-11-15 15:00:00",
+    "locationName" : "NI:B0E07"
+  }, {
+    "index" : 147,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: Redovisning U2 Sys 1, Sys2 ",
+    "startDate" : "2022-11-15 15:15:00",
+    "endDate" : "2022-11-15 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 148,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: labbhjälp (kurstakt L20) Sys3, Sys4 ",
+    "startDate" : "2022-11-16 10:15:00",
+    "endDate" : "2022-11-16 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 149,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F19 ",
+    "startDate" : "2022-11-16 13:15:00",
+    "endDate" : "2022-11-16 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 150,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: redovisning U2 Sys3, Sys4 ",
+    "startDate" : "2022-11-17 08:15:00",
+    "endDate" : "2022-11-17 12:00:00",
+    "locationName" : "NI:A0306 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 151,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
+    "description" : "Moment: Datorlabb 1 SYS1 ",
+    "startDate" : "2022-11-17 09:15:00",
+    "endDate" : "2022-11-17 12:00:00",
+    "locationName" : "OR:D331A OR:D331BC"
+  }, {
+    "index" : 152,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: labbhjälp (kurstakt L20) Sys1, Sys2 ",
+    "startDate" : "2022-11-17 15:15:00",
+    "endDate" : "2022-11-17 17:00:00",
+    "locationName" : "NI:A0306 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 153,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F20 ",
+    "startDate" : "2022-11-18 08:15:00",
+    "endDate" : "2022-11-18 10:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 154,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: Redovisning U2 Sys1, Sys2 ",
+    "startDate" : "2022-11-18 10:15:00",
+    "endDate" : "2022-11-18 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 155,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 5 ",
+    "startDate" : "2022-11-21 09:15:00",
+    "endDate" : "2022-11-21 11:00:00",
+    "locationName" : "NI:B0E15"
+  }, {
+    "index" : 156,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
+    "description" : "Moment: Datorlabb 1 SYS2 ",
+    "startDate" : "2022-11-21 13:15:00",
+    "endDate" : "2022-11-21 16:00:00",
+    "locationName" : "OR:D331A OR:D331BC"
+  }, {
+    "index" : 157,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F21, Genomgång U3 ",
+    "startDate" : "2022-11-22 09:15:00",
+    "endDate" : "2022-11-22 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 158,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 6 ",
+    "startDate" : "2022-11-22 13:15:00",
+    "endDate" : "2022-11-22 15:00:00",
+    "locationName" : "NI:B0E07"
+  }, {
+    "index" : 159,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L21) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-11-23 08:15:00",
+    "endDate" : "2022-11-23 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 160,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L21) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-11-23 10:15:00",
+    "endDate" : "2022-11-23 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 161,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Teoriövning 2 SYS1 ",
+    "startDate" : "2022-11-24 09:15:00",
+    "endDate" : "2022-11-24 12:00:00",
+    "locationName" : "NI:A0306 NI:A0307"
+  }, {
+    "index" : 162,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L22, U3) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-11-24 13:15:00",
+    "endDate" : "2022-11-24 15:00:00",
+    "locationName" : "NI:A0306 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 163,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L22, U3) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-11-24 15:15:00",
+    "endDate" : "2022-11-24 17:00:00",
+    "locationName" : "NI:A0306 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 164,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L19 OBLIGATORISK, omtillfälle 1 ",
+    "startDate" : "2022-11-25 08:15:00",
+    "endDate" : "2022-11-25 10:00:00",
+    "locationName" : "NI:A0606"
+  }, {
+    "index" : 165,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
+    "description" : "Moment: DEADLINE U2, omtillfälle 1 ",
+    "startDate" : "2022-11-27 23:58:00",
+    "endDate" : "2022-11-27 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 166,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Teoriövning 2 SYS2 ",
+    "startDate" : "2022-11-28 09:15:00",
+    "endDate" : "2022-11-28 12:00:00",
+    "locationName" : "NI:A0506 NI:A0507"
+  }, {
+    "index" : 167,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 7 ",
+    "startDate" : "2022-11-28 13:15:00",
+    "endDate" : "2022-11-28 15:00:00",
+    "locationName" : "NI:B0E07"
+  }, {
+    "index" : 168,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: redovsning U2, omtillfälle 1 Sys ",
+    "startDate" : "2022-11-28 15:15:00",
+    "endDate" : "2022-11-28 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 169,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F22 ",
+    "startDate" : "2022-11-29 10:15:00",
+    "endDate" : "2022-11-29 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 170,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 8 (Online) ",
+    "startDate" : "2022-11-29 13:15:00",
+    "endDate" : "2022-11-29 15:00:00",
+    "locationName" : "NI:B0E07"
+  }, {
+    "index" : 171,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U3) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-11-30 08:15:00",
+    "endDate" : "2022-11-30 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 172,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U3) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-11-30 10:15:00",
+    "endDate" : "2022-11-30 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 173,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
+    "description" : "Moment: Datorlabb 2 SYS1 ",
+    "startDate" : "2022-12-01 09:15:00",
+    "endDate" : "2022-12-01 12:00:00",
+    "locationName" : "OR:D331A OR:D331BC"
+  }, {
+    "index" : 174,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F23 ",
+    "startDate" : "2022-12-01 13:15:00",
+    "endDate" : "2022-12-01 15:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 175,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U3) ",
+    "startDate" : "2022-12-01 15:15:00",
+    "endDate" : "2022-12-01 17:00:00",
+    "locationName" : "NI:A0306 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 176,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L23 DT1, DT2, Sys4 ",
+    "startDate" : "2022-12-02 08:15:00",
+    "endDate" : "2022-12-02 10:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 177,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L23 Sys1, Sys2, Sys3 ",
+    "startDate" : "2022-12-02 10:15:00",
+    "endDate" : "2022-12-02 12:00:00",
+    "locationName" : "NI:A0606 NI:A0607"
+  }, {
+    "index" : 178,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 9 ",
+    "startDate" : "2022-12-05 09:15:00",
+    "endDate" : "2022-12-05 11:00:00",
+    "locationName" : "NI:B0E15"
+  }, {
+    "index" : 179,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
+    "description" : "Moment: Datorlabb 2 SYS2 ",
+    "startDate" : "2022-12-05 13:15:00",
+    "endDate" : "2022-12-05 16:00:00",
+    "locationName" : "OR:D331A OR:D331BC"
+  }, {
+    "index" : 180,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F24 ",
+    "startDate" : "2022-12-06 10:15:00",
+    "endDate" : "2022-12-06 12:00:00",
+    "locationName" : "NI:C0E11"
+  }, {
+    "index" : 181,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 10 ",
+    "startDate" : "2022-12-06 13:15:00",
+    "endDate" : "2022-12-06 15:00:00",
+    "locationName" : "NI:B0E07"
+  }, {
+    "index" : 182,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
+    "description" : "Moment: Utfrågning om projektuppgifter ",
+    "startDate" : "2022-12-06 15:15:00",
+    "endDate" : "2022-12-06 17:00:00",
+    "locationName" : "NI:A0606"
+  }, {
+    "index" : 183,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L24) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-12-07 08:15:00",
+    "endDate" : "2022-12-07 10:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 184,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L24) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-12-07 10:15:00",
+    "endDate" : "2022-12-07 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 185,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Teoriövning 3 SYS1 ",
+    "startDate" : "2022-12-08 09:15:00",
+    "endDate" : "2022-12-08 12:00:00",
+    "locationName" : "NI:A0306 NI:A0307"
+  }, {
+    "index" : 186,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U3) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-12-08 13:15:00",
+    "endDate" : "2022-12-08 15:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 187,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U3) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-12-08 15:15:00",
+    "endDate" : "2022-12-08 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 188,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: F25 ",
+    "startDate" : "2022-12-09 08:15:00",
+    "endDate" : "2022-12-09 10:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 189,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Teoriövning 3 SYS2 ",
+    "startDate" : "2022-12-12 09:15:00",
+    "endDate" : "2022-12-12 12:00:00",
+    "locationName" : "NI:A0306 NI:A0307"
+  }, {
+    "index" : 190,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 11 ",
+    "startDate" : "2022-12-12 14:15:00",
+    "endDate" : "2022-12-12 16:00:00",
+    "locationName" : "NI:B0E15"
+  }, {
+    "index" : 191,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: labbhjälp (kurstakt U3), Sys1, Sys2, Sys3, Sys4 ",
+    "startDate" : "2022-12-12 15:15:00",
+    "endDate" : "2022-12-12 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 192,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
+    "description" : "Moment: DEADLINE U3, ordinarie ",
+    "startDate" : "2022-12-12 23:58:00",
+    "endDate" : "2022-12-12 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 193,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Genomgång U4 ",
+    "startDate" : "2022-12-13 10:15:00",
+    "endDate" : "2022-12-13 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 194,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AI3467 Program: TGSYA22h",
+    "description" : "Moment: Föreläsning 12 ",
+    "startDate" : "2022-12-13 13:15:00",
+    "endDate" : "2022-12-13 15:00:00",
+    "locationName" : "NI:B0E07"
+  }, {
+    "index" : 195,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U3, ordinarie ",
+    "startDate" : "2022-12-14 08:15:00",
+    "endDate" : "2022-12-14 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 196,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U3, ordinarie ",
+    "startDate" : "2022-12-14 13:15:00",
+    "endDate" : "2022-12-14 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 197,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U3, ordinarie ",
+    "startDate" : "2022-12-15 08:15:00",
+    "endDate" : "2022-12-15 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 198,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
+    "description" : "Moment: Datorlabb 3 SYS1 ",
+    "startDate" : "2022-12-15 09:15:00",
+    "endDate" : "2022-12-15 12:00:00",
+    "locationName" : "OR:D331A OR:D331BC"
+  }, {
+    "index" : 199,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L25) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-12-15 13:15:00",
+    "endDate" : "2022-12-15 15:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 200,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U3, ordinarie ",
+    "startDate" : "2022-12-15 13:15:00",
+    "endDate" : "2022-12-15 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 201,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt L25) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-12-15 15:15:00",
+    "endDate" : "2022-12-15 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 202,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h",
+    "description" : "Moment: labbhjälp (kurstakt U4) Sys1, Sys2, Sys3, Sys4 ",
+    "startDate" : "2022-12-16 10:15:00",
+    "endDate" : "2022-12-16 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 203,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
+    "description" : "Moment: Datorlabb 3 SYS2 ",
+    "startDate" : "2022-12-19 09:15:00",
+    "endDate" : "2022-12-19 12:00:00",
+    "locationName" : "OR:D331A OR:D331BC"
+  }, {
+    "index" : 204,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U4) Sys1, Sys2, DT1 ",
+    "startDate" : "2022-12-19 10:15:00",
+    "endDate" : "2022-12-19 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 205,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U4) Sys3, Sys4, DT2 ",
+    "startDate" : "2022-12-19 13:15:00",
+    "endDate" : "2022-12-19 15:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 206,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
+    "description" : "Moment: Datorlabb 4 SYS1 ",
+    "startDate" : "2022-12-19 13:15:00",
+    "endDate" : "2022-12-19 16:00:00",
+    "locationName" : "OR:D331A OR:D331BC"
+  }, {
+    "index" : 207,
+    "summary" : "Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid Sign: AC7398 Program: TGIAA22h TGSYA22h",
+    "description" : "Moment: Workshop Under huven, omtillfälle 2, STARTAR 13.15 till 15.00 ",
+    "startDate" : "2022-12-19 13:15:00",
+    "endDate" : "2022-12-19 16:00:00",
+    "locationName" : "OR:C127"
+  }, {
+    "index" : 208,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 AL6268 Program: TGSYA22h",
+    "description" : "Moment: Datorlabb 4 SYS2 ",
+    "startDate" : "2022-12-20 13:15:00",
+    "endDate" : "2022-12-20 16:00:00",
+    "locationName" : "OR:D331A OR:D331BC"
+  }, {
+    "index" : 209,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Frågor inför tentamen ",
+    "startDate" : "2023-01-03 10:15:00",
+    "endDate" : "2023-01-03 12:00:00",
+    "locationName" : "OR:D131"
+  }, {
+    "index" : 210,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U4) ",
+    "startDate" : "2023-01-04 08:15:00",
+    "endDate" : "2023-01-04 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 211,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSZAGH Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Workshoptillfälle L19 OBLIGATORISK, omtillfälle 2, sista garanterade tillfället som ges ",
+    "startDate" : "2023-01-04 10:15:00",
+    "endDate" : "2023-01-04 12:00:00",
+    "locationName" : "NI:A0606"
+  }, {
+    "index" : 212,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Salstentamen Ordinarie tillfälle. 2002 Tentamen 2 Hjälpm.: TS ",
+    "startDate" : "2023-01-05 08:15:00",
+    "endDate" : "2023-01-05 13:15:00",
+    "locationName" : "KR:Tentasal 1-6"
+  }, {
+    "index" : 213,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AE1925 Program: TGSYA22h",
+    "description" : "Moment: Salstentamen - Digitamen Ordinarie tillfälle. 2001 Hjälpm.: TS ",
+    "startDate" : "2023-01-09 08:15:00",
+    "endDate" : "2023-01-09 12:15:00",
+    "locationName" : "KR:Tentasal 1-6"
+  }, {
+    "index" : 214,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U4) ",
+    "startDate" : "2023-01-09 13:15:00",
+    "endDate" : "2023-01-09 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 215,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: labbhjälp (kurstakt U4) ",
+    "startDate" : "2023-01-10 08:15:00",
+    "endDate" : "2023-01-10 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 216,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
+    "description" : "Moment: Tider för projektredovisning ",
+    "startDate" : "2023-01-10 13:15:00",
+    "endDate" : "2023-01-10 17:00:00",
+    "locationName" : "NI:A0314"
+  }, {
+    "index" : 217,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
+    "description" : "Moment: DEADLINE U3, omtillfälle ",
+    "startDate" : "2023-01-10 23:58:00",
+    "endDate" : "2023-01-10 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 218,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: redovisning U3, omtillälle 1 (hjälp U4 om resurser finns, beror på antal som ska redovisa U3) ",
+    "startDate" : "2023-01-11 08:15:00",
+    "endDate" : "2023-01-11 12:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0318 NI:A0418"
+  }, {
+    "index" : 219,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
+    "description" : "Moment: Tider för projektredovisning ",
+    "startDate" : "2023-01-11 08:15:00",
+    "endDate" : "2023-01-11 12:00:00",
+    "locationName" : "OR:E323"
+  }, {
+    "index" : 220,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Program: TGSYA22h THDTB22h",
+    "description" : "Moment: DEADLINE U4, ordinarie ",
+    "startDate" : "2023-01-11 23:58:00",
+    "endDate" : "2023-01-11 23:59:00",
+    "locationName" : ""
+  }, {
+    "index" : 221,
+    "summary" : "Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Sign: AG7992 Program: TGSYA22h",
+    "description" : "Moment: Tider för projektredovisning ",
+    "startDate" : "2023-01-12 08:15:00",
+    "endDate" : "2023-01-12 12:00:00",
+    "locationName" : "NI:A0314"
+  }, {
+    "index" : 222,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U4, ordinarie tillfälle, Systemutvecklare (om behov av fler tider än vad som finns fredag) ",
+    "startDate" : "2023-01-12 13:15:00",
+    "endDate" : "2023-01-12 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 223,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: AF6509 Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Redovisning U4, ordinarie tillfälle ",
+    "startDate" : "2023-01-13 08:15:00",
+    "endDate" : "2023-01-13 17:00:00",
+    "locationName" : "NI:A0307 NI:A0311 NI:A0314 NI:A0318"
+  }, {
+    "index" : 224,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Salstentamen Omtentamen 1 2001 Tentamen 1 Hjälpm.: TS ",
+    "startDate" : "2023-01-27 08:15:00",
+    "endDate" : "2023-01-27 13:15:00",
+    "locationName" : "KR:Tentasal 1-6"
+  }, {
+    "index" : 225,
+    "summary" : "Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL Program: TGSYA22h THDTB22h",
+    "description" : "Moment: Salstentamen Omtentamen 1 2002 Tentamen 2 Hjälpm.: TS ",
+    "startDate" : "2023-02-10 14:15:00",
+    "endDate" : "2023-02-10 19:15:00",
+    "locationName" : "KR:Tentasal 1-6"
+  } ]
+}
