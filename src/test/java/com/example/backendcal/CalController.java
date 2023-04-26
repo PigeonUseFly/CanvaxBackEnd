@@ -51,7 +51,7 @@ public class CalController implements WebAPI {
             Date endDate = event.getEndDate().getDate();
             formatter.format(endDate);
             String location = event.getLocation().getValue();
-            EventJson eventJson = new EventJson(summary,startDate, endDate, location);
+            EventJson eventJson = new EventJson(summary, moment,startDate, endDate, location);
             jsonList.add(eventJson);
         }
         return jsonList;
