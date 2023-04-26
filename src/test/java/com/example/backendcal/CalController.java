@@ -1,26 +1,55 @@
 package com.example.backendcal;
 
 import com.example.boundaries.WebAPI;
-import com.google.gson.*;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import net.fortuna.ical4j.model.*;
 import net.fortuna.ical4j.data.ParserException;
+import net.fortuna.ical4j.model.DateTime;
 import net.fortuna.ical4j.model.TimeZone;
+import net.fortuna.ical4j.model.TimeZoneRegistryFactory;
+import net.minidev.json.parser.ParseException;
+import org.apache.commons.io.IOUtils;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import java.util.Date;
-import java.util.*;
+
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
 
 @RestController
 public class CalController implements WebAPI {
+    @JsonIgnoreProperties(ignoreUnknown = true)
     private ICalToJsonConverter iCalToJsonConverter;
 
     public CalController() throws ParserException, IOException {
         iCalToJsonConverter = new ICalToJsonConverter();
     }
+
+
+    @Override
+    public ResponseEntity<JSONArray> getJsonFile() throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        String jsonContent = IOUtils.toString(new FileInputStream("events.json"), StandardCharsets.UTF_8);
+        //List<JSONObject> entities = objectMapper.readValue(jsonContent, new TypeReference<List<JSONObject>>(){});
+        JSONArray entities = objectMapper.readValue(jsonContent, new TypeReference<JSONArray>(){});
+        return new ResponseEntity<>(entities, HttpStatus.OK);
+    }
+
     public ResponseEntity<Object> getProgram(String id) throws IOException, ParserException {
         return ResponseEntity.ok()
                 .contentType(MediaType.parseMediaType("text/plain"))
