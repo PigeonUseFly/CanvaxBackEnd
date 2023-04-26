@@ -1,6 +1,7 @@
 package com.example.backendcal;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -13,24 +14,35 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
+import java.util.*;
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
 import net.fortuna.ical4j.model.component.VEvent;
 
-public class ICalReaderService {
-    public ICalReaderService() {
+public class ICalToJsonConverter {
+    ArrayNode eventArrayNode;
+    ObjectMapper objectMapper;
+    ObjectNode parentObjectNode;
+
+    public ICalToJsonConverter() throws ParserException, IOException {
+        start();
     }
 
     public static void main(String[] args) throws ParserException, IOException {
+        ICalToJsonConverter iCalToJsonConverter = new ICalToJsonConverter();
+    }
+    public void start() throws ParserException, IOException {
         int index = 0;
+        ObjectNode jsonNode = new ObjectNode(JsonNodeFactory.instance);
+
         List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         List<EventJson> eventJsonList = new ArrayList();
-        Iterator var4 = events.iterator();
+        Iterator icalIterator = events.iterator();
 
-        while(var4.hasNext()) {
-            VEvent event = (VEvent)var4.next();
+        while(icalIterator.hasNext()) {
+            VEvent event = (VEvent)icalIterator.next();
             String summary = event.getSummary().getValue();
             int start = summary.indexOf("Moment:");
             int end = summary.indexOf("Program:");
@@ -47,13 +59,13 @@ public class ICalReaderService {
             eventJsonList.add(eventJson);
         }
 
-        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper = new ObjectMapper();
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-        ArrayNode eventArrayNode = objectMapper.createArrayNode();
-        Iterator var15 = eventJsonList.iterator();
+        eventArrayNode = objectMapper.createArrayNode();
+        Iterator eventIterator = eventJsonList.iterator();
 
-        while(var15.hasNext()) {
-            EventJson eventJson = (EventJson)var15.next();
+        while(eventIterator.hasNext()) {
+            EventJson eventJson = (EventJson)eventIterator.next();
             ObjectNode eventObjectNode = objectMapper.createObjectNode();
             eventObjectNode.put("index", index++);
             eventObjectNode.put("summary", eventJson.getSummary());
@@ -64,6 +76,8 @@ public class ICalReaderService {
             eventArrayNode.add(eventObjectNode);
         }
 
+        parentObjectNode = objectMapper.createObjectNode();
+        parentObjectNode.set("events", eventArrayNode);
         objectMapper.writeValue(new File("events.json"), eventArrayNode);
     }
 
