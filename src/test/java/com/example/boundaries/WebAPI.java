@@ -8,9 +8,8 @@ import org.json.JSONObject;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -22,9 +21,8 @@ public interface WebAPI {
     */
 
     @ResponseBody
-    @GetMapping(path = "/calendar/{ngt}", produces = MediaType.APPLICATION_JSON_VALUE)
-    ResponseEntity<JSONArray> getJsonFile() throws IOException, JSONException;
-
+    @GetMapping(value = "/calendar/{ngt}")
+    ResponseEntity<Object> getJsonFile() throws IOException, JSONException;
 
     @ResponseBody
     @GetMapping(value = "/programs/{id}")

@@ -5,25 +5,24 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.DateTime;
 import net.fortuna.ical4j.model.TimeZone;
 import net.fortuna.ical4j.model.TimeZoneRegistryFactory;
-import net.minidev.json.parser.ParseException;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
-import org.springframework.http.HttpStatus;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.json.GsonHttpMessageConverter;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
@@ -43,12 +42,18 @@ public class CalController implements WebAPI {
 
 
     @Override
-    public ResponseEntity<JSONArray> getJsonFile() throws IOException, JSONException {
+    public ResponseEntity<Object> getJsonFile() throws IOException, JSONException {
         ObjectMapper objectMapper = new ObjectMapper();
         String jsonContent = IOUtils.toString(new FileInputStream("events.json"), StandardCharsets.UTF_8);
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         JSONArray entities = objectMapper.readValue(jsonContent, new TypeReference<JSONArray>(){});
-        return new ResponseEntity<>(entities, HttpStatus.OK);
+        return ResponseEntity.ok(entities);
+    }
+    @Configuration
+    public class WebConfig implements WebMvcConfigurer {
+        public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
+            converters.add(new GsonHttpMessageConverter());
+        }
     }
 
     public ResponseEntity<Object> getProgram(String id) throws IOException, ParserException {
