@@ -42,11 +42,12 @@ public class CalController implements WebAPI {
 
 
     @Override
-    public ResponseEntity<Object> getJsonFile() throws IOException, JSONException, ParserException {
-        List<EventJson> events = readEventFile();
+    public ResponseEntity<Object> getJsonFile() throws IOException, JSONException {
         ObjectMapper objectMapper = new ObjectMapper();
-        String jsonArray = objectMapper.writeValueAsString(events);
-        return ResponseEntity.ok(jsonArray);
+        String jsonContent = IOUtils.toString(new FileInputStream("events.json"), StandardCharsets.UTF_8);
+        objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+        JSONArray entities = objectMapper.readValue(jsonContent, new TypeReference<JSONArray>(){});
+        return ResponseEntity.ok(entities);
     }
     @Configuration
     public class WebConfig implements WebMvcConfigurer {
