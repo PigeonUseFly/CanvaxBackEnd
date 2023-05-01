@@ -22,7 +22,7 @@ public interface WebAPI {
 
     @ResponseBody
     @GetMapping(value = "/calendar/{ngt}")
-    ResponseEntity<Object> getJsonFile() throws IOException, JSONException, ParserException;
+    ResponseEntity<Object> getJsonFile() throws IOException, JSONException;
 
     @ResponseBody
     @GetMapping(value = "/programs/{id}")
