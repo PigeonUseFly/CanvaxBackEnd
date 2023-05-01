@@ -48,7 +48,7 @@ public class CalController implements WebAPI {
     }
 
     @Override
-    public ResponseEntity<Object> getJsonFile() throws IOException, JSONException {
+    public ResponseEntity<Object> getJsonFile() throws IOException {
         File file = new File("events.json");
         String jsonString = new String(Files.readAllBytes(file.toPath()));
         HttpHeaders headers = new HttpHeaders();
