@@ -56,8 +56,9 @@ public class CalController implements WebAPI {
     }
 
     public ResponseEntity<Object> getProgram(String id) throws IOException, ParserException {
-        List<EventJson> eventList = readEventFile();
-        return ResponseEntity.ok(eventList);
+        return ResponseEntity.ok()
+                .contentType(MediaType.parseMediaType("text/plain"))
+                .body(readEventFile() + id);
     }
     /**
      * Method that uses the readICalFile method to read the file "ical/SchemaICal.ics"
