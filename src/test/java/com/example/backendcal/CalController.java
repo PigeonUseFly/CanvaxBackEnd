@@ -15,6 +15,8 @@ import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -25,6 +27,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -43,11 +46,11 @@ public class CalController implements WebAPI {
 
     @Override
     public ResponseEntity<Object> getJsonFile() throws IOException, JSONException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        String jsonContent = IOUtils.toString(new FileInputStream("events.json"), StandardCharsets.UTF_8);
-        objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        JSONArray entities = objectMapper.readValue(jsonContent, new TypeReference<JSONArray>(){});
-        return ResponseEntity.ok(entities);
+        File file = new File("events.json");
+        String jsonString = new String(Files.readAllBytes(file.toPath()));
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        return new ResponseEntity<>(jsonString, headers, HttpStatus.OK);
     }
     @Configuration
     public class WebConfig implements WebMvcConfigurer {
