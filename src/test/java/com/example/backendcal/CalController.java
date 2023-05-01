@@ -53,6 +53,7 @@ public class CalController implements WebAPI {
         String jsonString = new String(Files.readAllBytes(file.toPath()));
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.add("Access-Control-Allow-Origin", "*");
         return new ResponseEntity<>(jsonString, headers, HttpStatus.OK);
     }
     @Configuration
