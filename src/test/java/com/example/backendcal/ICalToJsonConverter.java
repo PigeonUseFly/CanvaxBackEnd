@@ -19,18 +19,19 @@ import net.fortuna.ical4j.model.Calendar;
 import net.fortuna.ical4j.model.component.VEvent;
 
 public class ICalToJsonConverter {
-    ArrayNode eventArrayNode;
-    ObjectMapper objectMapper;
-    ObjectNode parentObjectNode;
-
-    public ICalToJsonConverter() throws ParserException, IOException {
-        start();
-    }
+    private ArrayNode eventArrayNode;
+    private ObjectMapper objectMapper;
+    private ObjectNode parentObjectNode;
 
     public static void main(String[] args) throws ParserException, IOException {
         ICalToJsonConverter iCalToJsonConverter = new ICalToJsonConverter();
     }
-    public void start() throws ParserException, IOException {
+
+    public ICalToJsonConverter() throws ParserException, IOException {
+        createJsonFile();
+    }
+
+    public void createJsonFile() throws ParserException, IOException {
         int index = 0;
         List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -43,9 +44,9 @@ public class ICalToJsonConverter {
             int start = summary.indexOf("Moment:");
             int end = summary.indexOf("Program:");
             String moment = summary.substring(start, end);
-            StringBuilder sb = new StringBuilder(summary);
-            sb.delete(start, end);
-            String newSummary = String.valueOf(sb);
+            StringBuilder stringBuilder = new StringBuilder(summary);
+            stringBuilder.delete(start, end);
+            String newSummary = String.valueOf(stringBuilder);
             Date startDate = event.getStartDate().getDate();
             dateFormat.format(startDate);
             Date endDate = event.getEndDate().getDate();

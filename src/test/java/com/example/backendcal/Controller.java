@@ -2,7 +2,6 @@ package com.example.backendcal;
 
 import com.example.boundaries.WebAPI;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import net.fortuna.ical4j.data.ParserException;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.*;
@@ -15,11 +14,11 @@ import java.nio.file.Files;
 import java.util.List;
 
 @RestController
-public class CalController implements WebAPI {
+public class Controller implements WebAPI {
     @JsonIgnoreProperties(ignoreUnknown = true)
     private ICalToJsonConverter iCalToJsonConverter;
 
-    public CalController() throws ParserException, IOException {
+    public Controller() throws ParserException, IOException {
         iCalToJsonConverter = new ICalToJsonConverter();
     }
 
