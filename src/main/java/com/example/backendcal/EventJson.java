@@ -18,16 +18,12 @@ public class EventJson extends JSONObject {
         this.locationName = locationName;
     }
 
-  /*  public String toString() { //todo ändra till format
-        return "Summary: " + this.summary + " Description: " + this.description + " Start date: " + this.startDate + " End date: " + this.endDate + " Location: " + this.locationName + "\n";
-    } */
-
     public String getSummary() {
         return this.summary;
     }
 
 
-    public void setSummary(String summary) { //TODO
+    public void setSummary(String summary) {
         this.summary = summary;
     }
 
@@ -35,7 +31,7 @@ public class EventJson extends JSONObject {
         return this.startDate;
     }
 
-    public void setStartDate(Date startDate) { //TODO
+    public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 
@@ -43,7 +39,7 @@ public class EventJson extends JSONObject {
         return this.endDate;
     }
 
-    public void SetEndDate(Date endDate) { //TODO
+    public void setEndDate(Date endDate) {
         this.endDate = endDate;
     }
 
@@ -51,7 +47,7 @@ public class EventJson extends JSONObject {
         return this.locationName;
     }
 
-    public void setLocationName(String locationName) { //TODO
+    public void setLocationName(String locationName) {
         this.locationName = locationName;
     }
 
@@ -59,7 +55,7 @@ public class EventJson extends JSONObject {
         return description;
     }
 
-    public void setDescription(String description) { //TODO
+    public void setDescription(String description) {
         this.description = description;
     }
 }

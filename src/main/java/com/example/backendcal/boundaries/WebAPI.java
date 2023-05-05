@@ -4,8 +4,6 @@ import org.json.JSONException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
-import java.io.File;
 import java.io.IOException;
 
 @Validated

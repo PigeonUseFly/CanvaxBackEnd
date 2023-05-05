@@ -41,8 +41,8 @@ public class ICalToJsonConverter {
         while(icalIterator.hasNext()) {
             VEvent event = (VEvent)icalIterator.next();
             String summary = event.getSummary().getValue();
-            int start = summary.indexOf("Moment:");
-            int end = summary.indexOf("Program:");
+            int start = summary.indexOf("Program:");
+            int end = summary.indexOf("Moment:");
             String moment = summary.substring(start, end);
             StringBuilder stringBuilder = new StringBuilder(summary);
             stringBuilder.delete(start, end);
