@@ -1,4 +1,4 @@
-package com.example.boundaries;
+package com.example.backendcal.boundaries;
 
 import org.json.JSONException;
 import org.springframework.http.ResponseEntity;
