@@ -2,6 +2,7 @@ package com.example.backendcal;
 
 import com.example.boundaries.WebAPI;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import net.fortuna.ical4j.data.ParserException;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.*;
@@ -38,8 +39,9 @@ public class CalController implements WebAPI {
         }
     }
 
-    public void removeEvent(int inputFromFrontend) throws IOException {
+    public ResponseEntity<?> removeEvent(int inputFromFrontend) throws IOException { //TODO väldigt incomplete
         iCalToJsonConverter.getEventArrayNode().remove(inputFromFrontend);
         iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getParentObjectNode());
+        return ResponseEntity.ok().build();
     }
 }
