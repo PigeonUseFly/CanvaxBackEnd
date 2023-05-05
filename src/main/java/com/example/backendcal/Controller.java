@@ -1,6 +1,6 @@
 package com.example.backendcal;
 
-import com.example.boundaries.WebAPI;
+import com.example.backendcal.boundaries.WebAPI;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import net.fortuna.ical4j.data.ParserException;
 import org.springframework.context.annotation.Configuration;
