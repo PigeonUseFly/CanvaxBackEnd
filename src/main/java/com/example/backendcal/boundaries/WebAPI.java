@@ -13,6 +13,6 @@ public interface WebAPI {
     @GetMapping(value = "/calendar/{ngt}")
     ResponseEntity<Object> getJsonFile() throws IOException, JSONException;
 
-    @PutMapping("/files/{fileId}")
-    ResponseEntity<?> removeEvent(@RequestParam int inputFromFrontend) throws IOException;
+    @PostMapping("/calendar/remove-element")
+    void removeEvent(@RequestParam int index) throws IOException;
 }
