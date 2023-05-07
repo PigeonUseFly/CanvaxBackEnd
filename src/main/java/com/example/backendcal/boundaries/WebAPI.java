@@ -1,16 +1,15 @@
 package com.example.backendcal.boundaries;
 
-import com.example.backendcal.EventJson;
 import org.json.JSONException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.context.annotation.RequestScope;
-
 import java.io.IOException;
 import java.text.ParseException;
-import java.util.Date;
 
+/**
+ * Gränssnitt för API. Kolla implementation i Controller för information om de olika metoderna.
+ */
 @Validated
 public interface WebAPI {
 
