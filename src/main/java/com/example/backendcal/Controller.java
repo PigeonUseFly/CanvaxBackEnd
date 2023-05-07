@@ -3,7 +3,12 @@ package com.example.backendcal;
 import com.example.backendcal.boundaries.WebAPI;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import net.fortuna.ical4j.data.ParserException;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.springframework.boot.configurationprocessor.json.JSONTokener;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.*;
 import org.springframework.http.converter.FormHttpMessageConverter;
@@ -66,22 +71,36 @@ public class Controller implements WebAPI {
      * @param location Plats för event.
      * @throws IOException
      * @throws ParseException
+     * @throws JSONException
      */
-    public void insertEvent(String summary, String description, String startDateString, String endDateString, String location) throws IOException, ParseException {
-        ObjectMapper mapper = new ObjectMapper();
+    public void insertEvent(String summary, String description, String startDateString, String endDateString, String location) throws IOException, ParseException, JSONException {
+        ObjectMapper objectMapper = new ObjectMapper();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date startDate = formatter.parse(startDateString);
         Date endDate = formatter.parse(endDateString);
         EventJson eventJson = new EventJson(summary, description, startDate, endDate, location);
-        String eventData = mapper.writeValueAsString(eventJson);
+        String eventData = objectMapper.writeValueAsString(eventJson);
 
-        FileWriter fileWriter = new FileWriter("events.json", true);
-        fileWriter.write(eventData);
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("events.json"));
+        String jsonString = "";
+        String line;
+        while ((line = bufferedReader.readLine()) != null) {
+            jsonString += line;
+        }
+        bufferedReader.close();
+
+        JSONObject jsonObject = new JSONObject(jsonString);
+        JSONArray eventArray = jsonObject.getJSONArray("events");
+        JSONObject eventObject = new JSONObject(eventData);
+        eventArray.put(eventObject);
+
+        FileWriter fileWriter = new FileWriter("events.json");
+        fileWriter.write(jsonObject.toString(2) + System.lineSeparator());
         fileWriter.close();
     }
 
     /**
-     * Inre klass som ger endpointsen funktionalitet för att konvertera json.
+     * Inre klass som ger endpointsen funktionalitet för att konvertera json och Http-forms.
      */
     @Configuration
     public class WebConfig implements WebMvcConfigurer {

@@ -52,7 +52,6 @@ public class ICalToJsonConverter {
      * @throws IOException
      */
     public void createJsonFile() throws ParserException, IOException {
-        int index = 0;
         List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         List<EventJson> eventJsonList = new ArrayList();
@@ -84,7 +83,6 @@ public class ICalToJsonConverter {
         while(eventIterator.hasNext()) {
             EventJson eventJson = (EventJson)eventIterator.next();
             ObjectNode eventObjectNode = objectMapper.createObjectNode();
-            eventObjectNode.put("index", index++);
             eventObjectNode.put("summary", eventJson.getSummary());
             eventObjectNode.put("description", eventJson.getDescription());
             eventObjectNode.put("startDate", dateFormat.format(eventJson.getStartDate()));

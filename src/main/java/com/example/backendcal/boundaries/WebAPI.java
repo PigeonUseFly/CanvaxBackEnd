@@ -21,5 +21,5 @@ public interface WebAPI {
     void removeEvent(@RequestParam int index) throws IOException;
 
     @PostMapping("/calendar/insert-element")
-    void insertEvent(@RequestParam String summary, @RequestParam String description, @RequestParam String startDate, @RequestParam String endDate, @RequestParam String location) throws IOException, ParseException;
+    void insertEvent(@RequestParam String summary, @RequestParam String description, @RequestParam String startDate, @RequestParam String endDate, @RequestParam String location) throws IOException, ParseException, JSONException;
 }
