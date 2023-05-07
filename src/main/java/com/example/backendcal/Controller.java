@@ -41,6 +41,9 @@ public class Controller implements WebAPI {
     public ResponseEntity<?> removeEvent(int inputFromFrontend) throws IOException { //TODO väldigt incomplete
         iCalToJsonConverter.getEventArrayNode().remove(inputFromFrontend);
         iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getParentObjectNode());
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        headers.add("Access-Control-Allow-Origin", "*");
         return ResponseEntity.ok().build();
     }
 }

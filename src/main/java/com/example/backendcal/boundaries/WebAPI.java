@@ -15,4 +15,8 @@ public interface WebAPI {
 
     @PutMapping("/files/{fileId}")
     ResponseEntity<?> removeEvent(@RequestParam int inputFromFrontend) throws IOException;
+
+    @RequestMapping(value = "/removeEvent", method = RequestMethod.POST)
+    public ResponseEntity<?> removeEvent(@RequestBody Map<String, Integer> payload) throws IOException;
+
 }
