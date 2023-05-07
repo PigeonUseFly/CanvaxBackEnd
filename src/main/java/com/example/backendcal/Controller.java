@@ -20,6 +20,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Klass som sköter logiken i programmet samt hanterar REST API till frontend.
+ */
 @RestController
 @CrossOrigin(origins = "*")
 public class Controller implements WebAPI {
@@ -30,6 +33,11 @@ public class Controller implements WebAPI {
         iCalToJsonConverter = new ICalToJsonConverter();
     }
 
+    /**
+     * Endpoint som läser filen "events.json" och skickar till frontend.
+     * @return Datan och header som säger vad för mediatype som skickas.
+     * @throws IOException
+     */
     @Override
     public ResponseEntity<Object> getJsonFile() throws IOException {
         File file = new File("events.json");
@@ -39,11 +47,26 @@ public class Controller implements WebAPI {
         return new ResponseEntity<>(jsonString, headers, HttpStatus.OK);
     }
 
+    /**
+     * Endpoint som tar bort ett event i "events.json"-filen som har samma index som skickades från frontend.
+     * @param index Indexet som skickas från frontend för att avgöra vilket event som ska tas bort.
+     * @throws IOException
+     */
     public void removeEvent(int index) throws IOException {
         iCalToJsonConverter.getEventArrayNode().remove(index);
         iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getParentObjectNode());
     }
 
+    /**
+     * Endpoint för att lägga till ett nytt event i "events.json"-filen.
+     * @param summary Kort beskrivning av eventet.
+     * @param description Utförlig beskrivning av eventet.
+     * @param startDateString Datum/tid när eventet börjar.
+     * @param endDateString Datum/tid när eventet slutar.
+     * @param location Plats för event.
+     * @throws IOException
+     * @throws ParseException
+     */
     public void insertEvent(String summary, String description, String startDateString, String endDateString, String location) throws IOException, ParseException {
         ObjectMapper mapper = new ObjectMapper();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -57,8 +80,10 @@ public class Controller implements WebAPI {
         fileWriter.close();
     }
 
+    /**
+     * Inre klass som ger endpointsen funktionalitet för att konvertera json.
+     */
     @Configuration
-   // @ComponentScan(basePackages = {"com.example.backendcal"})
     public class WebConfig implements WebMvcConfigurer {
         public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
             converters.add(new GsonHttpMessageConverter());

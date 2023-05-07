@@ -18,19 +18,39 @@ import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
 import net.fortuna.ical4j.model.component.VEvent;
 
+/**
+ * Klass som konverterar iCal-filen till en .json-fil.
+ */
 public class ICalToJsonConverter {
     private ArrayNode eventArrayNode;
     private ObjectMapper objectMapper;
     private ObjectNode parentObjectNode;
 
+    /**
+     * Main metod som kallar på konstruktorn som i sin tur kallar på metoden som skapar .json-filen.
+     * @param args
+     * @throws ParserException
+     * @throws IOException
+     */
     public static void main(String[] args) throws ParserException, IOException {
         ICalToJsonConverter iCalToJsonConverter = new ICalToJsonConverter();
     }
 
+    /**
+     *  Konstruktor som kallar på metoden för att skapa .json-filen.
+     * @throws ParserException
+     * @throws IOException
+     */
     public ICalToJsonConverter() throws ParserException, IOException {
         createJsonFile();
     }
 
+    /**
+     * Metod som konverterar datan från readIcalFile-metoden för att skapa EventJson-objekt
+     * och skriva dessa till filen "events.json".
+     * @throws ParserException
+     * @throws IOException
+     */
     public void createJsonFile() throws ParserException, IOException {
         int index = 0;
         List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
@@ -78,6 +98,13 @@ public class ICalToJsonConverter {
         objectMapper.writeValue(new File("events.json"), parentObjectNode);
     }
 
+    /**
+     * Metod som läser in iCal-filen och skapar ett Calendar-objekt av dessa.
+     * @param filename
+     * @return
+     * @throws ParserException
+     * @throws IOException
+     */
     private static List<VEvent> readICalFile(String filename) throws ParserException, IOException {
         InputStream inputStream = new FileInputStream(new File(filename));
         CalendarBuilder builder = new CalendarBuilder();
