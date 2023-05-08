@@ -9,10 +9,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
+
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
@@ -71,6 +69,7 @@ public class ICalToJsonConverter {
             Date endDate = event.getEndDate().getDate();
             dateFormat.format(endDate);
             String location = event.getLocation().getValue();
+            HashMap<Event> events = new HashMap(); //Denna ska inte ligga här!!
             EventJson eventJson = new EventJson(newSummary, moment, startDate, endDate, location);
             eventJsonList.add(eventJson);
         }

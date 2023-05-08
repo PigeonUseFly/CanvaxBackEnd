@@ -5,10 +5,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import net.fortuna.ical4j.data.ParserException;
+import org.apache.catalina.filters.CorsFilter;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.boot.configurationprocessor.json.JSONTokener;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.*;
 import org.springframework.http.converter.FormHttpMessageConverter;
@@ -16,6 +18,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.GsonHttpMessageConverter;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -57,9 +60,10 @@ public class Controller implements WebAPI {
      * @param index Indexet som skickas från frontend för att avgöra vilket event som ska tas bort.
      * @throws IOException
      */
-    public void removeEvent(int index) throws IOException {
-        iCalToJsonConverter.getEventArrayNode().remove(index);
-        iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getParentObjectNode());
+    public void removeEvent(String id) throws IOException {
+        System.out.println("Ta bort " + id);
+        //iCalToJsonConverter.getEventArrayNode().remove(index);
+        //iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getParentObjectNode());
     }
 
     /**
@@ -115,4 +119,5 @@ public class Controller implements WebAPI {
                     .forEach(c -> ((FormHttpMessageConverter) c).setCharset(StandardCharsets.UTF_8));
         }
     }
+
 }

@@ -14,12 +14,12 @@ import java.text.ParseException;
 public interface WebAPI {
 
     @ResponseBody
-    @GetMapping(value = "/calendar/{ngt}")
+    @GetMapping(value = "/events")
     ResponseEntity<Object> getJsonFile() throws IOException, JSONException;
 
-    @PostMapping("/calendar/remove-element")
-    void removeEvent(@RequestParam int index) throws IOException;
+    @DeleteMapping("/events/{id}")
+    void removeEvent(@PathVariable String id) throws IOException;
 
-    @PostMapping("/calendar/insert-element")
+    @PostMapping("/events")
     void insertEvent(@RequestParam String summary, @RequestParam String description, @RequestParam String startDate, @RequestParam String endDate, @RequestParam String location) throws IOException, ParseException, JSONException;
 }
