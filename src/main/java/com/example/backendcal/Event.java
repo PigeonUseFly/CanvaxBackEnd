@@ -1,12 +1,11 @@
 package com.example.backendcal;
 
-import org.json.JSONObject;
 import java.util.Date;
 
 /**
  * Klass som används för att skapa objekt utav informationen för varje event.
  */
-public class EventJson extends JSONObject {
+public class Event {
     private String summary;
     private String description;
     private Date startDate;
@@ -21,7 +20,7 @@ public class EventJson extends JSONObject {
      * @param endDate Datum/tid när eventet slutar.
      * @param locationName Plats för eventet.
      */
-    public EventJson(String summary, String description, Date startDate, Date endDate, String locationName) {
+    public Event(String summary, String description, Date startDate, Date endDate, String locationName) {
         this.summary = summary;
         this.description = description;
         this.startDate = startDate;

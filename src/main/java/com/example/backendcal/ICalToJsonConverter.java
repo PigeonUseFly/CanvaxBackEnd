@@ -18,7 +18,7 @@ public class ICalToJsonConverter {
     private ArrayNode eventArrayNode;
     private ObjectMapper objectMapper;
     private ObjectNode parentObjectNode;
-    private HashMap<String, EventJson> hashMap = new HashMap();
+    private HashMap<String, Event> hashMap = new HashMap();
 
     public static void main(String[] args) throws ParserException, IOException {
         ICalToJsonConverter iCalToJsonConverter = new ICalToJsonConverter();
@@ -32,7 +32,7 @@ public class ICalToJsonConverter {
         int index = 0;
         List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        List<EventJson> eventJsonList = new ArrayList();
+        List<Event> eventList = new ArrayList();
         Iterator icalIterator = events.iterator();
 
         while(icalIterator.hasNext()) {
@@ -41,6 +41,7 @@ public class ICalToJsonConverter {
             int start = summary.indexOf("Program:");
             int end = summary.indexOf("Moment:");
             String id = event.getUid().toString();
+            id = id.replace("\r\n","");
             String moment = summary.substring(start, end);
             StringBuilder stringBuilder = new StringBuilder(summary);
             stringBuilder.delete(start, end);
@@ -50,23 +51,23 @@ public class ICalToJsonConverter {
             Date endDate = event.getEndDate().getDate();
             dateFormat.format(endDate);
             String location = event.getLocation().getValue();
-            EventJson eventJson = new EventJson(newSummary, moment, startDate, endDate, location);
+            Event eventJson = new Event(newSummary, moment, startDate, endDate, location);
             hashMap.put(id,eventJson);
 
         }
         objectMapper = new ObjectMapper();
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
         ObjectNode rootNode = objectMapper.createObjectNode();
-        for(Map.Entry<String, EventJson> entry : hashMap.entrySet()){
+        for(Map.Entry<String, Event> entry : hashMap.entrySet()){
             ObjectNode eventNode = objectMapper.createObjectNode();
-            EventJson eventJson = entry.getValue();
+            Event event = entry.getValue();
 
             eventNode.put("id ",entry.getKey());
-            eventNode.put("summary ", eventJson.getSummary());
-            eventNode.put("moment ", eventJson.getDescription());
-            eventNode.put("startDate ", dateFormat.format(eventJson.getStartDate()));
-            eventNode.put("endDate ", dateFormat.format(eventJson.getEndDate()));
-            eventNode.put("location ", eventJson.getLocationName());
+            eventNode.put("summary ", event.getSummary());
+            eventNode.put("moment ", event.getDescription());
+            eventNode.put("startDate ", dateFormat.format(event.getStartDate()));
+            eventNode.put("endDate ", dateFormat.format(event.getEndDate()));
+            eventNode.put("location ", event.getLocationName());
 
             rootNode.set(entry.getKey(), eventNode);
         }
