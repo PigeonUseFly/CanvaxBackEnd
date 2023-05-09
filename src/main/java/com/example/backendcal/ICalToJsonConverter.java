@@ -32,7 +32,6 @@ public class ICalToJsonConverter {
         int index = 0;
         List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        List<Event> eventList = new ArrayList();
         Iterator icalIterator = events.iterator();
 
         while(icalIterator.hasNext()) {
@@ -62,19 +61,18 @@ public class ICalToJsonConverter {
             ObjectNode eventNode = objectMapper.createObjectNode();
             Event event = entry.getValue();
 
-            eventNode.put("id ",entry.getKey());
-            eventNode.put("summary ", event.getSummary());
-            eventNode.put("moment ", event.getDescription());
-            eventNode.put("startDate ", dateFormat.format(event.getStartDate()));
-            eventNode.put("endDate ", dateFormat.format(event.getEndDate()));
-            eventNode.put("location ", event.getLocationName());
+            eventNode.put("id",entry.getKey());
+            eventNode.put("summary", event.getSummary());
+            eventNode.put("moment", event.getDescription());
+            eventNode.put("startDate", dateFormat.format(event.getStartDate()));
+            eventNode.put("endDate", dateFormat.format(event.getEndDate()));
+            eventNode.put("location", event.getLocationName());
 
             rootNode.set(entry.getKey(), eventNode);
         }
         FileWriter fileWriter = new FileWriter(filename);
         objectMapper.writeValue(fileWriter, rootNode);
-        //fileWriter.flush();
-        //fileWriter.close();
+
 /*
         objectMapper = new ObjectMapper();
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
