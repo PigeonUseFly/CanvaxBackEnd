@@ -3,7 +3,8 @@ package com.example.backendcal;
 import org.json.JSONObject;
 import java.util.Date;
 
-public class EventJson extends JSONObject {
+
+public class EventJson {
     private String summary;
     private String description;
     private Date startDate;
@@ -16,6 +17,10 @@ public class EventJson extends JSONObject {
         this.startDate = startDate;
         this.endDate = endDate;
         this.locationName = locationName;
+    }
+
+    public String toString(){
+        return String.format("Summary %s\nDescription %s\nstartDate",summary,description,startDate,endDate,locationName);
     }
 
     public String getSummary() {

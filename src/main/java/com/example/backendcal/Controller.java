@@ -12,6 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import java.io.*;
 import java.nio.file.Files;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class Controller implements WebAPI {
@@ -31,15 +32,23 @@ public class Controller implements WebAPI {
         headers.add("Access-Control-Allow-Origin", "*");
         return new ResponseEntity<>(jsonString, headers, HttpStatus.OK);
     }
+    /*
+    @Override
+    public ResponseEntity<?> removeEvent(int inputFromFrontend) throws IOException {
+        return null;
+    }
+
+     */
+
     @Configuration
     public class WebConfig implements WebMvcConfigurer {
         public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
             converters.add(new GsonHttpMessageConverter());
         }
     }
-
-    public ResponseEntity<?> removeEvent(int inputFromFrontend) throws IOException { //TODO väldigt incomplete
-        iCalToJsonConverter.getEventArrayNode().remove(inputFromFrontend);
+    @Override
+    public ResponseEntity<?> removeEvent(Map<String, Integer> payload) throws IOException { //TODO väldigt incomplete
+        iCalToJsonConverter.getEventArrayNode().remove(payload.hashCode());
         iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getParentObjectNode());
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
