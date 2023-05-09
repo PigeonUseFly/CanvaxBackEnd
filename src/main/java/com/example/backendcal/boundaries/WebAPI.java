@@ -14,7 +14,7 @@ import java.text.ParseException;
 public interface WebAPI {
 
     @ResponseBody
-    @GetMapping(value = "/events")
+    @GetMapping(value = "/calender/bajs")
     ResponseEntity<Object> getJsonFile() throws IOException, JSONException;
 
     @DeleteMapping("/events/{id}")
