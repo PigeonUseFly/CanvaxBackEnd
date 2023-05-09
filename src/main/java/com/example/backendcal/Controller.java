@@ -55,10 +55,11 @@ public class Controller implements WebAPI {
      * @param index Indexet som skickas från frontend för att avgöra vilket event som ska tas bort.
      * @throws IOException
      */
-    public void removeEvent(String id) throws IOException {
+    public void removeEvent(String id) throws IOException, ParserException {
         System.out.println("Ta bort " + id);
-        //iCalToJsonConverter.getEventArrayNode().remove(index);
-        //iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getParentObjectNode());
+        iCalToJsonConverter.getHashMap().remove(id);
+        iCalToJsonConverter.createJsonFile("events.json");
+        iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getRootNode());
     }
 
     /**

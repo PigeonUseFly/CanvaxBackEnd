@@ -18,6 +18,7 @@ public class ICalToJsonConverter {
     private ArrayNode eventArrayNode;
     private ObjectMapper objectMapper;
     private ObjectNode parentObjectNode;
+    private ObjectNode rootNode;
     private HashMap<String, Event> hashMap = new HashMap();
 
     public static void main(String[] args) throws ParserException, IOException {
@@ -56,7 +57,7 @@ public class ICalToJsonConverter {
         }
         objectMapper = new ObjectMapper();
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-        ObjectNode rootNode = objectMapper.createObjectNode();
+        rootNode = objectMapper.createObjectNode();
         for(Map.Entry<String, Event> entry : hashMap.entrySet()){
             ObjectNode eventNode = objectMapper.createObjectNode();
             Event event = entry.getValue();
@@ -117,5 +118,11 @@ public class ICalToJsonConverter {
 
     public ObjectNode getParentObjectNode() {
         return parentObjectNode;
+    }
+    public ObjectNode getRootNode(){
+        return rootNode;
+    }
+    public HashMap<String, Event> getHashMap(){
+        return hashMap;
     }
 }

@@ -1,5 +1,6 @@
 package com.example.backendcal.boundaries;
 
+import net.fortuna.ical4j.data.ParserException;
 import org.json.JSONException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -14,11 +15,11 @@ import java.text.ParseException;
 public interface WebAPI {
 
     @ResponseBody
-    @GetMapping(value = "/calender/bajs")
+    @GetMapping(value = "/events")
     ResponseEntity<Object> getJsonFile() throws IOException, JSONException;
 
     @DeleteMapping("/events/{id}")
-    void removeEvent(@PathVariable String id) throws IOException;
+    void removeEvent(@PathVariable String id) throws IOException, ParserException;
 
     @PostMapping("/events")
     void insertEvent(@RequestParam String summary, @RequestParam String description, @RequestParam String startDate, @RequestParam String endDate, @RequestParam String location) throws IOException, ParseException, JSONException;
