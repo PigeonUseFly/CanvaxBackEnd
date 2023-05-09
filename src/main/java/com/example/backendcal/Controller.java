@@ -52,14 +52,13 @@ public class Controller implements WebAPI {
 
     /**
      * Endpoint som tar bort ett event i "events.json"-filen som har samma index som skickades från frontend.
-     * @param index Indexet som skickas från frontend för att avgöra vilket event som ska tas bort.
+     * @param id Indexet som skickas från frontend för att avgöra vilket event som ska tas bort.
      * @throws IOException
      */
     public void removeEvent(String id) throws IOException, ParserException {
         System.out.println("Ta bort " + id);
         iCalToJsonConverter.getHashMap().remove(id);
-        iCalToJsonConverter.createJsonFile("events.json");
-        iCalToJsonConverter.getObjectMapper().writeValue(new File("events.json"), iCalToJsonConverter.getRootNode());
+        iCalToJsonConverter.changesInHashmap("events.json");
     }
 
     /**

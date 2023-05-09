@@ -26,22 +26,22 @@ public class ICalToJsonConverter {
     }
 
     public ICalToJsonConverter() throws ParserException, IOException {
-        createJsonFile("events.json");
+        createJsonFile();
     }
 
-    public void createJsonFile(String filename) throws ParserException, IOException {
+    public void createJsonFile() throws ParserException, IOException {
         int index = 0;
         List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Iterator icalIterator = events.iterator();
 
-        while(icalIterator.hasNext()) {
-            VEvent event = (VEvent)icalIterator.next();
+        while (icalIterator.hasNext()) {
+            VEvent event = (VEvent) icalIterator.next();
             String summary = event.getSummary().getValue();
             int start = summary.indexOf("Program:");
             int end = summary.indexOf("Moment:");
             String id = event.getUid().getValue();
-            id = id.replace("\r\n","");
+            id = id.replace("\r\n", "");
             String moment = summary.substring(start, end);
             StringBuilder stringBuilder = new StringBuilder(summary);
             stringBuilder.delete(start, end);
@@ -52,9 +52,12 @@ public class ICalToJsonConverter {
             dateFormat.format(endDate);
             String location = event.getLocation().getValue();
             Event eventJson = new Event(newSummary, moment, startDate, endDate, location);
-            hashMap.put(id,eventJson);
-
+            hashMap.put(id, eventJson);
+            changesInHashmap("events.json");
         }
+    }
+    public void changesInHashmap(String filename) throws IOException {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         objectMapper = new ObjectMapper();
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
         rootNode = objectMapper.createObjectNode();
