@@ -40,7 +40,7 @@ public class ICalToJsonConverter {
             String summary = event.getSummary().getValue();
             int start = summary.indexOf("Program:");
             int end = summary.indexOf("Moment:");
-            String id = event.getUid().toString();
+            String id = event.getUid().getValue();
             id = id.replace("\r\n","");
             String moment = summary.substring(start, end);
             StringBuilder stringBuilder = new StringBuilder(summary);

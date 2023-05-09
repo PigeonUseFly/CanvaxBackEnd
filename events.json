@@ -1,658 +1,658 @@
 {
-  "UID:BokningsId_20221101_000003857" : {
-    "id" : "UID:BokningsId_20221101_000003857",
-    "summary" : "Moment: Teori: Tentamensgenomgång (DA336A omtillfälle 1, DA393A ordinarie tillfälle) Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h THDTB22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Systemutveckling och projekt för ingenjörer, 15 hp Kurs inom program,  100% dagtid Sign: AC8293 TSKRAL ",
-    "startDate" : "2023-05-24 08:15:00",
-    "endDate" : "2023-05-24 12:00:00",
-    "location" : "NI:B0E07"
-  },
-  "UID:BokningsId_20221108_000000469" : {
-    "id" : "UID:BokningsId_20221108_000000469",
-    "summary" : "Moment: Salstentamen Omtentamen 2. 2101 Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSKRAL ",
-    "startDate" : "2023-08-14 08:15:00",
-    "endDate" : "2023-08-14 13:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20221101_000003815" : {
-    "id" : "UID:BokningsId_20221101_000003815",
-    "summary" : "Moment: Sys IA: Retrospektmöte 3, FÖRVÄNTAD NÄRVARO TSZAGH:NI:A0602 Anna: NI:A0513 Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0474 AN7738 TSANTI TSZAGH ",
-    "startDate" : "2023-05-16 10:15:00",
-    "endDate" : "2023-05-16 12:00:00",
-    "location" : "NI:A0510 NI:A0513 NI:A0602 NI:B0308"
-  },
-  "UID:BokningsId_20221103_000001417" : {
-    "id" : "UID:BokningsId_20221103_000001417",
-    "summary" : "Moment: A4 Monitorer Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-15 08:15:00",
-    "endDate" : "2023-05-15 10:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20220929_000000633" : {
-    "id" : "UID:BokningsId_20220929_000000633",
-    "summary" : "Moment: DEADLINE Uppgift 1 Datavetenskap, version 2, omtillfälle 2. DEADLINE Uppgift 2 Etik, version 2, omtillfälle 2. DEADLINE ersättningsuppgift omtillfälle 3 för Workshop Informationssökning för de som inte deltog i denna workshop på det ordinarie tillfället. Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid ",
-    "startDate" : "2023-08-06 23:58:00",
-    "endDate" : "2023-08-06 23:59:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20220929_000000631" : {
-    "id" : "UID:BokningsId_20220929_000000631",
-    "summary" : "Moment: DEADLINE Uppgift 1 Datavetenskap, kamratgranskning, omtillfälle 2. DEADLINE Uppgift 2 Etik, kamratgranskning, omtillfälle 2 Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid ",
-    "startDate" : "2023-06-21 23:58:00",
-    "endDate" : "2023-06-21 23:59:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20221103_000001413" : {
-    "id" : "UID:BokningsId_20221103_000001413",
-    "summary" : "Moment: A4 Monitorer Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-11 08:15:00",
-    "endDate" : "2023-05-11 10:00:00",
-    "location" : "OR:D326"
-  },
-  "UID:BokningsId_20221102_000002617" : {
-    "id" : "UID:BokningsId_20221102_000002617",
-    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
-    "startDate" : "2023-06-02 13:15:00",
-    "endDate" : "2023-06-02 15:00:00",
-    "location" : "NI:A0602"
-  },
-  "UID:BokningsId_20221103_000001457" : {
-    "id" : "UID:BokningsId_20221103_000001457",
-    "summary" : "Moment: A1-A5 Redovinsing omtillfälle Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-06-05 10:15:00",
-    "endDate" : "2023-06-05 12:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221103_000001415" : {
-    "id" : "UID:BokningsId_20221103_000001415",
-    "summary" : "Moment: F9 Asynkkronprogrammering Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-11 10:15:00",
-    "endDate" : "2023-05-11 12:00:00",
-    "location" : "OR:D131"
-  },
-  "UID:BokningsId_20221103_000001453" : {
-    "id" : "UID:BokningsId_20221103_000001453",
-    "summary" : "Moment: A1-A5 Redovinsing omtillfälle Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-06-01 10:15:00",
-    "endDate" : "2023-06-01 12:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221103_000001411" : {
-    "id" : "UID:BokningsId_20221103_000001411",
-    "summary" : "Moment: FC3 Monitorer Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-09 15:15:00",
-    "endDate" : "2023-05-09 17:00:00",
-    "location" : "NI:A0506"
-  },
-  "UID:BokningsId_20221103_000001455" : {
-    "id" : "UID:BokningsId_20221103_000001455",
-    "summary" : "Moment: A1-A5 Redovinsing omtillfälle Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-06-05 08:15:00",
-    "endDate" : "2023-06-05 10:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20220929_000000629" : {
-    "id" : "UID:BokningsId_20220929_000000629",
-    "summary" : "Moment: DEADLINE Uppgift 1 Datavetenskap, version 1, omtillfälle 2. DEADLINE Uppgift 2 Etik, version 1, omtillfälle 2 Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid ",
-    "startDate" : "2023-06-11 23:58:00",
-    "endDate" : "2023-06-11 23:59:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20230403_000000689" : {
-    "id" : "UID:BokningsId_20230403_000000689",
-    "summary" : "Moment: Övning 1: Logiska kretsar, datorarkitektur Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-08-31 13:15:00",
-    "endDate" : "2023-08-31 17:00:00",
-    "location" : "OR:D331A OR:D331BC OR:E222"
-  },
-  "UID:BokningsId_20230403_000000721" : {
-    "id" : "UID:BokningsId_20230403_000000721",
-    "summary" : "Moment: Övning 12: Uppsamling Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
-    "startDate" : "2023-10-23 13:15:00",
-    "endDate" : "2023-10-23 17:00:00",
-    "location" : "OR:D326"
-  },
-  "UID:BokningsId_20221103_000001451" : {
-    "id" : "UID:BokningsId_20221103_000001451",
-    "summary" : "Moment: A5 Redovisning Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-06-01 08:15:00",
-    "endDate" : "2023-06-01 10:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221102_000002611" : {
-    "id" : "UID:BokningsId_20221102_000002611",
-    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH ",
-    "startDate" : "2023-06-02 10:15:00",
-    "endDate" : "2023-06-02 12:00:00",
-    "location" : "NI:A0602"
-  },
-  "UID:BokningsId_20221102_000002579" : {
-    "id" : "UID:BokningsId_20221102_000002579",
-    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
-    "startDate" : "2023-06-01 13:15:00",
-    "endDate" : "2023-06-01 15:00:00",
-    "location" : "NI:A0502"
-  },
-  "UID:BokningsId_20230403_000000725" : {
-    "id" : "UID:BokningsId_20230403_000000725",
-    "summary" : "Moment: Föreläsning 1: Intro, logik, binär aritmetik Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-08-28 15:15:00",
-    "endDate" : "2023-08-28 17:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20221108_000000461" : {
-    "id" : "UID:BokningsId_20221108_000000461",
-    "summary" : "Moment: Salstentamen Omtentamen 1. 2101 Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSKRAL ",
-    "startDate" : "2023-05-22 08:15:00",
-    "endDate" : "2023-05-22 13:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20230403_000000729" : {
-    "id" : "UID:BokningsId_20230403_000000729",
-    "summary" : "Moment: Föreläsning 3: Fortsättning på datorarkitektur och maskinspråk Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-09-04 13:15:00",
-    "endDate" : "2023-09-04 15:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20230403_000000727" : {
-    "id" : "UID:BokningsId_20230403_000000727",
-    "summary" : "Moment: Föreläsning 2: Sekventiell logik, datorarkitektur, maskinspråk Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-08-30 10:15:00",
-    "endDate" : "2023-08-30 12:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20230403_000000709" : {
-    "id" : "UID:BokningsId_20230403_000000709",
-    "summary" : "Moment: Övning 13: Uppsamling Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-10-26 13:15:00",
-    "endDate" : "2023-10-26 17:00:00",
-    "location" : "OR:D331BC"
-  },
-  "UID:BokningsId_20221103_000001429" : {
-    "id" : "UID:BokningsId_20221103_000001429",
-    "summary" : "Moment: A4 Redovisning/hjälp Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-15 10:15:00",
-    "endDate" : "2023-05-15 12:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221118_000001359" : {
-    "id" : "UID:BokningsId_20221118_000001359",
-    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 1 2101  Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSFANA ",
-    "startDate" : "2023-08-31 08:15:00",
-    "endDate" : "2023-08-31 12:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20230323_000000109" : {
-    "id" : "UID:BokningsId_20230323_000000109",
-    "summary" : "Moment: Sys IA: Handledningsmöten, tider via grupphandledare, FÖRVÄNTAD NÄRVARO  Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: AL3324 AN0474 AO4518 ",
-    "startDate" : "2023-05-23 10:15:00",
-    "endDate" : "2023-05-23 12:00:00",
-    "location" : "G8:249 G8:252 G8:253"
-  },
-  "UID:BokningsId_20221118_000001357" : {
-    "id" : "UID:BokningsId_20221118_000001357",
-    "summary" : "Moment: Salstentamen - Digitamen Ordinarie tillfälle. 2101  Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSFANA ",
-    "startDate" : "2023-05-30 14:15:00",
-    "endDate" : "2023-05-30 18:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20221102_000002601" : {
-    "id" : "UID:BokningsId_20221102_000002601",
-    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
-    "startDate" : "2023-06-02 08:15:00",
-    "endDate" : "2023-06-02 10:00:00",
-    "location" : "NI:A0602"
-  },
-  "UID:BokningsId_20230403_000000715" : {
-    "id" : "UID:BokningsId_20230403_000000715",
-    "summary" : "Moment: Övning 9: Operating systems Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
-    "startDate" : "2023-10-11 08:15:00",
-    "endDate" : "2023-10-11 12:00:00",
-    "location" : "OR:D331A OR:D331BC OR:E323"
-  },
-  "UID:BokningsId_20230403_000000713" : {
-    "id" : "UID:BokningsId_20230403_000000713",
-    "summary" : "Moment: Övning 8: Operating systems Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
-    "startDate" : "2023-10-09 13:15:00",
-    "endDate" : "2023-10-09 17:00:00",
-    "location" : "OR:D331A OR:D331BC OR:E323"
-  },
-  "UID:BokningsId_20221101_000003823" : {
-    "id" : "UID:BokningsId_20221101_000003823",
-    "summary" : "Moment: Teori: Frågor inför tentamen (DA336A omtillfälle 1, DA393A ordinarie tillfälle) Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h THDTB22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Systemutveckling och projekt för ingenjörer, 15 hp Kurs inom program,  100% dagtid Sign: AC8293 TSKRAL ",
-    "startDate" : "2023-05-17 10:15:00",
-    "endDate" : "2023-05-17 12:00:00",
-    "location" : "NI:B0E07"
-  },
-  "UID:BokningsId_20230403_000000719" : {
-    "id" : "UID:BokningsId_20230403_000000719",
-    "summary" : "Moment: Övning 11: Uppsamling Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
-    "startDate" : "2023-10-19 13:15:00",
-    "endDate" : "2023-10-19 17:00:00",
-    "location" : "OR:D331BC"
-  },
-  "UID:BokningsId_20230412_000000245" : {
-    "id" : "UID:BokningsId_20230412_000000245",
-    "summary" : "Moment: TS fika, Niagara Atriet våning 5. Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Diskret matematik för programmerare, 7.5 hp Kurs inom program,  50% dagtid Diskret matematik för programmerare, 7.5 hp Kurs inom program,  50% dagtid ",
-    "startDate" : "2023-09-27 13:00:00",
-    "endDate" : "2023-09-27 16:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20221101_000003319" : {
-    "id" : "UID:BokningsId_20221101_000003319",
-    "summary" : "Moment: Sys IA: Workshop Poster till utställning - Sys/IA: Grupp: 20-21, 23-28 FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: CTCAST ",
-    "startDate" : "2023-05-05 09:15:00",
-    "endDate" : "2023-05-05 12:00:00",
-    "location" : "NI:A0406"
-  },
-  "UID:BokningsId_20221103_000001439" : {
-    "id" : "UID:BokningsId_20221103_000001439",
-    "summary" : "Moment: A5 Asynkronprogrammering Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-23 13:15:00",
-    "endDate" : "2023-05-23 15:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221108_000000923" : {
-    "id" : "UID:BokningsId_20221108_000000923",
-    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 2 2101 Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: AC8647 AF6509 AK4314 ",
-    "startDate" : "2023-08-18 08:15:00",
-    "endDate" : "2023-08-18 12:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20221118_000001683" : {
-    "id" : "UID:BokningsId_20221118_000001683",
-    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 2 2001 Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGSYA22h Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: AE1925 ",
-    "startDate" : "2023-05-06 09:15:00",
-    "endDate" : "2023-05-06 13:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20221207_000000833" : {
-    "id" : "UID:BokningsId_20221207_000000833",
-    "summary" : "Moment: Restinlämning diagram till utvecklingsprojekt. Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-06-14 12:59:00",
-    "endDate" : "2023-06-14 13:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20221118_000001363" : {
-    "id" : "UID:BokningsId_20221118_000001363",
-    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 2 2101  Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSFANA ",
-    "startDate" : "2023-10-25 08:15:00",
-    "endDate" : "2023-10-25 12:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20221103_000001435" : {
-    "id" : "UID:BokningsId_20221103_000001435",
-    "summary" : "Moment: A4 Redovisning Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-22 08:15:00",
-    "endDate" : "2023-05-22 10:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221103_000001437" : {
-    "id" : "UID:BokningsId_20221103_000001437",
-    "summary" : "Moment: A4 Redovisning Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-22 10:15:00",
-    "endDate" : "2023-05-22 12:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221103_000001431" : {
-    "id" : "UID:BokningsId_20221103_000001431",
-    "summary" : "Moment: FC4 Trådpooler/Asynkronprogrammering Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-16 13:15:00",
-    "endDate" : "2023-05-16 15:00:00",
-    "location" : "NI:A0506"
-  },
-  "UID:BokningsId_20221103_000001795" : {
-    "id" : "UID:BokningsId_20221103_000001795",
-    "summary" : "Moment: Sys+IA: Retrospektmöte 3, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: AC8647 AJ7005 AL3324 AO4518 ",
-    "startDate" : "2023-05-16 08:15:00",
-    "endDate" : "2023-05-16 10:00:00",
-    "location" : "NI:A0510 NI:A0513 NI:A0602 NI:B0317"
-  },
-  "UID:BokningsId_20221103_000001433" : {
-    "id" : "UID:BokningsId_20221103_000001433",
-    "summary" : "Moment: FC4 Trådpooler/Asynkronprogrammering Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-16 15:15:00",
-    "endDate" : "2023-05-16 17:00:00",
-    "location" : "NI:A0506"
-  },
-  "UID:BokningsId_20220516_000001403" : {
-    "id" : "UID:BokningsId_20220516_000001403",
-    "summary" : "Moment: Salstentamen Omtentamen 2 2002 Tentamen 2 Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSKRAL ",
-    "startDate" : "2023-08-11 08:15:00",
-    "endDate" : "2023-08-11 13:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20221102_000002599" : {
-    "id" : "UID:BokningsId_20221102_000002599",
-    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
-    "startDate" : "2023-06-01 15:15:00",
-    "endDate" : "2023-06-01 17:00:00",
-    "location" : "NI:A0502"
-  },
-  "UID:BokningsId_20230403_000000743" : {
-    "id" : "UID:BokningsId_20230403_000000743",
-    "summary" : "Moment: Föreläsning 10: Scheduling and I/O management Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
-    "startDate" : "2023-10-04 10:15:00",
-    "endDate" : "2023-10-04 12:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20230403_000000741" : {
-    "id" : "UID:BokningsId_20230403_000000741",
-    "summary" : "Moment: Föreläsning 9: More on memory management Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
-    "startDate" : "2023-10-02 13:15:00",
-    "endDate" : "2023-10-02 15:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20230403_000000703" : {
-    "id" : "UID:BokningsId_20230403_000000703",
-    "summary" : "Moment: Övning 5: Högnivåspråk, stackaritmetik, översättare Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-09-18 13:15:00",
-    "endDate" : "2023-09-18 17:00:00",
-    "location" : "OR:D331A OR:D331BC OR:E323"
-  },
-  "UID:BokningsId_20230403_000000747" : {
-    "id" : "UID:BokningsId_20230403_000000747",
-    "summary" : "Moment: Övning 7: Operating systems Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid ",
-    "startDate" : "2023-10-05 13:15:00",
-    "endDate" : "2023-10-05 17:00:00",
-    "location" : "OR:D331A OR:D331BC OR:E222"
-  },
-  "UID:BokningsId_20221101_000003877" : {
-    "id" : "UID:BokningsId_20221101_000003877",
-    "summary" : "Moment: Sys+IA+Spel: Utställningsdag, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h THDTB22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Systemutveckling och projekt för ingenjörer, 15 hp Kurs inom program,  100% dagtid Sign: TSANTI TSKRAL TSZAGH ",
-    "startDate" : "2023-05-31 10:15:00",
-    "endDate" : "2023-05-31 15:00:00",
-    "location" : "NI:A0500A NI:A0500B NI:A0500V NI:A0506 NI:A0507"
-  },
-  "UID:BokningsId_20221101_000003751" : {
-    "id" : "UID:BokningsId_20221101_000003751",
-    "summary" : "Moment: Sys+IA: Testdag 2 FÖRVÄNTAD NÄRVARO, 2 timmar/grupp Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
-    "startDate" : "2023-05-10 08:15:00",
-    "endDate" : "2023-05-10 17:00:00",
-    "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:B0303"
-  },
-  "UID:BokningsId_20230403_000000707" : {
-    "id" : "UID:BokningsId_20230403_000000707",
-    "summary" : "Moment: Övning 10: Uppsamling Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-10-18 08:15:00",
-    "endDate" : "2023-10-18 12:00:00",
-    "location" : "OR:D326"
-  },
-  "UID:BokningsId_20230403_000000705" : {
-    "id" : "UID:BokningsId_20230403_000000705",
-    "summary" : "Moment: Övning 6: Högnivåspråk, stackaritmetik, översättare Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-09-20 08:15:00",
-    "endDate" : "2023-09-20 12:00:00",
-    "location" : "OR:D331A OR:D331BC OR:E323"
-  },
-  "UID:BokningsId_20221101_000003729" : {
-    "id" : "UID:BokningsId_20221101_000003729",
-    "summary" : "Moment: Sys IA: Supervision meetings, times via group supervisor, EXPECTED ATTENDANCE TSZAGH:NI:C0306 Mareike: NI:B0303 Anna: NI:A0401 Emil: NI:A0422 Hamza: NI:A0301 Sara: NI:A0322 Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: AC7398 AC8647 AJ7005 AL3324 AN0474 AN7738 AO4518 TSANTI TSZAGH ",
-    "startDate" : "2023-05-09 08:15:00",
-    "endDate" : "2023-05-09 12:00:00",
-    "location" : "G8:238 G8:249 NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:B0303 NI:B0305 NI:C0306"
-  },
-  "UID:BokningsId_20221108_000000853" : {
-    "id" : "UID:BokningsId_20221108_000000853",
-    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 1 2101 Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: AC8647 AF6509 AK4314 ",
-    "startDate" : "2023-06-08 14:15:00",
-    "endDate" : "2023-06-08 18:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20221101_000003849" : {
-    "id" : "UID:BokningsId_20221101_000003849",
+  "BokningsId_20221101_000003849" : {
+    "id" : "BokningsId_20221101_000003849",
     "summary" : "Moment: Sys IA: Handledningsmöten, tider via grupphandledare, FÖRVÄNTAD NÄRVARO TSZAGH:NI:C0306 Mareike: NI:B0303 Aktivitetstyp: Okänd",
     "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: AC7398 AC8647 AJ7005 AN7738 TSANTI TSZAGH ",
     "startDate" : "2023-05-23 08:15:00",
     "endDate" : "2023-05-23 10:00:00",
     "location" : "G8:246 NI:A0301 NI:A0322 NI:A0502 NI:B0303 NI:B0305"
   },
-  "UID:BokningsId_20221103_000001407" : {
-    "id" : "UID:BokningsId_20221103_000001407",
-    "summary" : "Moment: A3 Redovisning/hjälp Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-08 10:15:00",
-    "endDate" : "2023-05-08 12:00:00",
-    "location" : "NI:A0314 NI:A0318"
+  "BokningsId_20230403_000000709" : {
+    "id" : "BokningsId_20230403_000000709",
+    "summary" : "Moment: Övning 13: Uppsamling Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-10-26 13:15:00",
+    "endDate" : "2023-10-26 17:00:00",
+    "location" : "OR:D331BC"
   },
-  "UID:BokningsId_20221103_000001409" : {
-    "id" : "UID:BokningsId_20221103_000001409",
+  "BokningsId_20221101_000003729" : {
+    "id" : "BokningsId_20221101_000003729",
+    "summary" : "Moment: Sys IA: Supervision meetings, times via group supervisor, EXPECTED ATTENDANCE TSZAGH:NI:C0306 Mareike: NI:B0303 Anna: NI:A0401 Emil: NI:A0422 Hamza: NI:A0301 Sara: NI:A0322 Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: AC7398 AC8647 AJ7005 AL3324 AN0474 AN7738 AO4518 TSANTI TSZAGH ",
+    "startDate" : "2023-05-09 08:15:00",
+    "endDate" : "2023-05-09 12:00:00",
+    "location" : "G8:238 G8:249 NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:B0303 NI:B0305 NI:C0306"
+  },
+  "BokningsId_20230412_000000245" : {
+    "id" : "BokningsId_20230412_000000245",
+    "summary" : "Moment: TS fika, Niagara Atriet våning 5. Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Diskret matematik för programmerare, 7.5 hp Kurs inom program,  50% dagtid Diskret matematik för programmerare, 7.5 hp Kurs inom program,  50% dagtid ",
+    "startDate" : "2023-09-27 13:00:00",
+    "endDate" : "2023-09-27 16:00:00",
+    "location" : ""
+  },
+  "BokningsId_20230403_000000707" : {
+    "id" : "BokningsId_20230403_000000707",
+    "summary" : "Moment: Övning 10: Uppsamling Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-10-18 08:15:00",
+    "endDate" : "2023-10-18 12:00:00",
+    "location" : "OR:D326"
+  },
+  "BokningsId_20221103_000001409" : {
+    "id" : "BokningsId_20221103_000001409",
     "summary" : "Moment: FC3 Monitorer Aktivitetstyp: Okänd",
     "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
     "startDate" : "2023-05-09 13:15:00",
     "endDate" : "2023-05-09 15:00:00",
     "location" : "NI:A0506"
   },
-  "UID:BokningsId_20221102_000002627" : {
-    "id" : "UID:BokningsId_20221102_000002627",
-    "summary" : "Moment: Teori: Tentamensgenomgång (DA336A omtillfälle 2, DA393A omtillfälle 1) Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h THDTB22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Systemutveckling och projekt för ingenjörer, 15 hp Kurs inom program,  100% dagtid Sign: AC8293 TSKRAL ",
-    "startDate" : "2023-08-16 08:15:00",
-    "endDate" : "2023-08-16 12:00:00",
-    "location" : "NI:B0E07"
-  },
-  "UID:BokningsId_20221103_000001447" : {
-    "id" : "UID:BokningsId_20221103_000001447",
-    "summary" : "Moment: A5 Redovisning Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-29 08:15:00",
-    "endDate" : "2023-05-29 10:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221207_000000829" : {
-    "id" : "UID:BokningsId_20221207_000000829",
-    "summary" : "Moment: Restredovisningar P1, P2, Utv-proj och WS. Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 AH8154 AK4314 AL3324 CTGIKO ",
-    "startDate" : "2023-06-07 13:15:00",
-    "endDate" : "2023-06-07 17:00:00",
-    "location" : "Digital/Zoom"
-  },
-  "UID:BokningsId_20221103_000001405" : {
-    "id" : "UID:BokningsId_20221103_000001405",
-    "summary" : "Moment: A3 Redovisning/hjälp Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-08 08:15:00",
-    "endDate" : "2023-05-08 10:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221103_000001449" : {
-    "id" : "UID:BokningsId_20221103_000001449",
-    "summary" : "Moment: A5 Redovisning Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-29 10:15:00",
-    "endDate" : "2023-05-29 12:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20221207_000000827" : {
-    "id" : "UID:BokningsId_20221207_000000827",
-    "summary" : "Moment: Restinlämning restredovisning P1, P2 och UTV-proj. Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 AH8154 AK4314 AL3324 CTGIKO ",
-    "startDate" : "2023-06-05 12:59:00",
-    "endDate" : "2023-06-05 13:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20221103_000001443" : {
-    "id" : "UID:BokningsId_20221103_000001443",
-    "summary" : "Moment: A5 Asynkronprogrammering Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-25 08:15:00",
-    "endDate" : "2023-05-25 10:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20230403_000000695" : {
-    "id" : "UID:BokningsId_20230403_000000695",
-    "summary" : "Moment: Övning 3: Logiska kretsar, datorarkitektur Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-09-07 13:15:00",
-    "endDate" : "2023-09-07 17:00:00",
-    "location" : "LOKAL SAKNAS OR:D331A OR:D331BC"
-  },
-  "UID:BokningsId_20220516_000001315" : {
-    "id" : "UID:BokningsId_20220516_000001315",
-    "summary" : "Moment: Salstentamen Omtentamen 2 2001 Tentamen 1 Aktivitetstyp: Aktivitetstillfällen",
-    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSKRAL ",
-    "startDate" : "2023-08-10 08:15:00",
-    "endDate" : "2023-08-10 13:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "UID:BokningsId_20221103_000001445" : {
-    "id" : "UID:BokningsId_20221103_000001445",
-    "summary" : "Moment: F10 Repetition, frågor och svar Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-25 10:15:00",
-    "endDate" : "2023-05-25 12:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20230403_000000693" : {
-    "id" : "UID:BokningsId_20230403_000000693",
-    "summary" : "Moment: Övning 2: Logiska kretsar, datorarkitektur Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-09-06 08:15:00",
-    "endDate" : "2023-09-06 12:00:00",
-    "location" : "OR:D331A OR:D331BC OR:E323"
-  },
-  "UID:BokningsId_20230403_000000733" : {
-    "id" : "UID:BokningsId_20230403_000000733",
-    "summary" : "Moment: Föreläsning 5: Översättare fortsättning Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-09-13 10:15:00",
-    "endDate" : "2023-09-13 12:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20221102_000002621" : {
-    "id" : "UID:BokningsId_20221102_000002621",
-    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
-    "startDate" : "2023-06-02 15:15:00",
-    "endDate" : "2023-06-02 17:00:00",
-    "location" : "NI:A0602"
-  },
-  "UID:BokningsId_20221102_000002545" : {
-    "id" : "UID:BokningsId_20221102_000002545",
-    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
-    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
-    "startDate" : "2023-05-31 15:15:00",
-    "endDate" : "2023-05-31 17:00:00",
-    "location" : "NI:A0502"
-  },
-  "UID:BokningsId_20230403_000000731" : {
-    "id" : "UID:BokningsId_20230403_000000731",
-    "summary" : "Moment: Föreläsning 4: Hög- och lågnivåspråk, översättare Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-09-11 13:15:00",
-    "endDate" : "2023-09-11 15:00:00",
-    "location" : ""
-  },
-  "UID:BokningsId_20221103_000001441" : {
-    "id" : "UID:BokningsId_20221103_000001441",
-    "summary" : "Moment: A5 Asynkronprogrammering Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "startDate" : "2023-05-23 15:15:00",
-    "endDate" : "2023-05-23 17:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
-  "UID:BokningsId_20230403_000000697" : {
-    "id" : "UID:BokningsId_20230403_000000697",
-    "summary" : "Moment: Övning 4: Högnivåspråk, stackaritmetik, översättare Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
-    "startDate" : "2023-09-14 13:15:00",
-    "endDate" : "2023-09-14 17:00:00",
-    "location" : "OR:D331A OR:D331BC OR:E222"
-  },
-  "UID:BokningsId_20221101_000003765" : {
-    "id" : "UID:BokningsId_20221101_000003765",
+  "BokningsId_20221101_000003765" : {
+    "id" : "BokningsId_20221101_000003765",
     "summary" : "Moment: Sys+IA+Spel: DEADLINE: Inlämning av fil med poster för tryck till utställning Aktivitetstyp: Okänd",
     "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid ",
     "startDate" : "2023-05-11 23:58:00",
     "endDate" : "2023-05-11 23:59:00",
     "location" : ""
   },
-  "UID:BokningsId_20230403_000000737" : {
-    "id" : "UID:BokningsId_20230403_000000737",
-    "summary" : "Moment: Föreläsning 7: Call stack, loading and linking, interrupts and threads Aktivitetstyp: Okänd",
+  "BokningsId_20230403_000000743" : {
+    "id" : "BokningsId_20230403_000000743",
+    "summary" : "Moment: Föreläsning 10: Scheduling and I/O management Aktivitetstyp: Okänd",
     "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
-    "startDate" : "2023-09-25 13:15:00",
-    "endDate" : "2023-09-25 15:00:00",
+    "startDate" : "2023-10-04 10:15:00",
+    "endDate" : "2023-10-04 12:00:00",
     "location" : ""
   },
-  "UID:BokningsId_20230403_000000735" : {
-    "id" : "UID:BokningsId_20230403_000000735",
+  "BokningsId_20230403_000000705" : {
+    "id" : "BokningsId_20230403_000000705",
+    "summary" : "Moment: Övning 6: Högnivåspråk, stackaritmetik, översättare Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-09-20 08:15:00",
+    "endDate" : "2023-09-20 12:00:00",
+    "location" : "OR:D331A OR:D331BC OR:E323"
+  },
+  "BokningsId_20230403_000000703" : {
+    "id" : "BokningsId_20230403_000000703",
+    "summary" : "Moment: Övning 5: Högnivåspråk, stackaritmetik, översättare Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-09-18 13:15:00",
+    "endDate" : "2023-09-18 17:00:00",
+    "location" : "OR:D331A OR:D331BC OR:E323"
+  },
+  "BokningsId_20230403_000000747" : {
+    "id" : "BokningsId_20230403_000000747",
+    "summary" : "Moment: Övning 7: Operating systems Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid ",
+    "startDate" : "2023-10-05 13:15:00",
+    "endDate" : "2023-10-05 17:00:00",
+    "location" : "OR:D331A OR:D331BC OR:E222"
+  },
+  "BokningsId_20221103_000001451" : {
+    "id" : "BokningsId_20221103_000001451",
+    "summary" : "Moment: A5 Redovisning Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-06-01 08:15:00",
+    "endDate" : "2023-06-01 10:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20220516_000001403" : {
+    "id" : "BokningsId_20220516_000001403",
+    "summary" : "Moment: Salstentamen Omtentamen 2 2002 Tentamen 2 Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSKRAL ",
+    "startDate" : "2023-08-11 08:15:00",
+    "endDate" : "2023-08-11 13:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20221103_000001453" : {
+    "id" : "BokningsId_20221103_000001453",
+    "summary" : "Moment: A1-A5 Redovinsing omtillfälle Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-06-01 10:15:00",
+    "endDate" : "2023-06-01 12:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221102_000002611" : {
+    "id" : "BokningsId_20221102_000002611",
+    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL TSZAGH ",
+    "startDate" : "2023-06-02 10:15:00",
+    "endDate" : "2023-06-02 12:00:00",
+    "location" : "NI:A0602"
+  },
+  "BokningsId_20221207_000000833" : {
+    "id" : "BokningsId_20221207_000000833",
+    "summary" : "Moment: Restinlämning diagram till utvecklingsprojekt. Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-06-14 12:59:00",
+    "endDate" : "2023-06-14 13:00:00",
+    "location" : ""
+  },
+  "BokningsId_20221108_000000923" : {
+    "id" : "BokningsId_20221108_000000923",
+    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 2 2101 Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: AC8647 AF6509 AK4314 ",
+    "startDate" : "2023-08-18 08:15:00",
+    "endDate" : "2023-08-18 12:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20221103_000001415" : {
+    "id" : "BokningsId_20221103_000001415",
+    "summary" : "Moment: F9 Asynkkronprogrammering Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-11 10:15:00",
+    "endDate" : "2023-05-11 12:00:00",
+    "location" : "OR:D131"
+  },
+  "BokningsId_20221102_000002579" : {
+    "id" : "BokningsId_20221102_000002579",
+    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
+    "startDate" : "2023-06-01 13:15:00",
+    "endDate" : "2023-06-01 15:00:00",
+    "location" : "NI:A0502"
+  },
+  "BokningsId_20221103_000001417" : {
+    "id" : "BokningsId_20221103_000001417",
+    "summary" : "Moment: A4 Monitorer Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-15 08:15:00",
+    "endDate" : "2023-05-15 10:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221103_000001411" : {
+    "id" : "BokningsId_20221103_000001411",
+    "summary" : "Moment: FC3 Monitorer Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-09 15:15:00",
+    "endDate" : "2023-05-09 17:00:00",
+    "location" : "NI:A0506"
+  },
+  "BokningsId_20221103_000001455" : {
+    "id" : "BokningsId_20221103_000001455",
+    "summary" : "Moment: A1-A5 Redovinsing omtillfälle Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-06-05 08:15:00",
+    "endDate" : "2023-06-05 10:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221102_000002617" : {
+    "id" : "BokningsId_20221102_000002617",
+    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
+    "startDate" : "2023-06-02 13:15:00",
+    "endDate" : "2023-06-02 15:00:00",
+    "location" : "NI:A0602"
+  },
+  "BokningsId_20221103_000001413" : {
+    "id" : "BokningsId_20221103_000001413",
+    "summary" : "Moment: A4 Monitorer Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-11 08:15:00",
+    "endDate" : "2023-05-11 10:00:00",
+    "location" : "OR:D326"
+  },
+  "BokningsId_20221103_000001457" : {
+    "id" : "BokningsId_20221103_000001457",
+    "summary" : "Moment: A1-A5 Redovinsing omtillfälle Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-06-05 10:15:00",
+    "endDate" : "2023-06-05 12:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20230403_000000719" : {
+    "id" : "BokningsId_20230403_000000719",
+    "summary" : "Moment: Övning 11: Uppsamling Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
+    "startDate" : "2023-10-19 13:15:00",
+    "endDate" : "2023-10-19 17:00:00",
+    "location" : "OR:D331BC"
+  },
+  "BokningsId_20221101_000003877" : {
+    "id" : "BokningsId_20221101_000003877",
+    "summary" : "Moment: Sys+IA+Spel: Utställningsdag, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h THDTB22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Systemutveckling och projekt för ingenjörer, 15 hp Kurs inom program,  100% dagtid Sign: TSANTI TSKRAL TSZAGH ",
+    "startDate" : "2023-05-31 10:15:00",
+    "endDate" : "2023-05-31 15:00:00",
+    "location" : "NI:A0500A NI:A0500B NI:A0500V NI:A0506 NI:A0507"
+  },
+  "BokningsId_20221101_000003319" : {
+    "id" : "BokningsId_20221101_000003319",
+    "summary" : "Moment: Sys IA: Workshop Poster till utställning - Sys/IA: Grupp: 20-21, 23-28 FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: CTCAST ",
+    "startDate" : "2023-05-05 09:15:00",
+    "endDate" : "2023-05-05 12:00:00",
+    "location" : "NI:A0406"
+  },
+  "BokningsId_20230403_000000713" : {
+    "id" : "BokningsId_20230403_000000713",
+    "summary" : "Moment: Övning 8: Operating systems Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
+    "startDate" : "2023-10-09 13:15:00",
+    "endDate" : "2023-10-09 17:00:00",
+    "location" : "OR:D331A OR:D331BC OR:E323"
+  },
+  "BokningsId_20230323_000000109" : {
+    "id" : "BokningsId_20230323_000000109",
+    "summary" : "Moment: Sys IA: Handledningsmöten, tider via grupphandledare, FÖRVÄNTAD NÄRVARO  Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: AL3324 AN0474 AO4518 ",
+    "startDate" : "2023-05-23 10:15:00",
+    "endDate" : "2023-05-23 12:00:00",
+    "location" : "G8:249 G8:252 G8:253"
+  },
+  "BokningsId_20230403_000000715" : {
+    "id" : "BokningsId_20230403_000000715",
+    "summary" : "Moment: Övning 9: Operating systems Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
+    "startDate" : "2023-10-11 08:15:00",
+    "endDate" : "2023-10-11 12:00:00",
+    "location" : "OR:D331A OR:D331BC OR:E323"
+  },
+  "BokningsId_20221101_000003751" : {
+    "id" : "BokningsId_20221101_000003751",
+    "summary" : "Moment: Sys+IA: Testdag 2 FÖRVÄNTAD NÄRVARO, 2 timmar/grupp Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
+    "startDate" : "2023-05-10 08:15:00",
+    "endDate" : "2023-05-10 17:00:00",
+    "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:B0303"
+  },
+  "BokningsId_20221118_000001363" : {
+    "id" : "BokningsId_20221118_000001363",
+    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 2 2101  Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSFANA ",
+    "startDate" : "2023-10-25 08:15:00",
+    "endDate" : "2023-10-25 12:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20221118_000001683" : {
+    "id" : "BokningsId_20221118_000001683",
+    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 2 2001 Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGSYA22h Kurs.grp: Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Databasteknik, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: AE1925 ",
+    "startDate" : "2023-05-06 09:15:00",
+    "endDate" : "2023-05-06 13:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20221102_000002601" : {
+    "id" : "BokningsId_20221102_000002601",
+    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
+    "startDate" : "2023-06-02 08:15:00",
+    "endDate" : "2023-06-02 10:00:00",
+    "location" : "NI:A0602"
+  },
+  "BokningsId_20221103_000001429" : {
+    "id" : "BokningsId_20221103_000001429",
+    "summary" : "Moment: A4 Redovisning/hjälp Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-15 10:15:00",
+    "endDate" : "2023-05-15 12:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20230412_000000189" : {
+    "id" : "BokningsId_20230412_000000189",
+    "summary" : "Moment: TS fika, Niagara Atriet våning 5. Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid ",
+    "startDate" : "2023-09-27 13:00:00",
+    "endDate" : "2023-09-27 16:00:00",
+    "location" : ""
+  },
+  "BokningsId_20230403_000000729" : {
+    "id" : "BokningsId_20230403_000000729",
+    "summary" : "Moment: Föreläsning 3: Fortsättning på datorarkitektur och maskinspråk Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-09-04 13:15:00",
+    "endDate" : "2023-09-04 15:00:00",
+    "location" : ""
+  },
+  "BokningsId_20221101_000003823" : {
+    "id" : "BokningsId_20221101_000003823",
+    "summary" : "Moment: Teori: Frågor inför tentamen (DA336A omtillfälle 1, DA393A ordinarie tillfälle) Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h THDTB22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Systemutveckling och projekt för ingenjörer, 15 hp Kurs inom program,  100% dagtid Sign: AC8293 TSKRAL ",
+    "startDate" : "2023-05-17 10:15:00",
+    "endDate" : "2023-05-17 12:00:00",
+    "location" : "NI:B0E07"
+  },
+  "BokningsId_20230403_000000689" : {
+    "id" : "BokningsId_20230403_000000689",
+    "summary" : "Moment: Övning 1: Logiska kretsar, datorarkitektur Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-08-31 13:15:00",
+    "endDate" : "2023-08-31 17:00:00",
+    "location" : "OR:D331A OR:D331BC OR:E222"
+  },
+  "BokningsId_20230403_000000721" : {
+    "id" : "BokningsId_20230403_000000721",
+    "summary" : "Moment: Övning 12: Uppsamling Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
+    "startDate" : "2023-10-23 13:15:00",
+    "endDate" : "2023-10-23 17:00:00",
+    "location" : "OR:D326"
+  },
+  "BokningsId_20230403_000000727" : {
+    "id" : "BokningsId_20230403_000000727",
+    "summary" : "Moment: Föreläsning 2: Sekventiell logik, datorarkitektur, maskinspråk Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-08-30 10:15:00",
+    "endDate" : "2023-08-30 12:00:00",
+    "location" : ""
+  },
+  "BokningsId_20230403_000000725" : {
+    "id" : "BokningsId_20230403_000000725",
+    "summary" : "Moment: Föreläsning 1: Intro, logik, binär aritmetik Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-08-28 15:15:00",
+    "endDate" : "2023-08-28 17:00:00",
+    "location" : ""
+  },
+  "BokningsId_20221118_000001359" : {
+    "id" : "BokningsId_20221118_000001359",
+    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 1 2101  Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSFANA ",
+    "startDate" : "2023-08-31 08:15:00",
+    "endDate" : "2023-08-31 12:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20230403_000000693" : {
+    "id" : "BokningsId_20230403_000000693",
+    "summary" : "Moment: Övning 2: Logiska kretsar, datorarkitektur Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-09-06 08:15:00",
+    "endDate" : "2023-09-06 12:00:00",
+    "location" : "OR:D331A OR:D331BC OR:E323"
+  },
+  "BokningsId_20221103_000001795" : {
+    "id" : "BokningsId_20221103_000001795",
+    "summary" : "Moment: Sys+IA: Retrospektmöte 3, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: AC8647 AJ7005 AL3324 AO4518 ",
+    "startDate" : "2023-05-16 08:15:00",
+    "endDate" : "2023-05-16 10:00:00",
+    "location" : "NI:A0510 NI:A0513 NI:A0602 NI:B0317"
+  },
+  "BokningsId_20221103_000001431" : {
+    "id" : "BokningsId_20221103_000001431",
+    "summary" : "Moment: FC4 Trådpooler/Asynkronprogrammering Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-16 13:15:00",
+    "endDate" : "2023-05-16 15:00:00",
+    "location" : "NI:A0506"
+  },
+  "BokningsId_20221118_000001357" : {
+    "id" : "BokningsId_20221118_000001357",
+    "summary" : "Moment: Salstentamen - Digitamen Ordinarie tillfälle. 2101  Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSFANA ",
+    "startDate" : "2023-05-30 14:15:00",
+    "endDate" : "2023-05-30 18:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20230403_000000731" : {
+    "id" : "BokningsId_20230403_000000731",
+    "summary" : "Moment: Föreläsning 4: Hög- och lågnivåspråk, översättare Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-09-11 13:15:00",
+    "endDate" : "2023-09-11 15:00:00",
+    "location" : ""
+  },
+  "BokningsId_20230403_000000697" : {
+    "id" : "BokningsId_20230403_000000697",
+    "summary" : "Moment: Övning 4: Högnivåspråk, stackaritmetik, översättare Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-09-14 13:15:00",
+    "endDate" : "2023-09-14 17:00:00",
+    "location" : "OR:D331A OR:D331BC OR:E222"
+  },
+  "BokningsId_20220929_000000633" : {
+    "id" : "BokningsId_20220929_000000633",
+    "summary" : "Moment: DEADLINE Uppgift 1 Datavetenskap, version 2, omtillfälle 2. DEADLINE Uppgift 2 Etik, version 2, omtillfälle 2. DEADLINE ersättningsuppgift omtillfälle 3 för Workshop Informationssökning för de som inte deltog i denna workshop på det ordinarie tillfället. Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid ",
+    "startDate" : "2023-08-06 23:58:00",
+    "endDate" : "2023-08-06 23:59:00",
+    "location" : ""
+  },
+  "BokningsId_20221102_000002599" : {
+    "id" : "BokningsId_20221102_000002599",
+    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
+    "startDate" : "2023-06-01 15:15:00",
+    "endDate" : "2023-06-01 17:00:00",
+    "location" : "NI:A0502"
+  },
+  "BokningsId_20230403_000000695" : {
+    "id" : "BokningsId_20230403_000000695",
+    "summary" : "Moment: Övning 3: Logiska kretsar, datorarkitektur Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-09-07 13:15:00",
+    "endDate" : "2023-09-07 17:00:00",
+    "location" : "LOKAL SAKNAS OR:D331A OR:D331BC"
+  },
+  "BokningsId_20220929_000000631" : {
+    "id" : "BokningsId_20220929_000000631",
+    "summary" : "Moment: DEADLINE Uppgift 1 Datavetenskap, kamratgranskning, omtillfälle 2. DEADLINE Uppgift 2 Etik, kamratgranskning, omtillfälle 2 Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid ",
+    "startDate" : "2023-06-21 23:58:00",
+    "endDate" : "2023-06-21 23:59:00",
+    "location" : ""
+  },
+  "BokningsId_20221103_000001437" : {
+    "id" : "BokningsId_20221103_000001437",
+    "summary" : "Moment: A4 Redovisning Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-22 10:15:00",
+    "endDate" : "2023-05-22 12:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221103_000001439" : {
+    "id" : "BokningsId_20221103_000001439",
+    "summary" : "Moment: A5 Asynkronprogrammering Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-23 13:15:00",
+    "endDate" : "2023-05-23 15:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221103_000001433" : {
+    "id" : "BokningsId_20221103_000001433",
+    "summary" : "Moment: FC4 Trådpooler/Asynkronprogrammering Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-16 15:15:00",
+    "endDate" : "2023-05-16 17:00:00",
+    "location" : "NI:A0506"
+  },
+  "BokningsId_20221108_000000469" : {
+    "id" : "BokningsId_20221108_000000469",
+    "summary" : "Moment: Salstentamen Omtentamen 2. 2101 Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSKRAL ",
+    "startDate" : "2023-08-14 08:15:00",
+    "endDate" : "2023-08-14 13:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20221103_000001435" : {
+    "id" : "BokningsId_20221103_000001435",
+    "summary" : "Moment: A4 Redovisning Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-22 08:15:00",
+    "endDate" : "2023-05-22 10:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221101_000003815" : {
+    "id" : "BokningsId_20221101_000003815",
+    "summary" : "Moment: Sys IA: Retrospektmöte 3, FÖRVÄNTAD NÄRVARO TSZAGH:NI:A0602 Anna: NI:A0513 Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: AC7398 AN0474 AN7738 TSANTI TSZAGH ",
+    "startDate" : "2023-05-16 10:15:00",
+    "endDate" : "2023-05-16 12:00:00",
+    "location" : "NI:A0510 NI:A0513 NI:A0602 NI:B0308"
+  },
+  "BokningsId_20221108_000000461" : {
+    "id" : "BokningsId_20221108_000000461",
+    "summary" : "Moment: Salstentamen Omtentamen 1. 2101 Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSKRAL ",
+    "startDate" : "2023-05-22 08:15:00",
+    "endDate" : "2023-05-22 13:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20221101_000003857" : {
+    "id" : "BokningsId_20221101_000003857",
+    "summary" : "Moment: Teori: Tentamensgenomgång (DA336A omtillfälle 1, DA393A ordinarie tillfälle) Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h THDTB22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Systemutveckling och projekt för ingenjörer, 15 hp Kurs inom program,  100% dagtid Sign: AC8293 TSKRAL ",
+    "startDate" : "2023-05-24 08:15:00",
+    "endDate" : "2023-05-24 12:00:00",
+    "location" : "NI:B0E07"
+  },
+  "BokningsId_20230403_000000735" : {
+    "id" : "BokningsId_20230403_000000735",
     "summary" : "Moment: Föreläsning 6: Introduction to operating systems and processes Aktivitetstyp: Okänd",
     "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
     "startDate" : "2023-09-21 13:15:00",
     "endDate" : "2023-09-21 15:00:00",
     "location" : ""
   },
-  "UID:BokningsId_20230403_000000739" : {
-    "id" : "UID:BokningsId_20230403_000000739",
+  "BokningsId_20230403_000000733" : {
+    "id" : "BokningsId_20230403_000000733",
+    "summary" : "Moment: Föreläsning 5: Översättare fortsättning Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 ",
+    "startDate" : "2023-09-13 10:15:00",
+    "endDate" : "2023-09-13 12:00:00",
+    "location" : ""
+  },
+  "BokningsId_20230403_000000739" : {
+    "id" : "BokningsId_20230403_000000739",
     "summary" : "Moment: Föreläsning 8: Memory management, concurrency and synchronization Aktivitetstyp: Okänd",
     "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
     "startDate" : "2023-09-27 10:15:00",
     "endDate" : "2023-09-27 12:00:00",
     "location" : ""
   },
-  "UID:BokningsId_20230412_000000189" : {
-    "id" : "UID:BokningsId_20230412_000000189",
-    "summary" : "Moment: TS fika, Niagara Atriet våning 5. Aktivitetstyp: Okänd",
-    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid ",
-    "startDate" : "2023-09-27 13:00:00",
-    "endDate" : "2023-09-27 16:00:00",
+  "BokningsId_20230403_000000737" : {
+    "id" : "BokningsId_20230403_000000737",
+    "summary" : "Moment: Föreläsning 7: Call stack, loading and linking, interrupts and threads Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
+    "startDate" : "2023-09-25 13:15:00",
+    "endDate" : "2023-09-25 15:00:00",
     "location" : ""
+  },
+  "BokningsId_20221103_000001441" : {
+    "id" : "BokningsId_20221103_000001441",
+    "summary" : "Moment: A5 Asynkronprogrammering Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-23 15:15:00",
+    "endDate" : "2023-05-23 17:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20220929_000000629" : {
+    "id" : "BokningsId_20220929_000000629",
+    "summary" : "Moment: DEADLINE Uppgift 1 Datavetenskap, version 1, omtillfälle 2. DEADLINE Uppgift 2 Etik, version 1, omtillfälle 2 Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Introduktion till studier i datavetenskap, 7.5 hp Kurs inom program,  50% dagtid ",
+    "startDate" : "2023-06-11 23:58:00",
+    "endDate" : "2023-06-11 23:59:00",
+    "location" : ""
+  },
+  "BokningsId_20220516_000001315" : {
+    "id" : "BokningsId_20220516_000001315",
+    "summary" : "Moment: Salstentamen Omtentamen 2 2001 Tentamen 1 Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Objektorienterad programmering, 15 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSKRAL ",
+    "startDate" : "2023-08-10 08:15:00",
+    "endDate" : "2023-08-10 13:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20221103_000001443" : {
+    "id" : "BokningsId_20221103_000001443",
+    "summary" : "Moment: A5 Asynkronprogrammering Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-25 08:15:00",
+    "endDate" : "2023-05-25 10:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221207_000000829" : {
+    "id" : "BokningsId_20221207_000000829",
+    "summary" : "Moment: Restredovisningar P1, P2, Utv-proj och WS. Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 AH8154 AK4314 AL3324 CTGIKO ",
+    "startDate" : "2023-06-07 13:15:00",
+    "endDate" : "2023-06-07 17:00:00",
+    "location" : "Digital/Zoom"
+  },
+  "BokningsId_20230403_000000741" : {
+    "id" : "BokningsId_20230403_000000741",
+    "summary" : "Moment: Föreläsning 9: More on memory management Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h Kurs.grp: Systemprogramvara, 7.5 hp Kurs inom program,  50% dagtid Sign: AJ7005 ",
+    "startDate" : "2023-10-02 13:15:00",
+    "endDate" : "2023-10-02 15:00:00",
+    "location" : ""
+  },
+  "BokningsId_20221102_000002621" : {
+    "id" : "BokningsId_20221102_000002621",
+    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
+    "startDate" : "2023-06-02 15:15:00",
+    "endDate" : "2023-06-02 17:00:00",
+    "location" : "NI:A0602"
+  },
+  "BokningsId_20221103_000001405" : {
+    "id" : "BokningsId_20221103_000001405",
+    "summary" : "Moment: A3 Redovisning/hjälp Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-08 08:15:00",
+    "endDate" : "2023-05-08 10:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221103_000001449" : {
+    "id" : "BokningsId_20221103_000001449",
+    "summary" : "Moment: A5 Redovisning Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-29 10:15:00",
+    "endDate" : "2023-05-29 12:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221102_000002545" : {
+    "id" : "BokningsId_20221102_000002545",
+    "summary" : "Moment: Sys+IA: Retrospektmöte 4, XXXs grupper, FÖRVÄNTAD NÄRVARO Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSYA22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Sign: TSKRAL ",
+    "startDate" : "2023-05-31 15:15:00",
+    "endDate" : "2023-05-31 17:00:00",
+    "location" : "NI:A0502"
+  },
+  "BokningsId_20221103_000001407" : {
+    "id" : "BokningsId_20221103_000001407",
+    "summary" : "Moment: A3 Redovisning/hjälp Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-08 10:15:00",
+    "endDate" : "2023-05-08 12:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221103_000001445" : {
+    "id" : "BokningsId_20221103_000001445",
+    "summary" : "Moment: F10 Repetition, frågor och svar Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-25 10:15:00",
+    "endDate" : "2023-05-25 12:00:00",
+    "location" : "NI:A0314 NI:A0318"
+  },
+  "BokningsId_20221108_000000853" : {
+    "id" : "BokningsId_20221108_000000853",
+    "summary" : "Moment: Salstentamen - Digitamen Omtentamen 1 2101 Aktivitetstyp: Aktivitetstillfällen",
+    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: AC8647 AF6509 AK4314 ",
+    "startDate" : "2023-06-08 14:15:00",
+    "endDate" : "2023-06-08 18:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
+  "BokningsId_20221207_000000827" : {
+    "id" : "BokningsId_20221207_000000827",
+    "summary" : "Moment: Restinlämning restredovisning P1, P2 och UTV-proj. Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSYA22h THDTB22h Kurs.grp: Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Fristående kurs,  50% dagtid Objektorienterad programutveckling, trådar och datakommunikation, 7.5 hp Kurs inom program,  50% dagtid Sign: AC8647 AH8154 AK4314 AL3324 CTGIKO ",
+    "startDate" : "2023-06-05 12:59:00",
+    "endDate" : "2023-06-05 13:00:00",
+    "location" : ""
+  },
+  "BokningsId_20221102_000002627" : {
+    "id" : "BokningsId_20221102_000002627",
+    "summary" : "Moment: Teori: Tentamensgenomgång (DA336A omtillfälle 2, DA393A omtillfälle 1) Aktivitetstyp: Okänd",
+    "moment" : "Program: TGIAA22h TGSPA22h TGSYA22h THDTB22h Kurs.grp: Systemutveckling och projekt I, 15 hp Kurs inom program,  50% dagtid Systemutveckling och projekt för ingenjörer, 15 hp Kurs inom program,  100% dagtid Sign: AC8293 TSKRAL ",
+    "startDate" : "2023-08-16 08:15:00",
+    "endDate" : "2023-08-16 12:00:00",
+    "location" : "NI:B0E07"
+  },
+  "BokningsId_20221103_000001447" : {
+    "id" : "BokningsId_20221103_000001447",
+    "summary" : "Moment: A5 Redovisning Aktivitetstyp: Okänd",
+    "moment" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
+    "startDate" : "2023-05-29 08:15:00",
+    "endDate" : "2023-05-29 10:00:00",
+    "location" : "NI:A0314 NI:A0318"
   }
 }
