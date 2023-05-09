@@ -18,7 +18,7 @@ public interface WebAPI {
     @GetMapping(value = "/events")
     ResponseEntity<Object> getJsonFile() throws IOException, JSONException;
 
-    @DeleteMapping("/events/{id}")
+    @DeleteMapping(value ="/events/{id}")
     void removeEvent(@PathVariable String id) throws IOException, ParserException;
 
     @PostMapping("/events")
