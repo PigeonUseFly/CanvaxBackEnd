@@ -72,30 +72,13 @@ public class Controller implements WebAPI {
      * @throws ParseException
      * @throws JSONException
      */
-    public void insertEvent(String summary, String description, String startDateString, String endDateString, String location) throws IOException, ParseException, JSONException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date startDate = formatter.parse(startDateString);
-        Date endDate = formatter.parse(endDateString);
-        Event event = new Event(summary, description, startDate, endDate, location);
-        String eventData = objectMapper.writeValueAsString(event);
-
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("events.json"));
-        String jsonString = "";
-        String line;
-        while ((line = bufferedReader.readLine()) != null) {
-            jsonString += line;
-        }
-        bufferedReader.close();
-
-        JSONObject jsonObject = new JSONObject(jsonString);
-        JSONArray eventArray = jsonObject.getJSONArray("events");
-        JSONObject eventObject = new JSONObject(eventData);
-        eventArray.put(eventObject);
-
-        FileWriter fileWriter = new FileWriter("events.json");
-        fileWriter.write(jsonObject.toString(2) + System.lineSeparator());
-        fileWriter.close();
+    public void insertEvent(String summary, String description, String startDate, String endDate, String location) throws IOException, ParseException, JSONException {
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+        Date formattedStartDate = formatter.parse(startDate);
+        Date formattedEndDate = formatter.parse(endDate);
+        Event event = new Event(summary, description, formattedStartDate, formattedEndDate, location);
+        iCalToJsonConverter.getHashMap().put("1", event);
+        iCalToJsonConverter.changesInHashmap("events.json");
     }
 
     /**

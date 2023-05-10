@@ -21,6 +21,6 @@ public interface WebAPI {
     @DeleteMapping(value ="/events/{id}")
     void removeEvent(@PathVariable String id) throws IOException, ParserException;
 
-    @PostMapping("/events")
+    @PostMapping("/events/insert")
     void insertEvent(@RequestParam String summary, @RequestParam String description, @RequestParam String startDate, @RequestParam String endDate, @RequestParam String location) throws IOException, ParseException, JSONException;
 }
