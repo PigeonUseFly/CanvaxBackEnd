@@ -65,8 +65,8 @@ public class Controller implements WebAPI {
      * Endpoint för att lägga till ett nytt event i "events.json"-filen.
      * @param summary Kort beskrivning av eventet.
      * @param description Utförlig beskrivning av eventet.
-     * @param startDateString Datum/tid när eventet börjar.
-     * @param endDateString Datum/tid när eventet slutar.
+     * @param startDate Datum/tid när eventet börjar.
+     * @param endDate Datum/tid när eventet slutar.
      * @param location Plats för event.
      * @throws IOException
      * @throws ParseException
