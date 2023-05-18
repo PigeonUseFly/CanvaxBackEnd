@@ -32,40 +32,20 @@ public class Event {
         return this.summary;
     }
 
-
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
-
     public Date getStartDate() {
         return this.startDate;
-    }
-
-    public void setStartDate(Date startDate) {
-        this.startDate = startDate;
     }
 
     public Date getEndDate() {
         return this.endDate;
     }
 
-    public void setEndDate(Date endDate) {
-        this.endDate = endDate;
-    }
-
     public String getLocationName() {
         return this.locationName;
-    }
-
-    public void setLocationName(String locationName) {
-        this.locationName = locationName;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
 }

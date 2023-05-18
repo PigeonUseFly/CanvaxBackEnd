@@ -30,7 +30,6 @@ public class ICalToJsonConverter {
     }
 
     public void createJsonFile() throws ParserException, IOException {
-        int index = 0;
         List<VEvent> events = readICalFile("ical/SchemaICAL.ics");
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Iterator icalIterator = events.iterator();
