@@ -3,7 +3,7 @@ package com.example.backendcal;
 import java.util.Date;
 
 /**
- * Klass som används för att skapa objekt utav informationen för varje event.
+ * Class used to create objects out of the data of each event.
  */
 public class Event {
     private String summary;
@@ -13,12 +13,12 @@ public class Event {
     private String locationName;
 
     /**
-     * Konstruktor för klassen.
-     * @param summary Kort beskrivning av eventet.
-     * @param description Utförlig beskrivning av eventet.
-     * @param startDate Datum/tid när eventet börjar.
-     * @param endDate Datum/tid när eventet slutar.
-     * @param locationName Plats för eventet.
+     * Constructor for the class.
+     * @param summary Short summary of the event.
+     * @param description Detailed description of the event.
+     * @param startDate Date/time for when the event starts.
+     * @param endDate Date/time for when the event stops.
+     * @param locationName Location for the event.
      */
     public Event(String summary, String description, Date startDate, Date endDate, String locationName) {
         this.summary = summary;

@@ -2,11 +2,8 @@ package com.example.backendcal;
 
 import com.example.backendcal.boundaries.WebAPI;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import net.fortuna.ical4j.data.ParserException;
-import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.*;
 import org.springframework.http.converter.FormHttpMessageConverter;
@@ -22,9 +19,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 /**
- * Klass som sköter logiken i programmet samt hanterar REST API till frontend.
+ * Class that handles the logic in the program and also implements the REST API to frontend.
  */
 @RestController
 @CrossOrigin(origins = "*")
@@ -37,8 +35,8 @@ public class Controller implements WebAPI {
     }
 
     /**
-     * Endpoint som läser filen "events.json" och skickar till frontend.
-     * @return Datan och header som säger vad för mediatype som skickas.
+     * Endpoint that reads the file "events.json" and sends this to frontend.
+     * @return Data and header that defines what Mediatype that will be sent.
      * @throws IOException
      */
     @Override
@@ -51,38 +49,39 @@ public class Controller implements WebAPI {
     }
 
     /**
-     * Endpoint som tar bort ett event i "events.json"-filen som har samma index som skickades från frontend.
-     * @param id Indexet som skickas från frontend för att avgöra vilket event som ska tas bort.
+     * Endpoint that removes an event in the "events.json"-file which has the same index that was sent from frontend.
+     * @param id The index that was sent from frontend to decide which event to remove.
      * @throws IOException
      */
-    public void removeEvent(String id) throws IOException, ParserException {
+    public void removeEvent(String id) throws IOException {
         System.out.println("Ta bort " + id);
         iCalToJsonConverter.getHashMap().remove(id);
         iCalToJsonConverter.changesInHashmap("events.json");
     }
 
     /**
-     * Endpoint för att lägga till ett nytt event i "events.json"-filen.
-     * @param summary Kort beskrivning av eventet.
-     * @param description Utförlig beskrivning av eventet.
-     * @param startDate Datum/tid när eventet börjar.
-     * @param endDate Datum/tid när eventet slutar.
-     * @param location Plats för event.
+     * Endpoint to add a new event in the "events.json"-file.
+     * @param summary Short summary of the event.
+     * @param description Detailed description of the event.
+     * @param startDate Date/time for when the event starts.
+     * @param endDate Date/time for when the event stops.
+     * @param location Location for the event.
      * @throws IOException
      * @throws ParseException
      * @throws JSONException
      */
-    public void insertEvent(String summary, String description, String startDate, String endDate, String location) throws IOException, ParseException, JSONException {
+    public void insertEvent(String summary, String description, String startDate, String endDate, String location) throws IOException, ParseException {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
         Date formattedStartDate = formatter.parse(startDate);
         Date formattedEndDate = formatter.parse(endDate);
         Event event = new Event(summary, description, formattedStartDate, formattedEndDate, location);
-        iCalToJsonConverter.getHashMap().put("1", event);
+        String uniqueID = UUID.randomUUID().toString();
+        iCalToJsonConverter.getHashMap().put(uniqueID, event);
         iCalToJsonConverter.changesInHashmap("events.json");
     }
 
     /**
-     * Inre klass som ger endpointsen funktionalitet för att konvertera json och Http-forms.
+     * Inner class that gives the endpoints the functionality to convert json and HTTP-forms.
      */
     @Configuration
     public class WebConfig implements WebMvcConfigurer {

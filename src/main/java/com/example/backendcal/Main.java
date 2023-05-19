@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
- * Main-klass som används för att starta servern.
+ * Main-method used to start the SpringBoot-server.
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class Main {

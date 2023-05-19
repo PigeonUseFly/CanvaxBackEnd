@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.text.ParseException;
 
 /**
- * Gränssnitt för API. Kolla implementation i Controller för information om de olika metoderna.
+ * Interface for API. Check implementation in Controllor for information about the different methods.
  */
 @Validated
 public interface WebAPI {

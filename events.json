@@ -255,14 +255,6 @@
     "endDate" : "2023-05-10 17:00:00",
     "location" : "NI:A0301 NI:A0322 NI:A0401 NI:A0422 NI:B0303"
   },
-  "1" : {
-    "id" : "1",
-    "summary" : "test",
-    "moment" : "test",
-    "startDate" : "2023-05-06 12:30:00",
-    "endDate" : "2015-12-10 18:45:00",
-    "location" : "test"
-  },
   "BokningsId_20221118_000001363" : {
     "id" : "BokningsId_20221118_000001363",
     "summary" : "Moment: Salstentamen - Digitamen Omtentamen 2 2101  Aktivitetstyp: Aktivitetstillfällen",
