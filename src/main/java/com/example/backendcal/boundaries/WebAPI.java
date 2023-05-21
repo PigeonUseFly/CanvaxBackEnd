@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.text.ParseException;
 
 /**
- * Interface for API. Check implementation in Controllor for information about the different methods.
+ * Interface for API. Check implementation in Controller for information about the different methods.
  */
 @Validated
 public interface WebAPI {
@@ -23,4 +23,7 @@ public interface WebAPI {
 
     @PostMapping("/events/insert")
     void insertEvent(@RequestParam String summary, @RequestParam String description, @RequestParam String startDate, @RequestParam String endDate, @RequestParam String location) throws IOException, ParseException, JSONException;
+
+    @GetMapping("/events/download-ical/{programID}")
+    void downloadIcalFile(@PathVariable String link) throws IOException, ParserException;
 }

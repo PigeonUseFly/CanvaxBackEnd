@@ -3,6 +3,7 @@ package com.example.backendcal;
 import com.example.backendcal.boundaries.WebAPI;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import net.fortuna.ical4j.data.ParserException;
+import org.apache.commons.io.FileUtils;
 import org.json.JSONException;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.*;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import java.io.*;
+import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.text.ParseException;
@@ -78,6 +80,17 @@ public class Controller implements WebAPI {
         String uniqueID = UUID.randomUUID().toString();
         iCalToJsonConverter.getHashMap().put(uniqueID, event);
         iCalToJsonConverter.changesInHashmap("events.json");
+    }
+
+    @Override
+    public void downloadIcalFile(String programID) throws IOException, ParserException {
+        File tempFile = File.createTempFile("downloaded", ".ics");
+        FileUtils.copyURLToFile(new URL("https://schema.mau.se/setup/jsp/SchemaICAL.ics?startDatum=idag&intervallTyp=m&intervallAntal=6&sprak=SV&sokMedAND=true&forklaringar=true&resurser=" + programID), tempFile);
+        String destinationFilePath = "ical/SchemaICAL.ics";
+        FileUtils.copyFile(tempFile, new File(destinationFilePath));
+        tempFile.delete();
+        ICalToJsonConverter converter = new ICalToJsonConverter();
+        converter.createJsonFile();
     }
 
     /**

@@ -2,7 +2,6 @@ package com.example.backendcal;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import java.io.*;
 import java.text.SimpleDateFormat;
@@ -16,9 +15,7 @@ import net.fortuna.ical4j.model.component.VEvent;
  * Class that converts the iCal-file to a json-file.
  */
 public class ICalToJsonConverter {
-    private ArrayNode eventArrayNode;
     private ObjectMapper objectMapper;
-    private ObjectNode parentObjectNode;
     private ObjectNode rootNode;
     private HashMap<String, Event> hashMap = new HashMap();
 
