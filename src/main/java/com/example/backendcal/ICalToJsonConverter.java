@@ -37,10 +37,6 @@ public class ICalToJsonConverter {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Iterator icalIterator = events.iterator();
 
-        //SUMMARY:Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,
-        // 50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,
-        // 50% dagtid Sign: TSFANA
-        // Moment: Redovisning/hjälp, uppgifter 1-4 Aktivitetstyp: Okänd
         while (icalIterator.hasNext()) {
             VEvent event = (VEvent) icalIterator.next();
             String summary = event.getSummary().getValue();
