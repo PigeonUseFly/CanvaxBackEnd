@@ -37,6 +37,10 @@ public class ICalToJsonConverter {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Iterator icalIterator = events.iterator();
 
+        //SUMMARY:Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,
+        // 50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,
+        // 50% dagtid Sign: TSFANA
+        // Moment: Redovisning/hjälp, uppgifter 1-4 Aktivitetstyp: Okänd
         while (icalIterator.hasNext()) {
             VEvent event = (VEvent) icalIterator.next();
             String summary = event.getSummary().getValue();
@@ -44,16 +48,16 @@ public class ICalToJsonConverter {
             int end = summary.indexOf("Moment:");
             String id = event.getUid().getValue();
             id = id.replace("\r\n", "");
-            String moment = summary.substring(start, end);
+            String description = summary.substring(start, end);
             StringBuilder stringBuilder = new StringBuilder(summary);
             stringBuilder.delete(start, end);
-            String newSummary = String.valueOf(stringBuilder);
+            String moment = String.valueOf(stringBuilder);
             Date startDate = event.getStartDate().getDate();
             dateFormat.format(startDate);
             Date endDate = event.getEndDate().getDate();
             dateFormat.format(endDate);
             String location = event.getLocation().getValue();
-            Event eventJson = new Event(newSummary, moment, startDate, endDate, location);
+            Event eventJson = new Event(description, moment, startDate, endDate, location);
             hashMap.put(id, eventJson);
             changesInHashmap("events.json");
         }
