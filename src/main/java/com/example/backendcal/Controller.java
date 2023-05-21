@@ -82,7 +82,12 @@ public class Controller implements WebAPI {
         iCalToJsonConverter.changesInHashmap("events.json");
     }
 
-    @Override
+    /**
+     * Endpoint to fetch a new iCal-file and re-write the "events.json"-file.
+     * @param programID The name of the program that you want to download the iCal-file for.
+     * @throws IOException
+     * @throws ParserException
+     */
     public void downloadIcalFile(String programID) throws IOException, ParserException {
         File tempFile = File.createTempFile("downloaded", ".ics");
         FileUtils.copyURLToFile(new URL("https://schema.mau.se/setup/jsp/SchemaICAL.ics?startDatum=idag&intervallTyp=m&intervallAntal=6&sprak=SV&sokMedAND=true&forklaringar=true&resurser=" + programID), tempFile);
