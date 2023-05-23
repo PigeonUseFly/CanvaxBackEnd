@@ -88,9 +88,12 @@ public class Controller implements WebAPI {
      * @throws IOException
      * @throws ParserException
      */
-    public void downloadIcalFile(String programID) throws IOException, ParserException {
+    public void downloadIcalFile(String programID) throws IOException, ParserException, InterruptedException {
         File tempFile = File.createTempFile("downloaded", ".ics");
         FileUtils.copyURLToFile(new URL("https://schema.mau.se/setup/jsp/SchemaICAL.ics?startDatum=idag&intervallTyp=m&intervallAntal=6&sprak=SV&sokMedAND=true&forklaringar=true&resurser=p." + programID), tempFile);
+
+        Thread.sleep(1000);
+
         String destinationFilePath = "ical/SchemaICAL.ics";
         FileUtils.copyFile(tempFile, new File(destinationFilePath));
         tempFile.delete();

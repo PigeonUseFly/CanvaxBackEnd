@@ -25,5 +25,5 @@ public interface WebAPI {
     void insertEvent(@RequestParam String summary, @RequestParam String description, @RequestParam String startDate, @RequestParam String endDate, @RequestParam String location) throws IOException, ParseException, JSONException;
 
     @GetMapping("/events/download-ical/{programID}")
-    void downloadIcalFile(@PathVariable String link) throws IOException, ParserException;
+    void downloadIcalFile(@PathVariable String link) throws IOException, ParserException, InterruptedException;
 }
