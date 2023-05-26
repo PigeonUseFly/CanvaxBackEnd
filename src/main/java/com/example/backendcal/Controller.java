@@ -65,23 +65,25 @@ public class Controller implements WebAPI {
 
     /**
      * Endpoint to add a new event in the "events.json"-file.
-     * @param summary Short summary of the event.
-     * @param description Detailed description of the event.
-     * @param startDate Date/time for when the event starts.
-     * @param endDate Date/time for when the event stops.
-     * @param location Location for the event.
+     * @param event The event to insert with information provided by user from frontend.
      * @throws IOException
      * @throws ParseException
      * @throws JSONException
      */
-    public void insertEvent(String summary, String description, String startDate, String endDate, String location) throws IOException, ParseException {
+    public void insertEvent(Event event) throws IOException, ParseException {
+        String summary = event.getSummary();
+        String description = event.getDescription();
+        Date startDate = event.getStartDate();
+        Date endDate = event.getEndDate();
+        String location = event.getLocationName();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-        Date formattedStartDate = formatter.parse(startDate);
-        Date formattedEndDate = formatter.parse(endDate);
-        Event event = new Event(summary, description, formattedStartDate, formattedEndDate, location);
+        //Date formattedStartDate = formatter.parse(startDate);
+        //Date formattedEndDate = formatter.parse(endDate);
+        Event newEvent = new Event(summary, description, startDate, endDate, location);
         String uniqueID = UUID.randomUUID().toString();
         synchronized (lock) {
-            iCalToJsonConverter.getHashMap().put(uniqueID, event);
+            System.out.println("test");
+            iCalToJsonConverter.getHashMap().put(uniqueID, newEvent);
             iCalToJsonConverter.changesInHashmap("events.json");
         }
     }
