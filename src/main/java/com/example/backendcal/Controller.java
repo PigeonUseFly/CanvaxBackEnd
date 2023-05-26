@@ -31,6 +31,7 @@ import java.util.UUID;
 public class Controller implements WebAPI {
     @JsonIgnoreProperties(ignoreUnknown = true)
     private ICalToJsonConverter iCalToJsonConverter;
+    private final Object lock = new Object();
 
     public Controller() throws ParserException, IOException {
         iCalToJsonConverter = new ICalToJsonConverter();
@@ -56,9 +57,10 @@ public class Controller implements WebAPI {
      * @throws IOException
      */
     public void removeEvent(String id) throws IOException {
-        System.out.println("Ta bort " + id);
-        iCalToJsonConverter.getHashMap().remove(id);
-        iCalToJsonConverter.changesInHashmap("events.json");
+        synchronized (lock) {
+            iCalToJsonConverter.getHashMap().remove(id);
+            iCalToJsonConverter.changesInHashmap("events.json");
+        }
     }
 
     /**
@@ -78,8 +80,10 @@ public class Controller implements WebAPI {
         Date formattedEndDate = formatter.parse(endDate);
         Event event = new Event(summary, description, formattedStartDate, formattedEndDate, location);
         String uniqueID = UUID.randomUUID().toString();
-        iCalToJsonConverter.getHashMap().put(uniqueID, event);
-        iCalToJsonConverter.changesInHashmap("events.json");
+        synchronized (lock) {
+            iCalToJsonConverter.getHashMap().put(uniqueID, event);
+            iCalToJsonConverter.changesInHashmap("events.json");
+        }
     }
 
     /**
@@ -91,14 +95,13 @@ public class Controller implements WebAPI {
     public void downloadIcalFile(String programID) throws IOException, ParserException, InterruptedException {
         File tempFile = File.createTempFile("downloaded", ".ics");
         FileUtils.copyURLToFile(new URL("https://schema.mau.se/setup/jsp/SchemaICAL.ics?startDatum=idag&intervallTyp=m&intervallAntal=6&sprak=SV&sokMedAND=true&forklaringar=true&resurser=p." + programID), tempFile);
-
-        Thread.sleep(1000);
-
         String destinationFilePath = "ical/SchemaICAL.ics";
         FileUtils.copyFile(tempFile, new File(destinationFilePath));
         tempFile.delete();
-        ICalToJsonConverter converter = new ICalToJsonConverter();
-        converter.createJsonFile();
+        synchronized (lock) {
+            ICalToJsonConverter converter = new ICalToJsonConverter();
+            converter.createJsonFile();
+        }
     }
 
     /**
