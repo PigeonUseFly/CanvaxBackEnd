@@ -1,5 +1,6 @@
 package com.example.backendcal.boundaries;
 
+import com.example.backendcal.Event;
 import net.fortuna.ical4j.data.ParserException;
 import org.json.JSONException;
 import org.springframework.http.ResponseEntity;
@@ -22,8 +23,8 @@ public interface WebAPI {
     void removeEvent(@PathVariable String id) throws IOException, ParserException;
 
     @PostMapping("/events/insert")
-    void insertEvent(@RequestParam String summary, @RequestParam String description, @RequestParam String startDate, @RequestParam String endDate, @RequestParam String location) throws IOException, ParseException, JSONException;
+    void insertEvent(@RequestBody Event event) throws IOException, ParseException, JSONException;
 
     @GetMapping("/events/download-ical/{programID}")
-    void downloadIcalFile(@PathVariable String link) throws IOException, ParserException;
+    void downloadIcalFile(@PathVariable String link) throws IOException, ParserException, InterruptedException;
 }

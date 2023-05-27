@@ -31,6 +31,7 @@ import java.util.UUID;
 public class Controller implements WebAPI {
     @JsonIgnoreProperties(ignoreUnknown = true)
     private ICalToJsonConverter iCalToJsonConverter;
+    private final Object lock = new Object();
 
     public Controller() throws ParserException, IOException {
         iCalToJsonConverter = new ICalToJsonConverter();
@@ -56,30 +57,35 @@ public class Controller implements WebAPI {
      * @throws IOException
      */
     public void removeEvent(String id) throws IOException {
-        System.out.println("Ta bort " + id);
-        iCalToJsonConverter.getHashMap().remove(id);
-        iCalToJsonConverter.changesInHashmap("events.json");
+        synchronized (lock) {
+            iCalToJsonConverter.getHashMap().remove(id);
+            iCalToJsonConverter.changesInHashmap("events.json");
+        }
     }
 
     /**
      * Endpoint to add a new event in the "events.json"-file.
-     * @param summary Short summary of the event.
-     * @param description Detailed description of the event.
-     * @param startDate Date/time for when the event starts.
-     * @param endDate Date/time for when the event stops.
-     * @param location Location for the event.
+     * @param event The event to insert with information provided by user from frontend.
      * @throws IOException
      * @throws ParseException
      * @throws JSONException
      */
-    public void insertEvent(String summary, String description, String startDate, String endDate, String location) throws IOException, ParseException {
+    public void insertEvent(Event event) throws IOException, ParseException {
+        String summary = event.getSummary();
+        String description = event.getDescription();
+        Date startDate = event.getStartDate();
+        Date endDate = event.getEndDate();
+        String location = event.getLocationName();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
-        Date formattedStartDate = formatter.parse(startDate);
-        Date formattedEndDate = formatter.parse(endDate);
-        Event event = new Event(summary, description, formattedStartDate, formattedEndDate, location);
+        //Date formattedStartDate = formatter.parse(startDate);
+        //Date formattedEndDate = formatter.parse(endDate);
+        Event newEvent = new Event(summary, description, startDate, endDate, location);
         String uniqueID = UUID.randomUUID().toString();
-        iCalToJsonConverter.getHashMap().put(uniqueID, event);
-        iCalToJsonConverter.changesInHashmap("events.json");
+        synchronized (lock) {
+            System.out.println("test");
+            iCalToJsonConverter.getHashMap().put(uniqueID, newEvent);
+            iCalToJsonConverter.changesInHashmap("events.json");
+        }
     }
 
     /**
@@ -88,14 +94,16 @@ public class Controller implements WebAPI {
      * @throws IOException
      * @throws ParserException
      */
-    public void downloadIcalFile(String programID) throws IOException, ParserException {
+    public void downloadIcalFile(String programID) throws IOException, ParserException, InterruptedException {
         File tempFile = File.createTempFile("downloaded", ".ics");
         FileUtils.copyURLToFile(new URL("https://schema.mau.se/setup/jsp/SchemaICAL.ics?startDatum=idag&intervallTyp=m&intervallAntal=6&sprak=SV&sokMedAND=true&forklaringar=true&resurser=p." + programID), tempFile);
         String destinationFilePath = "ical/SchemaICAL.ics";
         FileUtils.copyFile(tempFile, new File(destinationFilePath));
         tempFile.delete();
-        ICalToJsonConverter converter = new ICalToJsonConverter();
-        converter.createJsonFile();
+        synchronized (lock) {
+            ICalToJsonConverter converter = new ICalToJsonConverter();
+            converter.createJsonFile();
+        }
     }
 
     /**
