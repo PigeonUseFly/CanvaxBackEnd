@@ -183,6 +183,14 @@
     "endDate" : "2023-10-25 12:15:00",
     "location" : "KR:Tentasal 1-6"
   },
+  "975ca079-cc40-45e1-a2ab-2e481935623d" : {
+    "id" : "975ca079-cc40-45e1-a2ab-2e481935623d",
+    "summary" : "",
+    "moment" : "",
+    "startDate" : "2021-05-27 13:39:00",
+    "endDate" : "2021-05-27 13:39:00",
+    "location" : ""
+  },
   "BokningsId_20230412_000000183" : {
     "id" : "BokningsId_20230412_000000183",
     "summary" : "Program: TGSPA22h Kurs.grp: Datavetenskap: C++ och programkonstruktion, 7.5 hp Kurs inom program,  50% dagtid Datavetenskap: C++ och programkonstruktion, 7.5 hp Kurs inom program,  50% dagtid ",

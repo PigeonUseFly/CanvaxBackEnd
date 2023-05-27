@@ -82,7 +82,6 @@ public class Controller implements WebAPI {
         Event newEvent = new Event(summary, description, startDate, endDate, location);
         String uniqueID = UUID.randomUUID().toString();
         synchronized (lock) {
-            System.out.println("test");
             iCalToJsonConverter.getHashMap().put(uniqueID, newEvent);
             iCalToJsonConverter.changesInHashmap("events.json");
         }
