@@ -87,6 +87,14 @@
     "endDate" : "2023-06-01 16:00:00",
     "location" : "OR:B231c"
   },
+  "BokningsId_20230529_000000191" : {
+    "id" : "BokningsId_20230529_000000191",
+    "summary" : "Program: TGSPA22h Kurs.grp: Datavetenskap: C++ och programkonstruktion, 7.5 hp Kurs inom program,  50% dagtid Datavetenskap: C++ och programkonstruktion, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: AG1498 ",
+    "moment" : "Moment: Salstentamen Ordinarie tillfälle 1801 Aktivitetstyp: Aktivitetstillfällen",
+    "startDate" : "2023-11-01 14:15:00",
+    "endDate" : "2023-11-01 18:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
   "BokningsId_20230515_000001455" : {
     "id" : "BokningsId_20230515_000001455",
     "summary" : "Program: TGSPA22h Kurs.grp: Datavetenskap: C++ och programkonstruktion, 7.5 hp Kurs inom program,  50% dagtid Datavetenskap: C++ och programkonstruktion, 7.5 hp Kurs inom program,  50% dagtid Sign: AG1498 ",
@@ -159,6 +167,14 @@
     "endDate" : "2023-10-27 12:00:00",
     "location" : "OR:A332 OR:A333"
   },
+  "BokningsId_20230529_000000155" : {
+    "id" : "BokningsId_20230529_000000155",
+    "summary" : "Program: TGSPA22h Kurs.grp: Tillämpade datastrukturer och algoritmer, 7.5 hp Kurs inom program,  50% dagtid Tillämpade datastrukturer och algoritmer, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: AE1925 ",
+    "moment" : "Moment: Salstentamen - Digitamen Ordinarie tillfälle  Aktivitetstyp: Aktivitetstillfällen",
+    "startDate" : "2023-10-26 08:15:00",
+    "endDate" : "2023-10-26 12:15:00",
+    "location" : "KR:Tentasal 1-6"
+  },
   "BokningsId_20230515_000001461" : {
     "id" : "BokningsId_20230515_000001461",
     "summary" : "Program: TGSPA22h Kurs.grp: Datavetenskap: C++ och programkonstruktion, 7.5 hp Kurs inom program,  50% dagtid Datavetenskap: C++ och programkonstruktion, 7.5 hp Kurs inom program,  50% dagtid Sign: AG1498 ",
@@ -213,14 +229,6 @@
     "moment" : "Moment: Salstentamen - Digitamen Omtentamen 1 2101  Aktivitetstyp: Aktivitetstillfällen",
     "startDate" : "2023-08-31 08:15:00",
     "endDate" : "2023-08-31 12:15:00",
-    "location" : "KR:Tentasal 1-6"
-  },
-  "BokningsId_20221118_000001357" : {
-    "id" : "BokningsId_20221118_000001357",
-    "summary" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Hjälpm.: TS Sign: TSFANA ",
-    "moment" : "Moment: Salstentamen - Digitamen Ordinarie tillfälle. 2101  Aktivitetstyp: Aktivitetstillfällen",
-    "startDate" : "2023-05-30 14:15:00",
-    "endDate" : "2023-05-30 18:15:00",
     "location" : "KR:Tentasal 1-6"
   },
   "BokningsId_20230515_000001475" : {
@@ -383,14 +391,6 @@
     "endDate" : "2023-09-27 15:00:00",
     "location" : "OR:C127"
   },
-  "BokningsId_20221103_000001449" : {
-    "id" : "BokningsId_20221103_000001449",
-    "summary" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "moment" : "Moment: A5 Redovinsing/hjälp Aktivitetstyp: Okänd",
-    "startDate" : "2023-05-29 10:15:00",
-    "endDate" : "2023-05-29 12:00:00",
-    "location" : "NI:A0314 NI:A0318"
-  },
   "BokningsId_20230116_000000065" : {
     "id" : "BokningsId_20230116_000000065",
     "summary" : "Program: TGSPA22h Kurs.grp: Objektorienterad spelprogrammering, 15 hp Kurs inom program,  50% dagtid Sign: TSJEER ",
@@ -414,13 +414,5 @@
     "startDate" : "2023-08-16 08:15:00",
     "endDate" : "2023-08-16 12:00:00",
     "location" : "NI:B0E07"
-  },
-  "BokningsId_20221103_000001447" : {
-    "id" : "BokningsId_20221103_000001447",
-    "summary" : "Program: TGSPA22h TGSYA22h Kurs.grp: Flertrådad programmering, 7.5 hp Fristående kurs,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Flertrådad programmering, 7.5 hp Kurs inom program,  50% dagtid Sign: TSFANA ",
-    "moment" : "Moment: Redovinsing/hjälp, Assignment 1-5 Aktivitetstyp: Okänd",
-    "startDate" : "2023-05-29 08:15:00",
-    "endDate" : "2023-05-29 10:00:00",
-    "location" : "NI:A0314 NI:A0318"
   }
 }
